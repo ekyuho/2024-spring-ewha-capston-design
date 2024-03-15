@@ -1,0 +1,3 @@
+여기에 우리 팀 ground rule like 넣어둘 겁니다.
+
+Team 1.  ....
