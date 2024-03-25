@@ -39,6 +39,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|1) 실시간 음성→자막 변환 기능 (https://cloud.google.com/speech-to-text/docs/transcribe-streaming-audio?hl=ko#perform_streaming_speech_recognition_on_an_audio_stream)<br>2) 수화 모션→한국어 번역 기능 (https://github.com/23bulgogi/sonmari?tab=readme-ov-file)<br>3) 얼굴 인식해 표정 분석하는 기능 (https://github.com/23bulgogi/sonmari?tab=readme-ov-file)<br>4) 가상 목소리 생성 API (https://cloud.google.com/text-to-speech?hl=ko)|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1) 실시간 음성→자막 변환 기능 <br>client = speech.SpeechClient()<br>config =speech.RecognitionConfig()<br>streaming_config = speech.StreamingRecognitionConfig()<br><br>2) 수화 모션→한국어 번역 기능 <br>cap = cv2.VideoCapture(0)<br>Thread(target=sv.video_capture, args=(cap, width, height, frame_queue, darknet_image_queue)).start()<br>Thread(target=sv.inference, args=(cap, args, network, class_names, darknet_image_queue, detections_queue, fps_queue)).start()<br>Thread(target=sv.drawing, args=(cap, self, args, width, height, class_colors, frame_queue, detections_queue, fps_queue)).start()<br><br>3) 얼굴 인식해 표정 분석하는 기능 <br>face_detection = cv2.CascadeClassifier(detection_model_path)<br>emotion_classifier = load_model(emotion_model_path, compile=False)<br>EMOTIONS = ["angry" ,"disgust","scared", "happy", "sad", "surprised",<br> "neutral"]<br><br>4) 가상 목소리 생성 API <br>client = texttospeech.TextToSpeechClient()<br>voice = texttospeech.VoiceSelectionParams(language_code="ko-KR", ssml_gender=texttospeech.SsmlVoiceGender.NEUTRAL)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/WarmElephantMario/CapstoneDesignProject/blob/3daf78c2061b69d1ea058c45837138559aafc955/Team%20Ground%20Rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 2
@@ -57,6 +58,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|FE<br>- Language : Typescript<br>    - https://www.typescriptlang.org/<br>- Library : React.js 18<br>    - https://react.dev/blog/2023/03/16/introducing-react-dev<br>- Framework : Next.js 14<br>    - https://nextjs.org/<br><br>BE<br>- Language : Javascript<br>- Framework : Node.js, Express<br>    - https://nodejs.org/en<br>    - https://expressjs.com/ko/<br>- DB : MySQL<br>    - https://www.mysql.com/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- CLOVA Sentiment<br>    - https://www.ncloud.com/product/aiService/clovaSentiment<br>- Google Vision AI API<br>    - https://cloud.google.com/vision?hl=ko<br>- Pytorch, TensorFlow<br>    - PyTorch: https://pytorch.org/<br>    - TensorFlow: https://www.tensorflow.org/|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024EwhaCap02/Backend/blob/main/GroundRule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 3
@@ -75,6 +77,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|[BE]<br>SPRING BOOT : https://github.com/spring-projects/spring-boot<br><br>[FE]<br>REACT : https://github.com/facebook/react|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|nltk : https://github.com/nltk/nltk<br>VADER : https://github.com/cjhutto/vaderSentiment<br>BERT : https://github.com/google-research/bert|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/IDaeDengGim/GroundRule/blob/main/GroundRule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 4
@@ -93,6 +96,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|1. PyTorch: https://pytorch.org/<br>2. TensorFlow: https://www.tensorflow.org/<br>3. Hugging Face Transformers: https://huggingface.co/transformers/<br>4. OpenAI CLIP: https://openai.com/clip/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1. Teacher 모델: BERT-base-multilingual-cased<br>2. Student 모델: DistilBERT<br>3. Knowledge Distillation Loss 함수: Mean Squared Error Loss<br>4. 데이터셋: ImageNet, JFT, VCR<br>5. Pre-trained Image 모델: ResNet-50<br>6. Pre-trained Text 모델: BERT-base-uncased<br>7. Distillation Temperature: 2.0<br>8. Softmax Temperature: 0.5|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sudaltokki/Tyrano_CLIP/blob/main/ground_rule.pdf)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 5
@@ -111,6 +115,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|[Frontend]<br>-언어: javascript, typescript<br>-프레임워크: react native<br><br>[Backend]<br>- 언어: JavaScript, python<br>- 프레임워크: node.js, flask<br>- DB: MySQL<br><br>[ML]<br>- 언어: Python<br>- 프레임워크: TensorFlow|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- gpt-3.5-turbo(답변 생성용): https://platform.openai.com/docs/models/gpt-3-5-turbo<br><br>- whisper(ASR 모델. 음성인식): https://platform.openai.com/docs/models/whisper<br><br>- Google Text-to-Speech: https://cloud.google.com/text-to-speech<br><br>- mediapipe (표정 분석) : **https://github.com/google/mediapipe<br> https://developers.google.com/mediapipe/framework|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/EWHA-DraWings/Submit/blob/main/GroundRule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 6
@@ -129,6 +134,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|- TensorFlow 2.16.1: https://www.tensorflow.org/<br>- PyTorch 2.2: https://pytorch.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|GPT-4 모델: https://openai.com/research/gpt-4|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Musccat/GROUND-RULE/blob/main/README.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 7
@@ -147,6 +153,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|허니비 - https://github.com/kakaobrain/honeybee<br>DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|허니비<br>DALL·E (openAI)<br>GPT4 (openAI)<br>Whisper(openAI) |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 8
@@ -165,6 +172,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|마인드 db https://mindsdb.com/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|텐서플로 https://www.tensorflow.org/?hl=ko<br>케라스 https://keras.io/ <br>달리2 https://openai.com/dall-e-2 |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/PP88-bit/2024-capston-team-08/blob/main/ground-rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 9
@@ -183,6 +191,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|- Pytorch : https://pytorch.org/<br>- openCV : https://opencv.org/<br>- github : https://github.com/<br>- React : https://ko.legacy.reactjs.org/<br>- MySQL : https://www.mysql.com/<br>- JetBrains-Intellij : https://www.jetbrains.com/ko-kr/opensource/idea/<br>- google cloud vision AI : https://cloud.google.com/vision?hl=ko|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- openCV : 이미지 데이터셋 전처리<br>- Auto ML<br>- 자연어 전처리 : NLTK<br>- object detection : 물건 사진을 통해 물품 카테고리, 색, 로고 등의 특징 추출<br>    Ex) yolo 기반 모델(yolov7,) EfficientDet 등 최근 state of the art 받은 모델 위주로 시도 예정<br>- Text-to-Image 생성 :  분실물에 대한 특징 등의 설명을 적으면 이를 반영한 이미지 생성<br>   Ex) OpenAI의 DALL-E 3 : GPT-3 기반 언어모델을 통한 이미지 생성 모델<br>- 유사한 이미지 추천 : 이미지 간 유사도를 구해  DB 내 유실물 중 분실물과 비슷한 것을 검색<br>   Ex) Cosine similarity|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024EwhaGraduationProject/Start/blob/main/ground_rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 10
@@ -201,6 +210,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|react-query(https://tanstack.com/query/latest/docs/framework/react/overview)<br>Next.js(https://nextjs.org/)<br>Spring Boot(https://spring.io/projects/spring-boot)<br>|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|CLOVA Sentiment (https://www.ncloud.com/product/aiService/clovaSentiment)<br>Azure OpenAI Service (https://learn.microsoft.com/ko-kr/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/HA-MYUN-HAM/.github/blob/main/GROUND_RULE.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 11
@@ -219,6 +229,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|음식(한식) 사진 데이터셋 (https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79)<br>레시피 데이터 (https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data)<br>지도 API (https://navermaps.github.io/maps.js.ncp/)<br>|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|Image recognition - ViT (https://github.com/google-research/vision_transformer)<br>Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Powerful-Unicorn/.github/blob/main/ground_rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 12
@@ -237,6 +248,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|Node.js: https://nodejs.org/en<br>MySQL: https://www.mysql.com/<br>Python: https://www.python.org/<br>TypeScript: https://www.typescriptlang.org/<br>React: https://ko.legacy.reactjs.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- 이미지 분류 모델: ResNet (https://pytorch.org/hub/pytorch_vision_resnet/)<br>- 추천 시스템 라이브러리: LightFM (https://pypi.org/project/lightfm/)<br>- 이미지 처리 라이브러리: OpenCV  (https://opencv.org/)<br>- 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) <br>|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Coollaafi/Coollaafi_Frontend/blob/main/ground.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 13
@@ -255,6 +267,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|전체 공지사항: https://www.ewha.ac.kr/ewha/news/notice.do<br>학과 공지사항: https://cse.ewha.ac.kr/cse/student/notice.do|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|웹 크롤링: BeautifulSoup, requests<br>NLP: NLTK, scikit-learn<br>딥러닝 기반: TensorFlow, PyTorch, Keras<br>패턴 인식: re모듈|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sohvun/2024AID/blob/main/team-ground-rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 15
@@ -273,6 +286,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|GPT4All (MIT) : https://github.com/nomic-ai/gpt4all<br>LlaMA-Factory (Apache-2.0) : https://github.com/hiyouga/LLaMA-Factory|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|VADER : 감정 사전을 기반으로 한 규칙 기반 감정 분석 도구, 파이썬으로 구현, NLTK(Natural Language Toolkit) 라이브러리를 통해 사용가능.<br><br>콘텐츠 기반 필터링(Content-Based Filtering) : 음악의 메타데이터나 텍스트 설명을 분석하여 사용자의 입력된 키워드와 관련된 음악을 추천.|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Wild-Gaori/wildgaori-start/blob/main/ground-rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 16
@@ -291,6 +305,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|chat gpt, tensorflow<br>https://chat.openai.com/<br>https://www.tensorflow.org/?hl=ko<br>https://pytorch.org/<br>|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|<br><br>chat_gpt 모듈<br>https://chat.openai.com/  <br>3.5버전<br> <br>tensorflow 모듈<br>https://huggingface.co/docs/transformers/installation/      <br>TensorFlow 2.0+<br><br>pytorch 모듈 <br>https://pytorch.org/get-started/locally/<br>Python 3.8  <br>yolo 모델    https://pytorch.org/hub/ultralytics_yolov5/|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024-01-Capstone/capstone/blob/main/Ground_Rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 17
@@ -309,6 +324,7 @@
 |오픈소스<br>리스트<br>명칭과 URL||
 |AI<br>알고리듬,<br>모듈 등<br>리스트||
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/monimoni12/2024-spring-ewha-capston-design/blob/main/TeamGround.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 18
@@ -327,6 +343,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|유니티 에셋 :  https://assetstore.unity.com/ko-KR<br>강아지 얼굴 인식 : https://owncloud.cesnet.cz/index.php/s/V0KIPJoUFllpAXh|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|TensorFlow Object Detection API : https://github.com/tensorflow/models/tree/master/research/object_detection<br>YOLOv3 : https://pjreddie.com/media/files/yolov3.weights<br>YOLOv4 : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights<br>DeepLab : https://github.com/tensorflow/models/tree/master/research/deeplab<br>Openpose : https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>GAN : https://github.com/eriklindernoren/PyTorch-GAN, https://www.tensorflow.org/tutorials/generative/pix2pix|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 19
@@ -345,6 +362,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|YOLOv5 GitHub: https://github.com/ultralytics/yolov5<br>openpose GitHub https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>stable diffusion : https://github.com/CompVis/stable-diffusion|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5<br>Open Pose : BODY_25 (COCO Model)<br>Stable Diffusion v1.4 Text-to-Image Model|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
@@ -363,6 +381,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|안드로이드 스튜디오: https://developer.android.com/?hl=ko<br>Kotlin: https://kotlinlang.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|tensorflow lite : https://www.tensorflow.org/lite?hl=ko<br>Naver Clova: https://www.ncloud.com/product/aiService/ocr<br>Upstage: https://www.upstage.ai/document-ai/overview|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/OctoNeverDie/2024-Spring-Capstone-team20/blob/main/GroundRule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 21
@@ -381,6 +400,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|Weather API<br>https://openweathermap.org/api<br>DeepFashion2<br>https://github.com/switchablenorms/DeepFashion2<br>Fashion-MNIST<br>https://github.com/zalandoresearch/fashion-mnist<br>DarkSky API<br>https://darksky.net/dev<br>Scikit-image<br>https://scikit-image.org/<br>OpenCV<br>https://opencv.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|PyTorch<br>https://pytorch.org/<br>Dlib<br>http://dlib.net/<br>FashionNet<br>https://www.fashionnet.or.kr/<br>StyleAnalyzer<br>https://github.com/src-d/style-analyzer|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/chaechaeis/capstoneProject/blob/main/groundRule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 23
@@ -399,5 +419,6 @@
 |오픈소스<br>리스트<br>명칭과 URL|GAN (https://github.com/eriklindernoren/Keras-GAN/tree/master/gan)<br>DCGAN (https://github.com/carpedm20/DCGAN-tensorflow)<br>LLM (https://github.com/rustformers/llm)<br>Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)<br>CLIP (https://openai.com/research/clip)<br>Denoising (https://github.com/lucidrains/denoising-diffusion-pytorch)|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>GAN<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Ewha-DoInJi/Generative_AI_research/blob/main/Team_ground_rule.md)|
+|최종수정일|2024-3-26|
   
   [Return Top](#전체-프로젝트-리스트)
