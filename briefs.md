@@ -38,26 +38,7 @@
 |Big Data<br>AI 전략|다양한 수어 동작들에 대한 데이터가 충분히 쌓이면 번역 정확도와 인식 속도가 증가할 것이다. 일정한 수준의 정확도와 인식 속도에 도달한다면, 후에는 비대면 회의를 위한 브라우저 확장 프로그램에서 더 나아가 실생활 활용형 기기에 본 기능을 임베디드하여 실제 일상의 대화에서 활용될 가능성도 생각해볼 수 있다.|
 |기대성과|청각장애인이 능력은 있으나 장애로 인하여 업무 참여 과정에서 어려움을 겪지 않도록 도움을 줄 수 있다. 후에는 청각장애인과 비장애인이 소통 방식의 차이에 따른 불편함으로부터 자유롭게 대화에 몰입할 수 있도록 도울 수 있을 것이다. |
 |오픈소스<br>리스트<br>명칭과 URL|1 1) 실시간 음성→자막 변환 기능 (https://cloud.google.com/speech-to-text/docs/transcribe-streaming-audio?hl=ko#perform_streaming_speech_recognition_on_an_audio_stream)<br>2) 수화 모션→한국어 번역 기능 (https://github.com/23bulgogi/sonmari?tab=readme-ov-file)<br>3) 얼굴 인식해 표정 분석하는 기능 (https://github.com/23bulgogi/sonmari?tab=readme-ov-file)<br>4) 가상 목소리 생성 API (https://cloud.google.com/text-to-speech?hl=ko)|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|1) 실시간 음성→자막 변환 기능 
-client = speech.SpeechClient()
-config =speech.RecognitionConfig()
-streaming_config = speech.StreamingRecognitionConfig()
-
-2) 수화 모션→한국어 번역 기능 
-cap = cv2.VideoCapture(0)
-Thread(target=sv.video_capture, args=(cap, width, height, frame_queue, darknet_image_queue)).start()
-Thread(target=sv.inference, args=(cap, args, network, class_names, darknet_image_queue, detections_queue, fps_queue)).start()
-Thread(target=sv.drawing, args=(cap, self, args, width, height, class_colors, frame_queue, detections_queue, fps_queue)).start()
-
-3) 얼굴 인식해 표정 분석하는 기능 
-face_detection = cv2.CascadeClassifier(detection_model_path)
-emotion_classifier = load_model(emotion_model_path, compile=False)
-EMOTIONS = ["angry" ,"disgust","scared", "happy", "sad", "surprised",
- "neutral"]
-
-4) 가상 목소리 생성 API 
-client = texttospeech.TextToSpeechClient()
-voice = texttospeech.VoiceSelectionParams(language_code="ko-KR", ssml_gender=texttospeech.SsmlVoiceGender.NEUTRAL)|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|1) 실시간 음성→자막 변환 기능 <br>client = speech.SpeechClient()<br>config =speech.RecognitionConfig()<br>streaming_config = speech.StreamingRecognitionConfig()<br><br>2) 수화 모션→한국어 번역 기능 <br>cap = cv2.VideoCapture(0)<br>Thread(target=sv.video_capture, args=(cap, width, height, frame_queue, darknet_image_queue)).start()<br>Thread(target=sv.inference, args=(cap, args, network, class_names, darknet_image_queue, detections_queue, fps_queue)).start()<br>Thread(target=sv.drawing, args=(cap, self, args, width, height, class_colors, frame_queue, detections_queue, fps_queue)).start()<br><br>3) 얼굴 인식해 표정 분석하는 기능 <br>face_detection = cv2.CascadeClassifier(detection_model_path)<br>emotion_classifier = load_model(emotion_model_path, compile=False)<br>EMOTIONS = ["angry" ,"disgust","scared", "happy", "sad", "surprised",<br> "neutral"]<br><br>4) 가상 목소리 생성 API <br>client = texttospeech.TextToSpeechClient()<br>voice = texttospeech.VoiceSelectionParams(language_code="ko-KR", ssml_gender=texttospeech.SsmlVoiceGender.NEUTRAL)|
 |Team<br>Ground<br>Rule|01 따뜻한 코끼리 마리오[Click to See](https://github.com/WarmElephantMario/CapstoneDesignProject/blob/3daf78c2061b69d1ea058c45837138559aafc955/Team%20Ground%20Rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -76,13 +57,7 @@ voice = texttospeech.VoiceSelectionParams(language_code="ko-KR", ssml_gender=tex
 |Big Data<br>AI 전략|사용자의 감정 상태 정보 및 관련 콘텐츠 데이터 축적: 3년 동안 사용자들이 서비스를 통해 입력한 감정 상태 정보와 관련 콘텐츠(음악, 책, 취미, 유튜브 등)가 축적될 것입니다. 이를 통해 사용자들의 감정적 근본적인/ 문제들에 대한 인사이트를 얻을 수 있습니다.<br><br>감정에 따른 다양한 극복 방법 데이터 축적: 사용자들이 서비스를 통해 얻은 다양한 극복 방법 데이터가 축적될 것입니다. 각 사용자들의 감정 상태에 따른 효과적인 해결책을 추천할 수 있습니다.|
 |기대성과|이 서비스를 통해 사용자들은 감정적으로 힘든 상황에서 주변인에게 받기 어려운 전문적인 조언을 제공받음으로써 보다 나은 조언을 받을 수 있는 공간을 제공받을 수 있습니다. 또한, 감정적인 어려움을 극복하고 성장하는 과정을 겪을 수 있습니다. 이는 사용자들의 삶에 긍정적인 영향력을 미치고, 더 건강하고 행복한 삶을 살도록 돕습니다.|
 |오픈소스<br>리스트<br>명칭과 URL|2 FE<br>- Language : Typescript<br>    - https://www.typescriptlang.org/<br>- Library : React.js 18<br>    - https://react.dev/blog/2023/03/16/introducing-react-dev<br>- Framework : Next.js 14<br>    - https://nextjs.org/<br><br>BE<br>- Language : Javascript<br>- Framework : Node.js, Express<br>    - https://nodejs.org/en<br>    - https://expressjs.com/ko/<br>- DB : MySQL<br>    - https://www.mysql.com/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- CLOVA Sentiment
-    - https://www.ncloud.com/product/aiService/clovaSentiment
-- Google Vision AI API
-    - https://cloud.google.com/vision?hl=ko
-- Pytorch, TensorFlow
-    - PyTorch: https://pytorch.org/
-    - TensorFlow: https://www.tensorflow.org/|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|- CLOVA Sentiment<br>    - https://www.ncloud.com/product/aiService/clovaSentiment<br>- Google Vision AI API<br>    - https://cloud.google.com/vision?hl=ko<br>- Pytorch, TensorFlow<br>    - PyTorch: https://pytorch.org/<br>    - TensorFlow: https://www.tensorflow.org/|
 |Team<br>Ground<br>Rule|02 타로 밀크티[Click to See](https://github.com/2024EwhaCap02/Backend/blob/main/GroundRule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -101,9 +76,7 @@ voice = texttospeech.VoiceSelectionParams(language_code="ko-KR", ssml_gender=tex
 |Big Data<br>AI 전략|축적된 리뷰와 추천데이터로 사람들의 취향에 맞는 정교한 추천이 더 가능하다.<br>이로 인해, 독립영화 산업을 부흥시킬 수 있고, 독립 영화 감독들은 영화 사이트에 영화를 등록함으로써 영화 홍보가 가능해진다. |
 |기대성과|독립영화의 접근 장벽을 낮출 수 있다. 독립영화 산업을 부흥시킬 수 있다. |
 |오픈소스<br>리스트<br>명칭과 URL|3 [BE]<br>SPRING BOOT : https://github.com/spring-projects/spring-boot<br><br>[FE]<br>REACT : https://github.com/facebook/react|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|nltk : https://github.com/nltk/nltk
-VADER : https://github.com/cjhutto/vaderSentiment
-BERT : https://github.com/google-research/bert|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|nltk : https://github.com/nltk/nltk<br>VADER : https://github.com/cjhutto/vaderSentiment<br>BERT : https://github.com/google-research/bert|
 |Team<br>Ground<br>Rule|03 이대뎅김[Click to See](https://github.com/IDaeDengGim/GroundRule/blob/main/GroundRule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -122,14 +95,7 @@ BERT : https://github.com/google-research/bert|
 |Big Data<br>AI 전략|(연구트랙) 경량화된 모델은 더 적은 컴퓨팅 자원을 사용하여 실행될 수 있으므로, 더 넓은 범위의 기기와 환경에서 사용될 수 있습니다. 이는 CLIP과 같은 고급 AI 모델을 모바일 기기, 태블릿, 심지어 IoT 기기와 같이 제한된 하드웨어 리소스를 가진 환경에서도 사용할 수 있게 만들어, AI의 접근성과 확장성을 크게 향상시킬 수 있습니다.<br>또한 실시간 이미지 분석 기술을 통해 종양 및 질병의 조기 발견, 환경 오염 지역 식별 및 모니터링, 그리고 이미지 인식을 통한 자동차 안전 사고 예방이 가능해지는 등 추가적인 사회적 이익을 불러올 수 있습니다. <br>마지막으로 경량화된 CLIP 모델은 새로운 애플리케이션과 서비스와 결합하여 사용될 수 있습니다. 실시간 이미지 인식, 언어 이해, 멀티미디어 콘텐츠 생성 및 추천 시스템 등에 활용될 수 있습니다.|
 |기대성과|(연구트랙) 본 연구는 CLIP 모델의 성능 향상을 통해 다중 모달 인공지능 기술을 발전시키고자 합니다. 뿐만아니라 엣지 디바이스를 활용한 실시간 이미지 분석 기술을 통해 응급 상황에서의 빠른 대응이 가능해지는 등의 추가적인 사회적 이익을 가져올 수 있습니다. CLIP 모델의 추론 속도 개선은 이미지 및 텍스트 관련 응용 분야에서 혁신적인 발전을 이끌 것으로 예측합니다. 예를 들어, 온라인 쇼핑 플랫폼에서는 빠른 이미지 검색과 설명적인 검색 결과 제공이 가능해져 사용자의 구매 경험을 향상시킬 수 있습니다. 또한 의료 분야에서는 의료 이미지 및 보고서를 자동 분석하고 질병을 식별하여 의료진의 업무 효율성을 높이고 진단 정확도를 개선할 수 있습니다. 모델의 추론 속도 개선은 기업 및 조직에 비용 절감 및 생산성 향상을 가져올 것으로 예상합니다.|
 |오픈소스<br>리스트<br>명칭과 URL|4 1. PyTorch: https://pytorch.org/<br>2. TensorFlow: https://www.tensorflow.org/<br>3. Hugging Face Transformers: https://huggingface.co/transformers/<br>4. OpenAI CLIP: https://openai.com/clip/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|1. Teacher 모델: BERT-base-multilingual-cased
-2. Student 모델: DistilBERT
-3. Knowledge Distillation Loss 함수: Mean Squared Error Loss
-4. 데이터셋: ImageNet, JFT, VCR
-5. Pre-trained Image 모델: ResNet-50
-6. Pre-trained Text 모델: BERT-base-uncased
-7. Distillation Temperature: 2.0
-8. Softmax Temperature: 0.5|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|1. Teacher 모델: BERT-base-multilingual-cased<br>2. Student 모델: DistilBERT<br>3. Knowledge Distillation Loss 함수: Mean Squared Error Loss<br>4. 데이터셋: ImageNet, JFT, VCR<br>5. Pre-trained Image 모델: ResNet-50<br>6. Pre-trained Text 모델: BERT-base-uncased<br>7. Distillation Temperature: 2.0<br>8. Softmax Temperature: 0.5|
 |Team<br>Ground<br>Rule|04 티라노[Click to See](https://github.com/sudaltokki/Tyrano_CLIP/blob/main/ground_rule.pdf)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -148,14 +114,7 @@ BERT : https://github.com/google-research/bert|
 |Big Data<br>AI 전략|- 아이들의 연령별 의사소통 방식, 대화등의 데이터 수집. → 개인별 맞춤 교육 콘텐츠 및 교육 방법 개발에 활용 가능<br>- 의사소통 어려움/자폐증을 겪는 아이들의 행동 패턴,감정 데이터 수집→ 사회적 의사소통 장애 및 자폐증 치료 연구에 활용|
 |기대성과| 서울시에서 전국 25개의 어린이집을 대상으로 5살 이하 아이들의 언어, 정서, 인지, 사회성 등 10개 분야 발달 상황을 6개월간 조사한 결과, 어린이집 영유아 456명 가운데 152명, 33%는 현재 전반적으로 발달에 어려움이 있어 전문가의 도움이 필요한 것으로 나타났다. 또한 미취학 아동 86명 중 언어발달이 지체된 아이가 31%로, 3명 중 1명에 이르렀다. 코로나로 인해 외부에서 다른 아이들과 어울리지 못한 환경이 특히 언어 발달에 지장을 준 것으로 볼 수 있었다.<br><br>이를 바탕으로 코로나 시국 이후로 마스크 착용에 의한 아이들의 의사소통 능력이 저하되었음을 알 수 있었다. 우리는 그린나래(가제)가 아이들의 감정 이해와 의사소통 능력을 개선하여 펜데믹 이후 영유아의 사회성 발달에 도움이 될 것이라 기대한다.|
 |오픈소스<br>리스트<br>명칭과 URL|5 [Frontend]<br>-언어: javascript, typescript<br>-프레임워크: react native<br><br>[Backend]<br>- 언어: JavaScript, python<br>- 프레임워크: node.js, flask<br>- DB: MySQL<br><br>[ML]<br>- 언어: Python<br>- 프레임워크: TensorFlow|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- gpt-3.5-turbo(답변 생성용): https://platform.openai.com/docs/models/gpt-3-5-turbo
-
-- whisper(ASR 모델. 음성인식): https://platform.openai.com/docs/models/whisper
-
-- Google Text-to-Speech: https://cloud.google.com/text-to-speech
-
-- mediapipe (표정 분석) : **https://github.com/google/mediapipe
- https://developers.google.com/mediapipe/framework|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|- gpt-3.5-turbo(답변 생성용): https://platform.openai.com/docs/models/gpt-3-5-turbo<br><br>- whisper(ASR 모델. 음성인식): https://platform.openai.com/docs/models/whisper<br><br>- Google Text-to-Speech: https://cloud.google.com/text-to-speech<br><br>- mediapipe (표정 분석) : **https://github.com/google/mediapipe<br> https://developers.google.com/mediapipe/framework|
 |Team<br>Ground<br>Rule|05 그린나래[Click to See](https://github.com/EWHA-DraWings/Submit/blob/main/GroundRule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -193,10 +152,7 @@ BERT : https://github.com/google-research/bert|
 |Big Data<br>AI 전략|사용자들간의 교류로 인한 데이터베이스<br>개인별 도서 취향관련 맞춤 데이터베이스<br>출판업계 및 작가들에게 고객 취향 관련 도서 정보 제공 가능<br>도서뿐 아니라 영화나 드라마와 같은 문화생활의 컨텐츠 제작에 긍정적인 영향|
 |기대성과|책읽는 문화 부흥<br>책을 읽고, 교류하고 싶은 사람들의 욕구충족가능<br>인기를 배제한 다양한 분야의 도서에 대한 재조명|
 |오픈소스<br>리스트<br>명칭과 URL|7 허니비 - https://github.com/kakaobrain/honeybee<br>DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비
-DALL·E (openAI)
-GPT4 (openAI)
-Whisper(openAI) |
+|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비<br>DALL·E (openAI)<br>GPT4 (openAI)<br>Whisper(openAI) |
 |Team<br>Ground<br>Rule|07 계단[Click to See](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -215,9 +171,7 @@ Whisper(openAI) |
 |Big Data<br>AI 전략|가장 많이 선택한 악기의 종류를 통해, 해당 악기의 학습에 필요한 정보를 제공받을 수 있음.<br>사용자들의 학습 추이와 실력 분포 데이터들이 축적되어, 보다 나은 학습 환경을 만들 수 있다.|
 |기대성과|악기 독학의 접근성이 높아져서 새로운 악기에 부담 없이 입문하는 사람이 증가함.|
 |오픈소스<br>리스트<br>명칭과 URL|8 마인드 db https://mindsdb.com/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|텐서플로 https://www.tensorflow.org/?hl=ko
-케라스 https://keras.io/ 
-달리2 https://openai.com/dall-e-2 |
+|AI<br>알고리듬,<br>모듈 등<br>리스트|텐서플로 https://www.tensorflow.org/?hl=ko<br>케라스 https://keras.io/ <br>달리2 https://openai.com/dall-e-2 |
 |Team<br>Ground<br>Rule|08 익명의 뒤쥐[Click to See](https://github.com/PP88-bit/2024-capston-team-08/blob/main/ground-rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -236,15 +190,7 @@ Whisper(openAI) |
 |Big Data<br>AI 전략|서비스 사용자의 분실물 패턴, 장소, 시간대, 분실한 물건 특징 등의 데이터가 축적될 것으로 예상됩니다. 축적된 데이터를 이용해 분실물이 자주 발생하는 시간대, 장소를 예측할 수 있을 것이고, 발생한 분실물의 복구 확률을 높일 것으로 기대합니다. |
 |기대성과|우리 서비스의 사용자들은 분실물을 빠르고 효율적으로 찾을 수 있게 되어 일상 생활의 불편함이 감소하고, 분실물을 습득한 사람들도 손쉽게 주인을 찾아줄 수 있어 유용합니다. <br>매년 발생하는 수 십만 건의 분실물을 저장하는 공간과 재정적 낭비를 줄이고 분실물 관리를 위해 낭비되는 경찰 인력 문제를 해결할 수 있을 것으로 예상됩니다.|
 |오픈소스<br>리스트<br>명칭과 URL|9 - Pytorch : https://pytorch.org/<br>- openCV : https://opencv.org/<br>- github : https://github.com/<br>- React : https://ko.legacy.reactjs.org/<br>- MySQL : https://www.mysql.com/<br>- JetBrains-Intellij : https://www.jetbrains.com/ko-kr/opensource/idea/<br>- google cloud vision AI : https://cloud.google.com/vision?hl=ko|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- openCV : 이미지 데이터셋 전처리
-- Auto ML
-- 자연어 전처리 : NLTK
-- object detection : 물건 사진을 통해 물품 카테고리, 색, 로고 등의 특징 추출
-    Ex) yolo 기반 모델(yolov7,) EfficientDet 등 최근 state of the art 받은 모델 위주로 시도 예정
-- Text-to-Image 생성 :  분실물에 대한 특징 등의 설명을 적으면 이를 반영한 이미지 생성
-   Ex) OpenAI의 DALL-E 3 : GPT-3 기반 언어모델을 통한 이미지 생성 모델
-- 유사한 이미지 추천 : 이미지 간 유사도를 구해  DB 내 유실물 중 분실물과 비슷한 것을 검색
-   Ex) Cosine similarity|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|- openCV : 이미지 데이터셋 전처리<br>- Auto ML<br>- 자연어 전처리 : NLTK<br>- object detection : 물건 사진을 통해 물품 카테고리, 색, 로고 등의 특징 추출<br>    Ex) yolo 기반 모델(yolov7,) EfficientDet 등 최근 state of the art 받은 모델 위주로 시도 예정<br>- Text-to-Image 생성 :  분실물에 대한 특징 등의 설명을 적으면 이를 반영한 이미지 생성<br>   Ex) OpenAI의 DALL-E 3 : GPT-3 기반 언어모델을 통한 이미지 생성 모델<br>- 유사한 이미지 추천 : 이미지 간 유사도를 구해  DB 내 유실물 중 분실물과 비슷한 것을 검색<br>   Ex) Cosine similarity|
 |Team<br>Ground<br>Rule|09 보성말차[Click to See](https://github.com/2024EwhaGraduationProject/Start/blob/main/ground_rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -263,8 +209,7 @@ Whisper(openAI) |
 |Big Data<br>AI 전략|- 동료평가 트렌드 및 패턴 분석: 수많은 동료평가 데이터를 분석하여 팀 간 혹은 부서 간의 동향을 식별할 수 있습니다. 어떤 리더십 스타일이 가장 효과적인지, 어떤 피드백이 가장 증진적인지 등을 파악하여 기업에 맞춤형 조언을 제공할 수 있습니다.<br>- 문제 예측 및 조기 해결: 머신러닝 알고리즘을 사용하여 조직 내 문제를 예측하고 사전에 해결할 수 있는 시스템을 구축할 수 있습니다. 예를 들어, 충돌 가능성이 높은 팀을 사전에 식별하여 리더십 트레이닝이나 특별한 팀 빌딩 활동을 제안할 수 있습니다.<br>- 조직 문화의 진화 및 성과 측정: 데이터를 통해 조직 문화의 변화를 추적하고, 특정 개선 프로그램이나 정책 도입의 영향을 측정할 수 있습니다. 이를 통해 기업 리더들에게 조직 문화에 대한 투자의 효과를 시각적으로 제시할 수 있습니다.|
 |기대성과|이 서비스를 이용한다면 기업들은 적은 비용으로 새로운 조직문화 시스템을 구축할 수 있을 것입니다. 또한 조직문화에 대한 투자 효과를 실데이터로 제시한다면 많은 기업에서 건강한 조직문화를 형성하기 위해 노력할 것으로 기대됩니다. 따라서 이 서비스는 건강한 사회를 만들기 위한 첫 걸음이 될 것이라고 생각합니다.|
 |오픈소스<br>리스트<br>명칭과 URL|10 react-query(https://tanstack.com/query/latest/docs/framework/react/overview)<br>Next.js(https://nextjs.org/)<br>Spring Boot(https://spring.io/projects/spring-boot)<br>|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|CLOVA Sentiment (https://www.ncloud.com/product/aiService/clovaSentiment)
-Azure OpenAI Service (https://learn.microsoft.com/ko-kr/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|CLOVA Sentiment (https://www.ncloud.com/product/aiService/clovaSentiment)<br>Azure OpenAI Service (https://learn.microsoft.com/ko-kr/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)|
 |Team<br>Ground<br>Rule|10. 하면함[Click to See](https://github.com/HA-MYUN-HAM/.github/blob/main/GROUND_RULE.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -283,8 +228,7 @@ Azure OpenAI Service (https://learn.microsoft.com/ko-kr/azure/ai-services/openai
 |Big Data<br>AI 전략|글루텐 프리, 비건, 견과류 알러지 같은 본인의 식이 제한 정보를 입력하게 된다. 사용자들의 데이터가 쌓이면, 외국인을 대상으로 하는 식품 사업에 유의미한 도움이 될 수 있다|
 |기대성과|일차적으로, 한국에서 관광 또는 체류 중인 외국인들에게, 그들의 dietary restriction에 따라 음식을 선택하는 것을 보다 수월하게 하는 정보를 제공 할 수 있다. 이렇게 함으로써, 그들이 식이 및 음식 선택에 있어서 느끼는 어려움을 해소할 수 있다.<br>더 나아가, dietary restriction과 관련된 정보에의 접근성을 높임으로써, 한국에서 dietary restriction에 대해 알리고 관심을 이끌어 낼 수 있다. 이러한 변화를 통해, dietary restriction을 가진 사람들이 더 많은 선택지를 갖고 생활할 수 있는 더 나은 환경을 만들어낼 수 있다.|
 |오픈소스<br>리스트<br>명칭과 URL|11 음식(한식) 사진 데이터셋 (https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79)<br>레시피 데이터 (https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data)<br>지도 API (https://navermaps.github.io/maps.js.ncp/)<br>|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|Image recognition - ViT (https://github.com/google-research/vision_transformer)
-Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|Image recognition - ViT (https://github.com/google-research/vision_transformer)<br>Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
 |Team<br>Ground<br>Rule|11 힘찬유니콘[Click to See](https://github.com/Powerful-Unicorn/.github/blob/main/ground_rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -303,11 +247,7 @@ Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
 |Big Data<br>AI 전략|사용자가 많아짐으로써, 커뮤니티에 올라간 글이 많아져서 사용자들이 원하는 정보를 쉽게 찾을 수 있게 된다. 나아가, 사용자들의 추천 시스템에 대한 만족도를 통해, 추천 시스템을 발전 시킬 수 있다. |
 |기대성과|창업자들이 더 쉽게 셀프 인테리어를 도전할 수 있도록 하고, 같은 업종의 사람들과의 연대와 화합 환경을 제공한다.|
 |오픈소스<br>리스트<br>명칭과 URL|12 Node.js: https://nodejs.org/en<br>MySQL: https://www.mysql.com/<br>Python: https://www.python.org/<br>TypeScript: https://www.typescriptlang.org/<br>React: https://ko.legacy.reactjs.org/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- 이미지 분류 모델: ResNet (https://pytorch.org/hub/pytorch_vision_resnet/)
-- 추천 시스템 라이브러리: LightFM (https://pypi.org/project/lightfm/)
-- 이미지 처리 라이브러리: OpenCV  (https://opencv.org/)
-- 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) 
-|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|- 이미지 분류 모델: ResNet (https://pytorch.org/hub/pytorch_vision_resnet/)<br>- 추천 시스템 라이브러리: LightFM (https://pypi.org/project/lightfm/)<br>- 이미지 처리 라이브러리: OpenCV  (https://opencv.org/)<br>- 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) <br>|
 |Team<br>Ground<br>Rule|12 쿨라피[Click to See](https://github.com/Coollaafi/Coollaafi_Frontend/blob/main/ground.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -326,10 +266,7 @@ Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
 |Big Data<br>AI 전략|3년 뒤 CloudMind는 이화여대 학생들의 학업과 캠퍼스 생활에 필수적인 도구가 될 것이다. 수집된 데이터를 기반으로 학생들의 주요 관심사, 그리고 학교 공지에 대한 반응을 분석하여 보다 정확한 맞춤형 서비스를 제공할 수 있다. |
 |기대성과|이화여대 학생들은 자신에게 가장 관련된 정보만을 효율적으로 접할 수 있게 되며, 이는 학업 성취도의 향상 및 캠퍼스 생활의 활성화로 이어질 것이다. 또한, 학교 측에게도 유용한 인사이트를 제공하여 학생들의 요구를 더 잘 반영한 프로그램 기획 및 정보 공유 정책의 개선에 기여 가능하다.|
 |오픈소스<br>리스트<br>명칭과 URL|13 전체 공지사항: https://www.ewha.ac.kr/ewha/news/notice.do<br>학과 공지사항: https://cse.ewha.ac.kr/cse/student/notice.do|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|웹 크롤링: BeautifulSoup, requests
-NLP: NLTK, scikit-learn
-딥러닝 기반: TensorFlow, PyTorch, Keras
-패턴 인식: re모듈|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|웹 크롤링: BeautifulSoup, requests<br>NLP: NLTK, scikit-learn<br>딥러닝 기반: TensorFlow, PyTorch, Keras<br>패턴 인식: re모듈|
 |Team<br>Ground<br>Rule|13 AI:D[Click to See](https://github.com/sohvun/2024AID/blob/main/team-ground-rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -348,9 +285,7 @@ NLP: NLTK, scikit-learn
 |Big Data<br>AI 전략|서비스를 운영하며 텍스트 분석 데이터, 사용자가 열람한 글/음악 데이터가 축적된다<br>텍스트 분석 데이터를 활용해 글을 분석하고 해시태그를 붙여 글의 장르를 분류할 수 있다<br>또한 사용자가 많이 열람한 글/음악 데이터를 분석해 사용자의 장르/스타일 취향에 맞게 글을 추천할 수 있다. <br>영화 OST 처럼 텍스트 매체에도 sound track 데이터가 쌓여서 음악으로 글의 장르를 분류하고, 음악이 텍스트 매체의 홍보 수단으로 활용될 수 있다.|
 |기대성과|음악이라는 매체를 통해 글 읽기에 대한 접근성을 완화하여, 독서에 대한 거부감을 낮추고 현대인의 독해력, 문해력 향상에 도움을 준다. 또한 텍스트 분위기에 맞는 음악을 만들어,  자투리 시간에 집중적으로 몰입할 수 있는 환경을 제공하여 시간을 생산적으로 활용할 수 있다. 이는 글을 읽는 행위에 대한 장벽을 낮추어 현대인의 독서학습 역량을 키워줄 수 있을 것이다. |
 |오픈소스<br>리스트<br>명칭과 URL|15 GPT4All (MIT) : https://github.com/nomic-ai/gpt4all<br>LlaMA-Factory (Apache-2.0) : https://github.com/hiyouga/LLaMA-Factory|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|VADER : 감정 사전을 기반으로 한 규칙 기반 감정 분석 도구, 파이썬으로 구현, NLTK(Natural Language Toolkit) 라이브러리를 통해 사용가능.
-
-콘텐츠 기반 필터링(Content-Based Filtering) : 음악의 메타데이터나 텍스트 설명을 분석하여 사용자의 입력된 키워드와 관련된 음악을 추천.|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|VADER : 감정 사전을 기반으로 한 규칙 기반 감정 분석 도구, 파이썬으로 구현, NLTK(Natural Language Toolkit) 라이브러리를 통해 사용가능.<br><br>콘텐츠 기반 필터링(Content-Based Filtering) : 음악의 메타데이터나 텍스트 설명을 분석하여 사용자의 입력된 키워드와 관련된 음악을 추천.|
 |Team<br>Ground<br>Rule|15 와일드 가오리[Click to See](https://github.com/Wild-Gaori/wildgaori-start/blob/main/ground-rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -369,20 +304,7 @@ NLP: NLTK, scikit-learn
 |Big Data<br>AI 전략|사용자가 직접 작성한 필기 자료 데이터들과 AI가 생성한 퀴즈, 다수의 사용자가 공통적으로 자주 틀리는 문항에 대한 데이터들이 축적되어 있을 것입니다.<br>이러한 데이터를 통해 사용자는 자신이 가지고 있는 자료들을 다른 이와 나눌 수 있어 정보 공유를 자유롭게 할 수 있을 것이며, 자주 틀리는 문항에 대한 데이터로 보다 효율적인 학습을 할 수 있을 것입니다.<br>따라서 고도화되는 시대에서 원활하게 진행되는 정보 공유에  발맞추어 자신이 지니고 있는 가치를 나누게 되는 부가가치를 누릴 수 있을 것이며, 바쁜 현대 사회 속에서도 지식을 함양할 수 있을 것입니다.|
 |기대성과|사용자가 자신이 정리한 필기 자료를 편리하게 찾아볼 수 있으며 필기 자료를 바탕으로 생성된  퀴즈를 통해 사용자는 복습을 원활하게 할 수 있을 것 이다. 또한 다른 이가 기록한 정리본도 공유받을 수 있고 자신이 기록한 정리본도 공유할 수 있다.|
 |오픈소스<br>리스트<br>명칭과 URL|16 chat gpt, tensorflow<br>https://chat.openai.com/<br>https://www.tensorflow.org/?hl=ko<br>https://pytorch.org/<br>|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|
-
-chat_gpt 모듈
-https://chat.openai.com/  
-3.5버전
- 
-tensorflow 모듈
-https://huggingface.co/docs/transformers/installation/      
-TensorFlow 2.0+
-
-pytorch 모듈 
-https://pytorch.org/get-started/locally/
-Python 3.8  
-yolo 모델    https://pytorch.org/hub/ultralytics_yolov5/|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|<br><br>chat_gpt 모듈<br>https://chat.openai.com/  <br>3.5버전<br> <br>tensorflow 모듈<br>https://huggingface.co/docs/transformers/installation/      <br>TensorFlow 2.0+<br><br>pytorch 모듈 <br>https://pytorch.org/get-started/locally/<br>Python 3.8  <br>yolo 모델    https://pytorch.org/hub/ultralytics_yolov5/|
 |Team<br>Ground<br>Rule|16 불사신[Click to See](https://github.com/2024-01-Capstone/capstone/blob/main/Ground_Rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -420,12 +342,7 @@ yolo 모델    https://pytorch.org/hub/ultralytics_yolov5/|
 |Big Data<br>AI 전략|수많은 동물 사진/영상 데이터, 사용자들이 가장 선호하는 상호작용, 더 다양하고 수요가 있는 상호작용 추가, 실물과 유사성 증가|
 |기대성과|펫로스증후군으로 인한 우울감 및 정신적 고통 감소, 떠나보낸 반려동물을 추억하는 패러다임의 변화|
 |오픈소스<br>리스트<br>명칭과 URL|18 유니티 에셋 :  https://assetstore.unity.com/ko-KR<br>강아지 얼굴 인식 : https://owncloud.cesnet.cz/index.php/s/V0KIPJoUFllpAXh|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|TensorFlow Object Detection API : https://github.com/tensorflow/models/tree/master/research/object_detection
-YOLOv3 : https://pjreddie.com/media/files/yolov3.weights
-YOLOv4 : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
-DeepLab : https://github.com/tensorflow/models/tree/master/research/deeplab
-Openpose : https://github.com/CMU-Perceptual-Computing-Lab/openpose
-GAN : https://github.com/eriklindernoren/PyTorch-GAN, https://www.tensorflow.org/tutorials/generative/pix2pix|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|TensorFlow Object Detection API : https://github.com/tensorflow/models/tree/master/research/object_detection<br>YOLOv3 : https://pjreddie.com/media/files/yolov3.weights<br>YOLOv4 : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights<br>DeepLab : https://github.com/tensorflow/models/tree/master/research/deeplab<br>Openpose : https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>GAN : https://github.com/eriklindernoren/PyTorch-GAN, https://www.tensorflow.org/tutorials/generative/pix2pix|
 |Team<br>Ground<br>Rule|18 우주타이거[Click to See](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -444,9 +361,7 @@ GAN : https://github.com/eriklindernoren/PyTorch-GAN, https://www.tensorflow.org
 |Big Data<br>AI 전략|사람들이 일반적으로 선호하는 포즈와 비율이 무엇인지 알 수 있습니다. 생성형 AI로 어떻게 이미지를 생성해야 고객이 좋아하는 방향으로 생성할 수 있는지에 대한 데이터, 선호하는 포즈와 비율 데이터를 축적할 수 있고 이로부터 추천 시스템 등 추가적인 서비스 제공이 가능합니다. 나아가, 실시간으로 사진 촬영 시 사람들이 선호하는 포즈 혹은 비율이 더 좋게 나오는 포즈를 점선으로 제공해줄 수 있습니다. |
 |기대성과|포토샵, Soda와 같은 사진 편집 어플리케이션 내 기능으로 탑재할 수 있습니다. 또한, 자신에게 적합한 사진 속 비율을 알게 되어 사진 촬영과 조정에 사용되는 시간을 줄일 수 있습니다.|
 |오픈소스<br>리스트<br>명칭과 URL|19 YOLOv5 GitHub: https://github.com/ultralytics/yolov5<br>openpose GitHub https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>stable diffusion : https://github.com/CompVis/stable-diffusion|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5
-Open Pose : BODY_25 (COCO Model)
-Stable Diffusion v1.4 Text-to-Image Model|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5<br>Open Pose : BODY_25 (COCO Model)<br>Stable Diffusion v1.4 Text-to-Image Model|
 |Team<br>Ground<br>Rule|19 우엉[Click to See](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -465,9 +380,7 @@ Stable Diffusion v1.4 Text-to-Image Model|
 |Big Data<br>AI 전략|이 데이터는 사용자들의 사진 분석 기록, 정리된 콘텐츠의 특성 및 선호도, 그리고 서비스 이용 패턴 등을 포함할 것이다. 이러한 데이터를 통해 다양한 가치를 창출할 수 있을 것을 기대한다.<br><br>1. 개인화된 추천 및 정리 기능 강화: 축적된 데이터를 기반으로 개인의 취향과 사용 패턴에 맞는 사진 추천 및 정리 기능을 더욱 정교화할 수 있다. 사용자들이 더욱 효율적으로 자신의 갤러리를 관리할 수 있도록 도와줄 수 있다.<br>2. 향상된 사용자 경험 제공: 데이터를 분석하여 사용자들이 더 많은 가치를 느끼고 편리하게 서비스를 이용할 수 있는 다양한 기능 및 서비스를 제공할 수 있습니다. 예를 들어, 사진 속 인물의 얼굴을 인식하여 자동으로 태그를 달거나, 특정 이벤트나 여행지에 관련된 사진을 자동으로 정리해 주는 등의 기능을 추가할 수 있습니다.<br>3. 빅데이터 분석을 통한 트렌드 발견: 서비스를 이용하는 대규모의 사용자 데이터를 분석하여 사진 콘텐츠에 대한 트렌드를 발견하고 예측할 수 있다. 이를 통해 새로운 기능이나 서비스를 개발하거나, 사용자들에게 더욱 맞춤화된 서비스를 제공할 수 있다.<br><br>따라서, 런칭 후 3년이 지난 후에는 축적된 데이터를 활용하여 사용자들에게 더욱 가치 있는 서비스를 제공할 수 있을 것으로 기대된다. |
 |기대성과|일상의 디지털화가 이루어지는 현재, 사람들의 추억과 기록 역시 대부분 디지털 공간에 저장되고 있다. 결국 디바이스 속의 용량은 곧 그 사람의 생활 공간과도 같다고 할 수 있다. 이 시점에서 우리가 제공하고자 하는 갤러리 정리 서비스는 단순히 용량 확보뿐만 아니라 정리정돈 시간 절감, 추억을 담은 사진의 컴팩트화 등의 효과를 불러올 수 있다. 그렇게 되면 유저들은 더 쉽게 원하는 사진을 찾아볼 수 있고, 용량 관리 역시 쉽게 할 수 있다.|
 |오픈소스<br>리스트<br>명칭과 URL|20 안드로이드 스튜디오: https://developer.android.com/?hl=ko<br>Kotlin: https://kotlinlang.org/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|tensorflow lite : https://www.tensorflow.org/lite?hl=ko
-Naver Clova: https://www.ncloud.com/product/aiService/ocr
-Upstage: https://www.upstage.ai/document-ai/overview|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|tensorflow lite : https://www.tensorflow.org/lite?hl=ko<br>Naver Clova: https://www.ncloud.com/product/aiService/ocr<br>Upstage: https://www.upstage.ai/document-ai/overview|
 |Team<br>Ground<br>Rule|20 무너지지않는문어[Click to See](https://github.com/OctoNeverDie/2024-Spring-Capstone-team20/blob/main/GroundRule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -486,14 +399,7 @@ Upstage: https://www.upstage.ai/document-ai/overview|
 |Big Data<br>AI 전략|무신사와 같은 API 연동을 통해서 사용자들이 어떤 옷을 주로 입는지, 그런 옷에는 어떤 특징이 있는지 패션 업계 종사자 판단할 수 있는 DB까지 만드는 것을 목표로 한다.|
 |기대성과|자신이 추구하는 무드에 따라 자신을 꾸미고 자기 고유의 취향을 발견할 수 있다.|
 |오픈소스<br>리스트<br>명칭과 URL|21 Weather API<br>https://openweathermap.org/api<br>DeepFashion2<br>https://github.com/switchablenorms/DeepFashion2<br>Fashion-MNIST<br>https://github.com/zalandoresearch/fashion-mnist<br>DarkSky API<br>https://darksky.net/dev<br>Scikit-image<br>https://scikit-image.org/<br>OpenCV<br>https://opencv.org/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|PyTorch
-https://pytorch.org/
-Dlib
-http://dlib.net/
-FashionNet
-https://www.fashionnet.or.kr/
-StyleAnalyzer
-https://github.com/src-d/style-analyzer|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|PyTorch<br>https://pytorch.org/<br>Dlib<br>http://dlib.net/<br>FashionNet<br>https://www.fashionnet.or.kr/<br>StyleAnalyzer<br>https://github.com/src-d/style-analyzer|
 |Team<br>Ground<br>Rule|21 반려코더스[Click to See](https://github.com/chaechaeis/capstoneProject/blob/main/groundRule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
@@ -512,10 +418,7 @@ https://github.com/src-d/style-analyzer|
 |Big Data<br>AI 전략|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>3년 후에는 다양한 상황과 프롬프트에 대한 방대한 양의 이미지 생성 요청과 결과 데이터가 축적될 것입니다. 이 데이터를 활용하여, AI 모델의 성능을 지속적으로 개선하고, 사용자가 선호하는 이미지 스타일과 트렌드를 식별할 수 있으며, 이를 통해 보다 개인화되고 창의적인 이미지 생성 서비스를 제공할 수 있게 됩니다.|
 |기대성과|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>고객들은 비용과 시간을 크게 절약하는 동시에 창의적인 아이디어를 실제 이미지로 구현할 수 있는 능력을 갖게 됩니다. 이는 콘텐츠의 품질과 다양성을 크게 향상시킬 뿐만 아니라, 새로운 형태의 예술적 및 상업적 표현을 가능하게 함으로써 전반적인 광고 및 마케팅, 디지털 콘텐츠, 출판 산업의 발전에 기여할 것입니다.|
 |오픈소스<br>리스트<br>명칭과 URL|23 GAN (https://github.com/eriklindernoren/Keras-GAN/tree/master/gan)<br>DCGAN (https://github.com/carpedm20/DCGAN-tensorflow)<br>LLM (https://github.com/rustformers/llm)<br>Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)<br>CLIP (https://openai.com/research/clip)<br>Denoising (https://github.com/lucidrains/denoising-diffusion-pytorch)|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM
-GAN
-Stable Diffusion Model
-CLIP(Contrastive Language-Image Pre-training)|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>GAN<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)|
 |Team<br>Ground<br>Rule|23 이화도인지[Click to See](https://github.com/Ewha-DoInJi/Generative_AI_research/blob/main/Team_ground_rule.md)|
   
   [Return Top](#전체-프로젝트-리스트)
