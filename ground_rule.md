@@ -1,9 +1,8 @@
-## 01 따뜻한 코끼리 마리오	
-https://github.com/WarmElephantMario/CapstoneDesignProject/blob/3daf78c2061b69d1ea058c45837138559aafc955/Team%20Ground%20Rule.md
-## 02 타로 밀크티	
-https://github.com/2024EwhaCap02/Backend/blob/main/GroundRule.md
-## 03 이대뎅김	
-https://github.com/IDaeDengGim/GroundRule/blob/main/GroundRule.md
+모든 팀 그라운드룰 
+
+[01 따뜻한 코끼리 마리오](https://github.com/WarmElephantMario/CapstoneDesignProject/blob/3daf78c2061b69d1ea058c45837138559aafc955/Team%20Ground%20Rule.md)
+[02 타로 밀크티	](https://github.com/2024EwhaCap02/Backend/blob/main/GroundRule.md)
+[03 이대뎅김	](https://github.com/IDaeDengGim/GroundRule/blob/main/GroundRule.md)
 04 티라노	https://github.com/sudaltokki/Tyrano_CLIP/blob/main/ground_rule.pdf
 05 그린나래	https://github.com/EWHA-DraWings/Submit/blob/main/GroundRule.md
 06 머스캣	https://github.com/Musccat/GROUND-RULE/blob/main/README.md
