@@ -255,7 +255,7 @@
 |항목|내용|
 |:---|:---|
 |팀명|AI:D|
-|프로젝트명|<H3>이화여대 학생 맞춤 공지 알림 & 캘린더: CloudMind</H3>|
+|프로젝트명|<H3>CCTV를 활용해 실종자(아동, 노인)의 이동 경로를 추적하여 현재 위치를 파악하는 서비스: 요깅 (YOGIING)</H3>|
 |부제||
 |키워드|클라우드, AI, 딥러닝|
 |만들고자 하는 것|공지사항을 수시로 확인하고 있는 이화여대 학생들을 위해 클라우드와 딥러닝을 사용하여 학생 맞춤 공지 알림 및 캘린더 서비스를 제공하고자 함.|
@@ -267,7 +267,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|전체 공지사항: https://www.ewha.ac.kr/ewha/news/notice.do<br>학과 공지사항: https://cse.ewha.ac.kr/cse/student/notice.do|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|웹 크롤링: BeautifulSoup, requests<br>NLP: NLTK, scikit-learn<br>딥러닝 기반: TensorFlow, PyTorch, Keras<br>패턴 인식: re모듈|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sohvun/2024AID/blob/main/team-ground-rule.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-3-29|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 15
