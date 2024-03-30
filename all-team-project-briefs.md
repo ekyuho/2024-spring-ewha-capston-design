@@ -151,7 +151,7 @@
 |Big Data<br>AI 전략|생성된 이야기 및 문장에 대한 사람들의 선호도에 대한 데이터<br>이용자들이 선호할만한 문장을 생성하여 만족도를 높여줄 수 있음.|
 |기대성과|접근성이 떨어지는 자서전의 장벽을 낮춤으로서 자서전에 대한 관심도를 높여줌.<br>자서전을 만듦으로서 본인의 삶에 긍정적인 관심을 가지게 해줌.<br>자서전을 만들고 싶었으나 다양한 이유로 여건이 안되던 사람들의 욕구를 충족시켜줌.|
 |오픈소스<br>리스트<br>명칭과 URL|허니비 - https://github.com/kakaobrain/honeybee<br>DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비<br>DALL·E (openAI)<br>GPT4 (openAI)<br>Whisper(openAI) <br><span style="color:red"> 구체적인 방법을 특정하는 알고리듬명 등을 적어주세요. 대량 Team 13 정도 참조</span>  |
+|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비<br>DALL·E (openAI)<br>GPT4 (openAI)<br>Whisper(openAI) <br>#구체적인 방법을 특정하는 알고리듬명 등을 적어주세요. 대량 Team 13 정도 참조  |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
 |최종수정일|2024-3-26|
   
