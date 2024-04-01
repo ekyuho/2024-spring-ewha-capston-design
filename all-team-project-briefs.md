@@ -217,15 +217,16 @@
 |항목|내용|
 |:---|:---|
 |팀명|힘찬유니콘|
-|프로젝트명|<H3>한국에 체류하는 외국인들에게 dietary restriction에 따른 음식 선택에 도움을 제공할 수 있는 앱서비스</H3>|
+|프로젝트명|<H3>한국에 체류하는 외국인들에게 각자의 dietary restriction에 맞게 음식을 선택하는 것에 도움을 제공할 수 있는 앱서비스</H3>|
 |부제||
 |키워드|Dietary restrictions, Image recognition, 생성형 AI, 머신러닝|
 |만들고자 하는 것|Dietary restriction으로 인해 식사에 어려움을 겪고 있는 한국 체류 외국인들을 위해 Image Recognition, 텍스트 생성형 AI를 사용한 앱서비스를 만들고자 한다.|
 |타겟고객|통계청의 2022 인구주택총조사 데이터에 따르면, 외국인 주민은 총 2,258,248으로 총인구 대비 비율은 4.4%이다. (남성 51.3%, 여성 48.7%) 이에 더하여 한국관광 데이터랩에 따르면, 외국인 관광객은 2024년 1월 한달간 880,881명이으로 관광객 또한 상당 수를 차지하고 있다.<br><br>이에 기반하여 페르소나는 독일 국적의 20대 여성인 소피아로 설정하였다. 소피아는 채식주의자이고 현재 교환학생으로 한국에 체류 중이다. 한식에 어떤 음식 재료가 들어가 있는지 알아내는데 불편함을 겪고 있다. |
 |Pain Point|한국에서의 외식에 전반적인 어려움을 겪고 있다. 구체적으로는, 식재료에 조금만 변화를 주면 채식주의자임에도 다양한 음식을 시도할 수 있음에도 불구하고, 식당에서의 정보 획득 및 소통의 어려움으로 인해 Dietary restriction에 따른 제한적인 식단만 섭취하는 비효율적인 상황에 있다.|
 |기술적<br>해결방안|음식 이름을 모르는 상황을 대비한 Image Recognition<br>사용자 정보에 맞춘 음식 정보 제공 및 관련 한국어 표현 안내를 위한 텍스트 생성형 AI 모델<br>맞춤형 음식 추천을 위한 머신러닝 기반 알고리즘|
-|Big Data<br>AI 전략|글루텐 프리, 비건, 견과류 알러지 같은 본인의 식이 제한 정보를 입력하게 된다. 사용자들의 데이터가 쌓이면, 외국인을 대상으로 하는 식품 사업에 유의미한 도움이 될 수 있다|
-|기대성과|일차적으로, 한국에서 관광 또는 체류 중인 외국인들에게, 그들의 dietary restriction에 따라 음식을 선택하는 것을 보다 수월하게 하는 정보를 제공 할 수 있다. 이렇게 함으로써, 그들이 식이 및 음식 선택에 있어서 느끼는 어려움을 해소할 수 있다.<br>더 나아가, dietary restriction과 관련된 정보에의 접근성을 높임으로써, 한국에서 dietary restriction에 대해 알리고 관심을 이끌어 낼 수 있다. 이러한 변화를 통해, dietary restriction을 가진 사람들이 더 많은 선택지를 갖고 생활할 수 있는 더 나은 환경을 만들어낼 수 있다.|
+|Big Data<br>AI 전략|글루텐 프리, 비건, 견과류 알러지와 같은 본인의 식이 제한 정보를 입력하게 된다. 사용자들의 데이터가 쌓이면, 외국인을 대상으로 하는 식품 사업에 유의미한 도움이 될 수 있다.|
+|기대성과|일차적으로, 한국에서 관광 또는 체류 중인 외국인들에게, 각자의 dietary restriction에 따라 음식을 선택하는 것을 돕는 정보를 제공할 수 있다. 구체적으로는, 메뉴에 포함되는 재료에 대한 정보를 사용자에게 제공하고, 특정 재료가 포함되는지 묻는 표현이나 특정 재료를 제외하고 주문할 수 있는지 묻는 표현 등을 알려주는 기능을 제공하여, 사용자가 자신의 dietary restriction에 맞는 음식을 선택하거나 맞지 않는 음식을 피하는 과정에서 겪는 어려움을 덜어줄 수 있다. 
+<br>더 나아가, dietary restriction과 관련된 정보에의 접근성을 높임으로써, 한국에서 dietary restriction에 대해 알리고 관심을 이끌어 낼 수 있다. 이러한 변화를 통해, dietary restriction을 가진 사람들이 더 많은 선택지를 갖고 생활할 수 있는 더 나은 환경을 만들어낼 수 있다.|
 |오픈소스<br>리스트<br>명칭과 URL|음식(한식) 사진 데이터셋 (https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79)<br>레시피 데이터 (https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data)<br>지도 API (https://navermaps.github.io/maps.js.ncp/)<br>|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|Image recognition - ViT (https://github.com/google-research/vision_transformer)<br>Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Powerful-Unicorn/.github/blob/main/ground_rule.md)|
