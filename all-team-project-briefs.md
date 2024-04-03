@@ -153,7 +153,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|허니비 - https://github.com/kakaobrain/honeybee<br>DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|허니비<br>DALL·E (openAI)<br>GPT4 (openAI)<br>Whisper(openAI) <br><H4>구체적인 방법을 특정하는 알고리듬명 등을 적어주세요. 대량 Team 13 정도 참조</H4>  |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-3-29|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 8
