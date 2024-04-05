@@ -103,7 +103,7 @@
 |항목|내용|
 |:---|:---|
 |팀명|그린나래|
-|프로젝트명|<H3>mediapipe기반 동화 속 등장인물과의 의사소통을 통한 아이들의 사회성 발달 웹/앱</H3>|
+|프로젝트명|<H3>동화 속 등장인물과의 의사소통을 통한 아이들의 사회성 발달 앱</H3>|
 |부제||
 |키워드|NLP, 딥러닝, DB, CV, STT |
 |만들고자 하는 것|동화 속 주인공과의 대화를 통해 동화 내용 파악, 표정 학습, 의사소통 능력 향상에 도움을 주는 사회성 발달 도움 웹/앱 서비스|
@@ -115,7 +115,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|[Frontend]<br>-언어: javascript, typescript<br>-프레임워크: react native<br><br>[Backend]<br>- 언어: JavaScript, python<br>- 프레임워크: node.js, flask<br>- DB: MySQL<br><br>[ML]<br>- 언어: Python<br>- 프레임워크: TensorFlow|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- gpt-3.5-turbo(답변 생성용): https://platform.openai.com/docs/models/gpt-3-5-turbo<br><br>- whisper(ASR 모델. 음성인식): https://platform.openai.com/docs/models/whisper<br><br>- Google Text-to-Speech: https://cloud.google.com/text-to-speech<br><br>- mediapipe (표정 분석) : **https://github.com/google/mediapipe<br> https://developers.google.com/mediapipe/framework|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/EWHA-DraWings/Submit/blob/main/GroundRule.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-4-05|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 6
