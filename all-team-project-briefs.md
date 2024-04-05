@@ -7,7 +7,7 @@
 |[4](#team-4)|티라노|knowledge distillation을 통한 CLIP(멀티모달 모델) 가속화|
 |[5](#team-5)|그린나래|mediapipe기반 동화 속 등장인물과의 의사소통을 통한 아이들의 사회성 발달 웹/앱|
 |[6](#team-6)|머스캣|과외하고 있는 선생님을 위한 머신러닝 기반 학습 관리 보고서 제작 프로그램|
-|[7](#team-7)|계단|유북|
+|[7](#team-7)|계단|자서전을 만들고 싶은 사람들을 위해 ai 기술로 자서전을 만들어주는 웹서비스|
 |[8](#team-8)|익명의 뒤쥐|밴드 악기 연주 입문자를 위한 개인 맞춤 단계별 학습에 도움을 주고 온/오프라인 합주 기능을 제공하는 서비스|
 |[9](#team-9)|보성말차|잃어버린 물건을 찾아드립니다|
 |[10](#team-10)|하면함|피어니스|
@@ -141,7 +141,7 @@
 |항목|내용|
 |:---|:---|
 |팀명|계단|
-|프로젝트명|<H3>유북</H3>|
+|프로젝트명|<H3>자서전을 만들고 싶은 사람들을 위해 ai 기술로 자서전을 만들어주는 웹서비스</H3>|
 |부제||
 |키워드|생성형 ai, 문장 생성, 그림 생성|
 |만들고자 하는 것|생성형 ai를 이용하여 누구나 쉽게 간단한 문장/사진으로 만들 수 있는 나만의 자서전|
@@ -151,9 +151,9 @@
 |Big Data<br>AI 전략|생성된 이야기 및 문장에 대한 사람들의 선호도에 대한 데이터<br>이용자들이 선호할만한 문장을 생성하여 만족도를 높여줄 수 있음.|
 |기대성과|접근성이 떨어지는 자서전의 장벽을 낮춤으로서 자서전에 대한 관심도를 높여줌.<br>자서전을 만듦으로서 본인의 삶에 긍정적인 관심을 가지게 해줌.<br>자서전을 만들고 싶었으나 다양한 이유로 여건이 안되던 사람들의 욕구를 충족시켜줌.|
 |오픈소스<br>리스트<br>명칭과 URL|허니비 - https://github.com/kakaobrain/honeybee<br>DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비 (입력한 이미지에 대한 설명글 작성용)<br>DALL·E (openAI) (원하는 삽화를 생성하는 용)<br>GPT4 (openAI) (입력된 정보를 바탕으로 문장을 만드는 용)<br>Whisper(openAI) (음성을 텍스트화하여 문장을 위한 정보로 만드는 용)|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비 - 입력한 이미지에 대한 설명글 작성용<br>DALL·E (openAI) - 원하는 삽화를 생성하는 용<br>GPT4 (openAI) - 입력된 정보를 바탕으로 문장을 만드는 용<br>Whisper(openAI) - 음성을 텍스트화하여 문장을 위한 정보로 만드는 용|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
-|최종수정일|2024-4-4|
+|최종수정일|2024-4-5|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 8
