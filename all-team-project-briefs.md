@@ -85,7 +85,7 @@
 |:---|:---|
 |팀명|티라노|
 |프로젝트명|<H3>knowledge distillation을 통한 CLIP(멀티모달 모델) 가속화</H3>|
-|부제||
+|부제|Tyrrano-CLIP|
 |키워드|CLIP, 멀티모달, 딥러닝, 경량화, CV, NLP, ViT|
 |만들고자 하는 것|멀티모달 모델인 CLIP (Contrastive Language-Image Pretraining)의 추론 속도를 높이기 위해 knowledge distillation 기술을 활용하여 작은 모델이 CLIP과 유사한 성능을 발휘하면서도 더 빠른 추론 속도를 제공할 수 있도록 합니다.|
 |타겟고객|(연구트랙 팀이기 때문에 연구 과제의 필요성에 대해 설명하겠습니다.) <br>현대 사회에서는 이미지와 텍스트 데이터가 빠르게 증가하고 있으며, 이러한 다중 모달 데이터를 처리하고 이해하는 기술의 필요성이 점차 더 커지고 있습니다. 특히 이미지와 텍스트 간의 상호작용을 이해하는 것은 컴퓨터 비전 및 자연어 처리 분야에서 중요한 과제 중 하나이다. 현재까지 다양한 모델과 기술이 제안되어 왔지만, 이러한 다중 모달 데이터의 처리와 이해에 대한 아직 해결되지 않은 문제가 존재합니다.<br>국내외에서는 이미지와 텍스트를 동시에 이해하는 다중 모달 인공지능 모델의 개발이 활발히 진행되고 있습니다. 하지만 기존의 다양한 모델은 각각의 장단점을 가지고 있으며, 특히 추론 속도와 모델의 크기 등에 한계가 있습니다. 따라서 이러한 한계를 극복하고 효율적인 다중 모달 인공지능 모델의 개발이 국내 연구개발의 필요성으로 대두되고 있습니다다.<br>이에 따라 저희 팀은 CLIP (Contrastive Language-Image Pretraining) 모델의 추론 속도를 향상시키고 작은 모델에게도 CLIP과 유사한 성능을 제공함으로써 보다 효율적이고 실용적인 사용 환경을 조성하는 것을 목표로 삼고 있습니다. 이를 통해 다중 모달 데이터를 보다 효율적으로 처리하고 이해하는 기술적인 도전에 대한 해결책을 제시하고자 합니다.|
@@ -94,9 +94,9 @@
 |Big Data<br>AI 전략|(연구트랙) 경량화된 모델은 더 적은 컴퓨팅 자원을 사용하여 실행될 수 있으므로, 더 넓은 범위의 기기와 환경에서 사용될 수 있습니다. 이는 CLIP과 같은 고급 AI 모델을 모바일 기기, 태블릿, 심지어 IoT 기기와 같이 제한된 하드웨어 리소스를 가진 환경에서도 사용할 수 있게 만들어, AI의 접근성과 확장성을 크게 향상시킬 수 있습니다.<br>또한 실시간 이미지 분석 기술을 통해 종양 및 질병의 조기 발견, 환경 오염 지역 식별 및 모니터링, 그리고 이미지 인식을 통한 자동차 안전 사고 예방이 가능해지는 등 추가적인 사회적 이익을 불러올 수 있습니다. <br>마지막으로 경량화된 CLIP 모델은 새로운 애플리케이션과 서비스와 결합하여 사용될 수 있습니다. 실시간 이미지 인식, 언어 이해, 멀티미디어 콘텐츠 생성 및 추천 시스템 등에 활용될 수 있습니다.|
 |기대성과|(연구트랙) 본 연구는 CLIP 모델의 성능 향상을 통해 다중 모달 인공지능 기술을 발전시키고자 합니다. 뿐만아니라 엣지 디바이스를 활용한 실시간 이미지 분석 기술을 통해 응급 상황에서의 빠른 대응이 가능해지는 등의 추가적인 사회적 이익을 가져올 수 있습니다. CLIP 모델의 추론 속도 개선은 이미지 및 텍스트 관련 응용 분야에서 혁신적인 발전을 이끌 것으로 예측합니다. 예를 들어, 온라인 쇼핑 플랫폼에서는 빠른 이미지 검색과 설명적인 검색 결과 제공이 가능해져 사용자의 구매 경험을 향상시킬 수 있습니다. 또한 의료 분야에서는 의료 이미지 및 보고서를 자동 분석하고 질병을 식별하여 의료진의 업무 효율성을 높이고 진단 정확도를 개선할 수 있습니다. 모델의 추론 속도 개선은 기업 및 조직에 비용 절감 및 생산성 향상을 가져올 것으로 예상합니다.|
 |오픈소스<br>리스트<br>명칭과 URL|1. PyTorch: https://pytorch.org/<br>2. TensorFlow: https://www.tensorflow.org/<br>3. Hugging Face Transformers: https://huggingface.co/transformers/<br>4. OpenAI CLIP: https://openai.com/clip/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|1. Teacher 모델: BERT-base-multilingual-cased<br>2. Student 모델: DistilBERT<br>3. Knowledge Distillation Loss 함수: Mean Squared Error Loss<br>4. 데이터셋: ImageNet, JFT, VCR<br>5. Pre-trained Image 모델: ResNet-50<br>6. Pre-trained Text 모델: BERT-base-uncased<br>7. Distillation Temperature: 2.0<br>8. Softmax Temperature: 0.5|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|1. Weight Pruning <br>2. Knowledge Distillation<br>3. Quantization<br>|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sudaltokki/Tyrano_CLIP/blob/main/ground_rule.pdf)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-04-05|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 5
