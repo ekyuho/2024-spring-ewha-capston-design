@@ -235,20 +235,20 @@
 ## Team 12
 |항목|내용|
 |:---|:---|
-|팀명|쿨라피|
-|프로젝트명|<H3>가게 리모델링 및 인테리어에 어려움을 겪고 있는 소상공인을 위한 AI와 컴퓨터 그래픽스를 사용한 공간 모델링 웹 서비스</H3>|
-|부제||
-|키워드|AI, 컴퓨터그래픽스|
-|만들고자 하는 것|소상공인의 가게 리모델링 및 인테리어를 돕는 웹사이트|
-|타겟고객|이름: 김이화<br>연령: 32살<br>직업군: 카페 창업자<br>성격:<br>- 꼼꼼함<br>- 적극적<br>- 완벽 주의<br>니즈: <br>- 셀프로 카페 인테리어를 하고자 함. <br>- 완성된 모습을 미리 확인하고 싶음.<br>- 다른 사람들에게 주변 시공업체를 추천 받고 싶음.<br>불만 사항: <br>- 가구를 샀는데, 카페 분위기와 맞지 않음.<br>- 괜찮은 시공업체 찾기가 어려움.|
-|Pain Point|돈을 아끼고자 셀프 인테리어를 시작했지만, 여러 제품을 조합했을 때의 조화가 맞지 않아 소비를 추가적으로 하게 되어, 돈을 절약하고자 한 목적을 달성하지 못함.|
-|기술적<br>해결방안|- 언리얼 엔진 (3d 구현을 통해, 미리 완성된 모습을 여러 각도에서 볼 수 있음)<br>- 추천 시스템 (원하는 분위기에 맞는 인테리어 레퍼런스를 제공함)|
-|Big Data<br>AI 전략|사용자가 많아짐으로써, 커뮤니티에 올라간 글이 많아져서 사용자들이 원하는 정보를 쉽게 찾을 수 있게 된다. 나아가, 사용자들의 추천 시스템에 대한 만족도를 통해, 추천 시스템을 발전 시킬 수 있다. |
-|기대성과|창업자들이 더 쉽게 셀프 인테리어를 도전할 수 있도록 하고, 같은 업종의 사람들과의 연대와 화합 환경을 제공한다.|
-|오픈소스<br>리스트<br>명칭과 URL|Node.js: https://nodejs.org/en<br>MySQL: https://www.mysql.com/<br>Python: https://www.python.org/<br>TypeScript: https://www.typescriptlang.org/<br>React: https://ko.legacy.reactjs.org/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- 이미지 분류 모델: ResNet (https://pytorch.org/hub/pytorch_vision_resnet/)<br>- 추천 시스템 라이브러리: LightFM (https://pypi.org/project/lightfm/)<br>- 이미지 처리 라이브러리: OpenCV  (https://opencv.org/)<br>- 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) <br>|
-|Team<br>Ground<br>Rule|[Click to visit](https://github.com/Coollaafi/Coollaafi_Frontend/blob/main/ground.md)|
-|최종수정일|2024-3-26|
+| 팀명 | 쿨라피 |
+| 프로젝트명 | <H3>가게 리모델링 및 인테리어에 어려움을 겪고 있는 소상공인을 위한 AI와 컴퓨터 그래픽스를 사용한 공간 모델링 웹 서비스</H3> |
+| 부제 |  |
+| 키워드 | AI, 컴퓨터그래픽스 |
+| 만들고자 하는 것 | 소상공인의 가게 리모델링 및 인테리어를 돕는 웹사이트 |
+| 타겟고객 | 이름: 김이화<br>연령: 32살<br>직업군: 카페 창업자<br>성격:<br>- 꼼꼼함<br>- 적극적<br>- 완벽 주의<br>니즈: <br>- 셀프로 카페 인테리어를 하고자 함. <br>- 완성된 모습을 미리 확인하고 싶음.<br>불만 사항: <br>- 가구를 샀는데, 카페 분위기와 맞지 않음.<br>- 원하는 분위기의 공간을 실제로 어떻게 구성해야할지 감이 안잡힘. |
+| Pain Point | 돈을 아끼고자 셀프 인테리어를 시작했지만, 여러 제품을 조합했을 때의 조화가 맞지 않아 소비를 추가적으로 하게 됨. 혼자서 원하는 분위기의 인테리어를 구상하기가 어려움 |
+| 기술적<br>해결방안 | - 언리얼 엔진 (사용자가 원하는 분위기의 가구와 소재를 추천함. 추천된 것을 바탕으로 사용자는 3d 구현을 하고, 미리 완성된 모습을 여러 각도에서 볼 수 있음)<br>- 생성형 AI (’DALL-E’로 원하는 분위기에 맞는 인테리어 레퍼런스를 찾아갈 수 있도록 함) |
+| Big Data<br>AI 전략 | 사용자가 많아짐으로써, 커뮤니티에 공유된 게시물이 많아져서, 사용자들이 참조할 수 있는 레퍼런스가 늘어남 |
+| 기대성과 | 인테리어 전문성을 가지고 있지 않은 창업자들이 더 쉽게 셀프 인테리어에 도전할 수 있음 |
+| 오픈소스<br>리스트<br>명칭과 URL | Node.js: https://nodejs.org/en<br>MySQL: https://www.mysql.com/<br>Python: https://www.python.org/<br>TypeScript: https://www.typescriptlang.org/<br>React: <https://ko.legacy.reactjs.org/ |
+| AI<br>알고리듬,<br>모듈 등<br>리스트 | - 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) <br>- 생성형 AI 모델: DALL-E  (https://openai.com/dall-e-3) |
+| Team<br>Ground<br>Rule | https://github.com/Coollaafi/Coollaafi_Frontend/blob/main/ground.md |
+|최종수정일|2024-4-05|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 13
