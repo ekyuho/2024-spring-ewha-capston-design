@@ -36,8 +36,7 @@
 |기술적<br>해결방안|1. STT (Speech To Text) 및 NLP (Natural Language Processing)<br>: 교수자의 음성을 STT 기술을 이용하여 인식하고, NLP 기술을 이용하여 인식한 수업 내용을 요약 및 분석한다.<br><br>2. Embedding 및 Vision<br>: 학습자가 사전에 수업 자료(.pdf, .pptx 등)를 업로드하면, 해당 자료를 이미지로 변환하여 AI가 이미지 속의 그래프, 공식 등의 복잡한 내용을 인식하고 이해할 수 있도록 한다.|
 |Big Data, AI 전략|[AI 전략]<br>1. 교수님께서 그라운드에 대한 충분한 설명 없이 바로 특정 그래프나 공식에 대한 설명을 시작하시더라도, 설명의 맥락을 통해 AI가 주제 정보를 유추하여 보다 정확한 스크립트를 제공할 수 있다.<br>2. 교수님의 설명이 수업 자료의 어느 부분에 해당하는 것인지 AI가 추측하여 포인팅 서비스를 제공할 수 있다. 청각 장애 학생들이 수업에 실시간으로 더 깊이 참여할 수 있도록 돕는다.<br><br>[Big Data 전략]<br>1) 축적된 데이터 : 다양한 목소리 데이터(높낮이, 어투, 말 습관 등), 다양한 전공의 전문 지식<br>2) 데이터로부터 창출할 수 있는 가치 : 더 다양한 외적 변수에 대비한 인식 정확도, 더 다양한 전문 분야에 대한 내용 인식률, 포인팅 서비스의 정확도|
 |기대 성과|1. 청각 장애 학생들이 외부의 도움으로부터 독립하여 학습 자율성을 회복할 수 있다.<br>2. 청각 장애 학생들이 매 학기 받을 수 있는 지원의 품질을 일정 수준으로 보장할 수 있다. (구인에 대한 우려, 도우미의 실력에 대한 우려 해결)|
-|오픈소스<br>리스트<br>명칭과 URL|[Frontend]<br>- React : https://ko.legacy.reactjs.org/<br><br>[Backend]<br>- Node.js :https://nodejs.org/en<br>
-- SpringBoot : https://spring.io/projects/spring-boot<br>- MySQL : https://www.mysql.com/|
+|오픈소스<br>리스트<br>명칭과 URL|[Frontend]<br>- React : https://ko.legacy.reactjs.org/<br><br>[Backend]<br>- Node.js :https://nodejs.org/en<br>- SpringBoot : https://spring.io/projects/spring-boot<br>- MySQL : https://www.mysql.com/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1. Whisper (https://openai.com/research/whisper) : STT (Speech To Text)<br>→ 교수자의 강의를 인식하여 텍스트로 변환, 실시간 자막을 생성하는 데 사용<br><br>2. GPT-4 Turbo with Vision (https://openai.com/gpt-4) : Embedding, Vision<br>→ 학습자가 업로드한 수업 자료를 이미지 기반으로 인식하고 이해하는 데 사용<br><br>3. NAVER CLOVA Summary (https://www.ncloud.com/product/aiService/clovaSummary<br>→ 강의 종료 후, 생성된 스크립트를 요약하고 핵심 내용을 추출하는 데 사용<br>(교수님께서 강조하신 내용 및 주요 수업 공지 등)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/WarmElephantMario/CapstoneDesignProject/blob/3daf78c2061b69d1ea058c45837138559aafc955/Team%20Ground%20Rule.md)|
 |최종수정일|2024-4-06|
