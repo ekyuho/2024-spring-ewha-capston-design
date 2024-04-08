@@ -335,19 +335,23 @@
 |항목|내용|
 |:---|:---|
 |팀명|우주타이거|
-|프로젝트명|<H3>오랜만이야</H3>|
+|프로젝트명|<H3>마음을 쉽게 털어놓을 곳이 없는 현대인들을 위해 다양한 대화 스타일을 구사하며 게임 요소를 활용한 힐링 AI 상담 앱 서비스</H3>|
 |부제||
-|키워드|CV, AI, VR|
-|만들고자 하는 것|펫로스증후군을 겪는 사람들을 위해 사진과 영상 속 동물 외관의 특징과 모션을 반영하여 고객의 반려동물을 가상현실에 재현하는 서비스|
-|타겟고객|자신의 반려동물을 키우고 있지만 볼 수 없거나 떠나보내서 그리움을 느끼는 사람들|
-|Pain Point|사랑했던 반려동물을 다시 볼 수 없다는 불편함, 슬픔이 해결되지 않아 일상생활에 지장이 가는 경우|
-|기술적<br>해결방안|컴퓨터비전 / 3D 모델링 / Openpose|
-|Big Data<br>AI 전략|수많은 동물 사진/영상 데이터, 사용자들이 가장 선호하는 상호작용, 더 다양하고 수요가 있는 상호작용 추가, 실물과 유사성 증가|
-|기대성과|펫로스증후군으로 인한 우울감 및 정신적 고통 감소, 떠나보낸 반려동물을 추억하는 패러다임의 변화|
-|오픈소스<br>리스트<br>명칭과 URL|유니티 에셋 :  https://assetstore.unity.com/ko-KR<br>강아지 얼굴 인식 : https://owncloud.cesnet.cz/index.php/s/V0KIPJoUFllpAXh|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|TensorFlow Object Detection API : https://github.com/tensorflow/models/tree/master/research/object_detection<br>YOLOv3 : https://pjreddie.com/media/files/yolov3.weights<br>YOLOv4 : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights<br>DeepLab : https://github.com/tensorflow/models/tree/master/research/deeplab<br>Openpose : https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>GAN : https://github.com/eriklindernoren/PyTorch-GAN, https://www.tensorflow.org/tutorials/generative/pix2pix|
+|키워드|NLP, LM, AI|
+|만들고자 하는 것|언어 모델의 파인 튜닝을 통해 다양한 대화 스타일의 인공지능 상담 NPC(동물 캐릭터)가 사용자의 고민에 답변을 해주고, 지속적인 상담을 유도하기 위한 게이미피케이션 요소를 추가한 상담 어플리케이션|
+|타겟고객|감정적 어려움을 겪는 현대사회인, 페르소나 : 직장에 다니는 27세 이화연은 최근 우울감을 느끼고 있고, 생활에 지장이 가갈 정도로 지속되고 있다. 일상에서 주변인에게 고민을 털어놓을 곳이 없어 답답하다. 전문적인 상담 치료를 받아볼 생각이 있지만, 여러모로 부담이 되어 망설인다. 주로 젊은 청년층에서 인기 있는 캐주얼한 힐링 게임을 즐긴다.|
+|Pain Point|고민을 털어놓을 곳이 없다. 전문적인 상담 치료를 받아볼 생각을 했지만, 높은 가격과 시간이 부담되고, 심리적인 장벽 때문에 받지 못하는 사람이 많다. 꾸준히 치료를 받을 의욕이 부족하다. 자신에게 맞는 상담사를 찾기 어렵다.|
+|기술적<br>해결방안|언어 모델을 활용하여 사용자가 입력하는 채팅을 이해하고 상담 지식에 기반한 적절한 응답을 제공하도록 파인튜닝|
+|Big Data<br>AI 전략|상담 대화 데이터의 축적으로 …|
+|기대성과|털어놓는 것만으로도 큰 도움이 되며 나아가 치료까지, 게이미피케이션으로 동기를 부여하여 상담을 지속적으로 이어갈 수 있게 함, 자신에게 맞는 상담사를 찾거나 직접 커스텀할 수 있다.|
+|오픈소스<br>리스트<br>명칭과 URL|Azure AI Studio : https://ai.azure.com/
+Unity Asset Store : https://assetstore.unity.com/ko-KR
+azure의 speech sdk : https://learn.microsoft.com/ko-kr/azure/ai-services/speech-service/quickstarts/setup-platform?tabs=windows%2Cubuntu%2Cdotnetcli%2Cdotnet%2Cjre%2Cmaven%2Cnodejs%2Cmac%2Cpypi&pivots=programming-language-csharp
+클로바 api : https://www.ncloud.com/product/aiService/csr
+SQLite : https://www.sqlite.org/|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|대화: GPT-35-turpo (기술검증하면서 모델 명확히 선택하기, gpt-4는 미세조정 지원x)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-4-8|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 19
