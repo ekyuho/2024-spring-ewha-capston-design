@@ -344,11 +344,7 @@
 |기술적<br>해결방안|언어 모델을 활용하여 사용자가 입력하는 채팅을 이해하고 상담 지식에 기반한 적절한 응답을 제공하도록 파인튜닝|
 |Big Data<br>AI 전략|상담 대화 데이터의 축적으로 …|
 |기대성과|털어놓는 것만으로도 큰 도움이 되며 나아가 치료까지, 게이미피케이션으로 동기를 부여하여 상담을 지속적으로 이어갈 수 있게 함, 자신에게 맞는 상담사를 찾거나 직접 커스텀할 수 있다.|
-|오픈소스<br>리스트<br>명칭과 URL|Azure AI Studio : https://ai.azure.com/
-Unity Asset Store : https://assetstore.unity.com/ko-KR
-azure의 speech sdk : https://learn.microsoft.com/ko-kr/azure/ai-services/speech-service/quickstarts/setup-platform?tabs=windows%2Cubuntu%2Cdotnetcli%2Cdotnet%2Cjre%2Cmaven%2Cnodejs%2Cmac%2Cpypi&pivots=programming-language-csharp
-클로바 api : https://www.ncloud.com/product/aiService/csr
-SQLite : https://www.sqlite.org/|
+|오픈소스<br>리스트<br>명칭과 URL| Azure AI Studio : https://ai.azure.com/<br>Unity Asset Store : https://assetstore.unity.com/ko-KR<br>azure의 speech sdk : https://learn.microsoft.com/ko-kr/azure/ai-services/speech-service/quickstarts/setup-platform?tabs=windows%2Cubuntu%2Cdotnetcli%2Cdotnet%2Cjre%2Cmaven%2Cnodejs%2Cmac%2Cpypi&pivots=programming-language-csharp<br>클로바 api : https://www.ncloud.com/product/aiService/csr<br>SQLite : https://www.sqlite.org/ |
 |AI<br>알고리듬,<br>모듈 등<br>리스트|대화: GPT-35-turpo (기술검증하면서 모델 명확히 선택하기, gpt-4는 미세조정 지원x)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
 |최종수정일|2024-4-8|
