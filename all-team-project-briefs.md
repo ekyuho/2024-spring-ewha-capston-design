@@ -210,7 +210,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|react-query(https://tanstack.com/query/latest/docs/framework/react/overview)<br>Next.js(https://nextjs.org/)<br>Spring Boot(https://spring.io/projects/spring-boot)<br>|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|CLOVA Sentiment (https://www.ncloud.com/product/aiService/clovaSentiment)<br>Azure OpenAI Service (https://learn.microsoft.com/ko-kr/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/HA-MYUN-HAM/.github/blob/main/GROUND_RULE.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-4-12|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 11
