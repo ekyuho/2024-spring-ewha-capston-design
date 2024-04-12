@@ -10,7 +10,7 @@
 |[7](#team-7)|계단| 간편하게 자서전을 만들고 싶은 일반인들을 위해 사용자가 직접 입력한 내용을 기반으로 생성형 ai 기술을 활용해 자서전을 만들어주는 웹서비스                        |
 |[8](#team-8)|익명의 뒤쥐| 밴드 악기 연주 입문자를 위한 개인 맞춤 단계별 학습에 도움을 주고 온/오프라인 합주 기능을 제공하는 서비스                                      |
 |[9](#team-9)|보성말차| 잃어버린 물건을 찾아드립니다                                                                                   |
-|[10](#team-10)|하면함| 피어니스                                                                                              |
+|[10](#team-10)|하면함| 건강한 조직문화를 위한 AI 동료평가 분석 서비스                                                                                              |
 |[11](#team-11)|힘찬유니콘| 한식에 대한 정보가 부족한 한국 체류 외국인들에게 생성형 AI 챗봇을 사용하여 Dietary Restrictions에 맞는 외식 메뉴 선정 및 주문 가이드를 제공하는 앱서비스 |
 |[12](#team-12)|쿨라피| 가게 리모델링 및 인테리어에 어려움을 겪고 있는 소상공인을 위한 AI와 컴퓨터 그래픽스를 사용한 공간 모델링 웹 서비스                                |
 |[13](#team-13)|AI:D| 딥러닝 기반 블랙박스 영상 속 불법주정차 실시간 탐지 및 자동 신고 클라우드 서비스                                                |
@@ -40,7 +40,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1. Whisper (https://openai.com/research/whisper) : STT (Speech To Text)<br>→ 교수자의 강의를 인식하여 텍스트로 변환, 실시간 자막을 생성하는 데 사용<br><br>2. GPT-4 Turbo with Vision (https://openai.com/gpt-4) : Embedding, Vision<br>→ 학습자가 업로드한 수업 자료를 이미지 기반으로 인식하고 이해하는 데 사용<br><br>3. NAVER CLOVA Summary (https://www.ncloud.com/product/aiService/clovaSummary<br>→ 강의 종료 후, 생성된 스크립트를 요약하고 핵심 내용을 추출하는 데 사용<br>(교수님께서 강조하신 내용 및 주요 수업 공지 등)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/WarmElephantMario/CapstoneDesignProject/blob/3daf78c2061b69d1ea058c45837138559aafc955/Team%20Ground%20Rule.md)|
 |최종수정일|2024-4-06|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 2
 |항목|내용|
@@ -59,7 +59,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- CLOVA Sentiment<br>- https://www.ncloud.com/product/aiService/clovaSentimen|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024EwhaCap02/Backend/blob/main/GroundRule.md)|
 |최종수정일|2024-04-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 3
 |항목|내용|
@@ -78,7 +78,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|tensorflow : 파이썬 머신러닝 라이브러리<br>Spleeter : 음원에서 보컬, 드럼, 피아노 등을 분리하는 라이브러리<br>Librosa : 음성 데이터를 분석해주는 라이브러리<br>koBERT : 한국어 자연어 처리 라이브러리|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/IDaeDengGim/GroundRule/blob/main/GroundRule.md)|
 |최종수정일|2024-04-10|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 4
 |항목|내용|
@@ -97,7 +97,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1. Weight Pruning <br>2. Knowledge Distillation<br>3. Quantization<br>|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sudaltokki/Tyrano_CLIP/blob/main/ground_rule.pdf)|
 |최종수정일|2024-04-05|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 5
 |항목|내용|
@@ -116,7 +116,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- tesseract-ocr(텍스트 추출용):  GitHub - tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository)<br><br>- gpt-3.5-turbo or gpt-4 turbo(작품 줄거리 및 주제 키워드 추출 및 문장 분석 목적): https://cookbook.openai.com/examples/chat_finetuning_data_prep <br><br>-  Hybrid recommender system|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/EWHA-DraWings/Submit/blob/main/GroundRule.md)|
 |최종수정일|2024-04-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 6
 |항목|내용|
@@ -135,7 +135,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- GPT-4 turbo (https://openai.com/gpt-4)를 통한 자동 작성 시스템 <br>- 콘텐츠 기반 필터링: TF-IDF와 코사인 유사도를 통한 추천 시스템|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Musccat/GROUND-RULE/blob/main/README.md)|
 |최종수정일|2024-4-09|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 7
 |항목|내용|
@@ -154,7 +154,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|DALL·E (openAI) - 원하는 삽화를 생성하는 용<br>GPT4 (openAI) - 입력된 정보를 바탕으로 문장을 만드는 용<br>Whisper(openAI) - 음성을 텍스트화하여 문장생성을 위한 정보로 만드는 용|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
 |최종수정일|2024-4-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 8
 |항목|내용|
@@ -173,7 +173,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|DEMUCS 모델을 이용하여 노이즈나 다른 악기 소리를 제외하고 원하는 악기 소리를 추출한다.<br>BASIC PITCH와 CNN 모델을 이용하여 사용자의 연주 소리를 midi 형식 데이터(디지털 악보)로 변환하여 원본 악보와 비교하며, 사용자의 연주가 악보에 맞게 진행되고 있는지 판별한다|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/PP88-bit/2024-capston-team-08/blob/main/ground-rule.md)|
 |최종수정일|2024-4-05|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 9
 |항목|내용|
@@ -192,16 +192,16 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- openCV : 이미지 데이터셋 전처리<br>- Auto ML<br>- 자연어 전처리 : NLTK<br>- object detection : 물건 사진을 통해 물품 카테고리, 색, 로고 등의 특징 추출<br>    Ex) yolo 기반 모델(yolov7,) EfficientDet 등 최근 state of the art 받은 모델 위주로 시도 예정<br>- Text-to-Image 생성 :  분실물에 대한 특징 등의 설명을 적으면 이를 반영한 이미지 생성<br>   Ex) OpenAI의 DALL-E 3 : GPT-3 기반 언어모델을 통한 이미지 생성 모델<br>- 유사한 이미지 추천 : 이미지 간 유사도를 구해  DB 내 유실물 중 분실물과 비슷한 것을 검색<br>   Ex) Cosine similarity|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024EwhaGraduationProject/Start/blob/main/ground_rule.md)|
 |최종수정일|2024-4-09|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 10
 |항목|내용|
 |:---|:---|
 |팀명|하면함|
-|프로젝트명|<H3>피어니스</H3>|
-|서비스명||
-|키워드|NLP, ML, WEB|
-|만들고자 하는 것|NLP, ML등 AI 기술을 활용한 동료평가를 통해 조직 내의 문제를 파악하고, 구성원에게 맞춤화된 솔루션을 제공하는 서비스|
+|프로젝트명|<H3>건강한 조직문화를 위한 AI 동료평가 분석 서비스</H3>|
+|서비스명|피어리|
+|키워드|조직문화 동료평가 생성형AI 자연어처리|
+|만들고자 하는 것|생성형 AI 기술을 활용한 동료평가 피드백 분석을 통해 조직 내의 문제를 파악하고, 구성원 및 조직에게 맞춤화된 솔루션을 제공하는 서비스|
 |타겟고객|혁신과 변화를 추구하는 기업 : 기존의 조직문화를 개선하고, 효과적인 변화를 도입하려는 기업을 주요 고객으로 설정하였습니다. 구체적으로는 CEO, HR 매니저, 팀 리더 등의 리더십 포지션에서 조직 내 변화를 주도하고 팀원들 간의 협업을 향상시키기 위해 이 서비스를 활용할 수 있을 것으로 기대됩니다.<br><br>→ 퍼소나:<br>35세, 여성, 스타트업 팀리더<br>상황: 새로 시작하는 프로젝트에서 처음으로 팀 리더를 맡음.<br>성격: 팀 전체의 발전보다는 본인의 개인 역량을 높이는 것을 중시함.<br>목표: 팀원 개인의 역량과 사정을 고려하는 것보다는 최대한 좋은 성과를 내고 싶음.<br><br>47세, 남성, 중소기업 HR 매니저<br>상황: 조직 개편을 앞두고 있음<br>성격: 주변의 소식에 민감하고 눈치가 빨라 직원들 간의 갈등을 빠르게 알아차림<br>목표: 서로 좋은 시너지를 줄 수 있는 직원들을 한 팀으로 배치해 좋은 결과를 낼 수 있는 팀을 만들고 싶음<br><br>27세, 여성, 대기업 신입 직원<br>상황: 동료가 자신에게 일을 미뤄두고 자신의 일을 하지 않음.<br>성격: 우유부단한 성격으로 남의 부탁을 잘 거절하지 못함<br>목표: 새로 들어간 직장에 잘 적응하고 팀원들과 좋은 관계를 유지하며 같이 즐겁게 일하고 싶음.|
 |Pain Point|현재 많은 혁신적인 기업들은 ‘동료평가’라는 수단을 도입하여 팀 내에서 건강한 문화를 만들기 위해 노력합니다. 이러한 ‘동료평가’는 팀원들에게 문제 개선의 기회를, 조직에게 리더십 및 역할 분배의 기회를 제공하여 팀 내부 협업을 강화할 수 있다는 장점을 가지고 있습니다. <br> 하지만, 경쟁이 심화되는 경우 악용의 가능성이 있고, 익명성에 의해 평가와 무관한 내용까지 평가 결과에 포함될 수 있다는 단점 또한 존재합니다. 동료평가를 위한 추가적인 비용까지 필요하기 때문에 오히려 비효율적인 결과를 초래하기도 합니다. |
 |기술적<br>해결방안|1. 자연어 처리 (NLP - Natural Language Processing): 피드백 및 의견을 자동으로 분석하여 긍정적이고 부정적인 측면을 식별하고, 특정 주제 및 감정에 대한 트렌드를 추출할 수 있습니다. 익명성에 따른 부정적인 경향을 감지하고, 실제 문제를 해결하기 위해 구성원 간의 의사 소통을 개선하는 데 활용할 수 있습니다.<br>2. 기계 학습 (Machine Learning): 지난 동료평가 및 조직 내 활동 데이터를 기반으로 예측 모델을 구축하여 조직 내 문제를 사전에 감지할 수 있습니다. 리더십 스타일, 업무 수행 능력 등에 대한 개인별 특성을 이해하고, 팀의 다양한 요소에 따라 최적의 팀 구성을 예측하여 조직 내 협업을 강화할 수 있습니다.<br>3. 강화 학습 (Reinforcement Learning): 팀원들의 피드백에 따라 동적으로 개선되는 시스템을 구축하여 지속적인 조직문화의 발전을 지원합니다. 문제가 발생하면 AI 시스템이 신속하게 조치를 취하고, 이를 바탕으로 향후 유사한 상황에 대한 최적의 대응을 학습하여 지속적인 품질 향상을 이끌어냅니다.|
@@ -211,7 +211,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|CLOVA Sentiment (https://www.ncloud.com/product/aiService/clovaSentiment)<br>Azure OpenAI Service (https://learn.microsoft.com/ko-kr/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/HA-MYUN-HAM/.github/blob/main/GROUND_RULE.md)|
 |최종수정일|2024-3-26|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 11
 |항목|내용|
@@ -230,7 +230,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|Mini-Gemini (http://103.170.5.190:7860/)<br>Cohere (https://docs.cohere.com/reference/chat)<br>OCR (https://ocr.space/ocrapi)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Powerful-Unicorn/.github/blob/main/ground_rule.md)|
 |최종수정일|2024-4-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 12
 |항목|내용|
@@ -249,7 +249,7 @@
 | AI<br>알고리듬,<br>모듈 등<br>리스트 | - 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) <br>- 생성형 AI 모델: DALL-E  (https://openai.com/dall-e-3) |
 | Team<br>Ground<br>Rule | https://github.com/Coollaafi/Coollaafi_Frontend/blob/main/ground.md |
 |최종수정일|2024-4-05|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 13
 |항목|내용|
@@ -268,7 +268,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1. 차량 번호판 인식<br>- YOLO: 차랑 번호판 영역 검출 / k-NN: 차량 번호판 숫자 인식 / 템플릿 매칭: 차량 번호판 문자 인식<br>2. 불법주정차 탐지 및 추출<br>- YOLO / OpenCV<br>3. 불법주정차 분류<br>- CNN/ResNet 등 여러 알고리즘 중 정확도 높은 알고리즘 채택|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sohvun/2024AID/blob/main/team-ground-rule.md)|
 |최종수정일|2024-4-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 15
 |항목|내용|
@@ -287,7 +287,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|text-to-image generation<br>NLP|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Wild-Gaori/wildgaori-start/blob/main/ground-rule.md)|
 |최종수정일|2024-4-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 16
 |항목|내용|
@@ -306,7 +306,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트| GPT-4-Turbo, GPT-4, GPT-3.5-Turbo <br>https://chat.openai.com/ <br> Claude-3-Opus https://poe.com/Claude-3-Opus <br> EasyOCR https://github.com/JaidedAI/EasyOCR |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024-01-Capstone/capstone/blob/main/Ground_Rule.md)|
 |최종수정일|2024-4-5|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 17
 |항목| 내용|
@@ -325,7 +325,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트| · YOLO: 객체 검출에 사용할 예정입니다. </br> ·Mask R-CNN: 객체 이미지의 경계를 찾는 데 사용할 예정입니다. </br> ·MobileNet: 색상 인식과 분류에 사용할 예정입니다.|
 |Team<br>Ground<br>Rule| [Click to visit](https://github.com/monimoni12/2024-spring-ewha-capston-design/blob/main/TeamGround.md)|
 |최종수정일| 2024-04-08|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 18
 |항목|내용|
@@ -344,7 +344,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|대화: GPT-35-turbo-0125|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
 |최종수정일|2024-4-11|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 19
 |항목|내용|
@@ -363,7 +363,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5<br>Open Pose : BODY_25 (COCO Model)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
 |최종수정일|2024-04-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
 |항목|내용|
@@ -382,7 +382,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|OpenAI API<br>- STT(Whisper)<br>- LLM|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/OctoNeverDie/2024-Spring-Capstone-team20/blob/main/GroundRule.md)|
 |최종수정일|2024-4-7|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 21
 |항목|내용|
@@ -401,7 +401,7 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|PyTorch<br>https://pytorch.org/<br>Dlib<br>http://dlib.net/<br>FashionNet<br>https://www.fashionnet.or.kr/<br>StyleAnalyzer<br>https://github.com/src-d/style-analyzer|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/chaechaeis/capstoneProject/blob/main/groundRule.md)|
 |최종수정일|2024-3-26|
-  
+
   [Return Top](#전체-프로젝트-리스트)
 ## Team 23
 |항목|내용|
@@ -420,5 +420,5 @@
 |AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)<br>Quantization(양자화)<br>Pruning(모델 가지치기)<br>Knowledge Distillation(지식증류)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Ewha-DoInJi/Generative_AI_research/blob/main/Team_ground_rule.md)|
 |최종수정일|2024-4-12|
-  
+
   [Return Top](#전체-프로젝트-리스트)
