@@ -408,7 +408,7 @@
 |:---|:---|
 |팀명|이화도인지|
 |프로젝트명|<H3>고화질 실사 이미지 생성을 위해 멀티모달 데이터 처리 기술을 활용한 Stable Diffusion 모델 최적화</H3>|
-|서비스명||
+|서비스명|DoInJi-Diffusion|
 |키워드|생성형 AI 최적화, LLM, Stable Diffusion|
 |만들고자 하는 것|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>멀티모달 데이터를 LLM으로 처리하고, GAN으로 초기 이미지를 생성한 뒤, Stable Diffusion 모델을 통해 고화질의 실사 이미지로 변환하는, 생성형 AI 모델의 최적화를 목표로 합니다.|
 |타겟고객|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>고객: 중소 규모의 광고 및 마케팅 에이전시, 디지털 콘텐츠 제작 회사, 교재 출판사 등<br>특징: <br>- 고객사의 요구사항을 만족하는 독특하고 맞춤화된 이미지를 필요로 한다.<br>- 신속하게 고품질의 이미지를 생성해야 한다.<br>- 제한된 예산 내에 최대한의 효과를 내야 한다. |
@@ -417,7 +417,7 @@
 |Big Data<br>AI 전략|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>3년 후에는 다양한 상황과 프롬프트에 대한 방대한 양의 이미지 생성 요청과 결과 데이터가 축적될 것입니다. 이 데이터를 활용하여, AI 모델의 성능을 지속적으로 개선하고, 사용자가 선호하는 이미지 스타일과 트렌드를 식별할 수 있으며, 이를 통해 보다 개인화되고 창의적인 이미지 생성 서비스를 제공할 수 있게 됩니다.|
 |기대성과|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>고객들은 비용과 시간을 크게 절약하는 동시에 창의적인 아이디어를 실제 이미지로 구현할 수 있는 능력을 갖게 됩니다. 이는 콘텐츠의 품질과 다양성을 크게 향상시킬 뿐만 아니라, 새로운 형태의 예술적 및 상업적 표현을 가능하게 함으로써 전반적인 광고 및 마케팅, 디지털 콘텐츠, 출판 산업의 발전에 기여할 것입니다.|
 |오픈소스<br>리스트<br>명칭과 URL|GAN (https://github.com/eriklindernoren/Keras-GAN/tree/master/gan)<br>DCGAN (https://github.com/carpedm20/DCGAN-tensorflow)<br>LLM (https://github.com/rustformers/llm)<br>Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)<br>CLIP (https://openai.com/research/clip)<br>Denoising (https://github.com/lucidrains/denoising-diffusion-pytorch)|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)<br>Quantization<br>Pruning<br>Knowledge Distillation|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)<br>Quantization(양자화)<br>Pruning(모델 가지치기)<br>Knowledge Distillation(지식증류)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Ewha-DoInJi/Generative_AI_research/blob/main/Team_ground_rule.md)|
 |최종수정일|2024-4-12|
   
