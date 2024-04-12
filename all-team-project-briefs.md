@@ -400,7 +400,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|Weather API<br>https://openweathermap.org/api<br>DeepFashion2<br>https://github.com/switchablenorms/DeepFashion2<br>Fashion-MNIST<br>https://github.com/zalandoresearch/fashion-mnist<br>DarkSky API<br>https://darksky.net/dev<br>Scikit-image<br>https://scikit-image.org/<br>OpenCV<br>https://opencv.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|PyTorch<br>https://pytorch.org/<br>Dlib<br>http://dlib.net/<br>FashionNet<br>https://www.fashionnet.or.kr/<br>StyleAnalyzer<br>https://github.com/src-d/style-analyzer|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/chaechaeis/capstoneProject/blob/main/groundRule.md)|
-|최종수정일|2024-4-12|
+|최종수정일|2024-04-12|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 23
