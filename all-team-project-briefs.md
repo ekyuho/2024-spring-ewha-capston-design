@@ -217,19 +217,19 @@
 |항목|내용|
 |:---|:---|
 |팀명|힘찬유니콘|
-|프로젝트명|<H3>한식에 대한 정보가 부족한 한국 체류 외국인들에게 생성형 AI 챗봇을 사용하여 Dietary Restrictions에 맞는 외식 메뉴 선정 및 주문 가이드를 제공하는 앱서비스</H3>|
-|서비스명||
-|키워드|Dietary restrictions, 텍스트 생성형 AI, Image recognition|
-|만들고자 하는 것|Dietary restriction으로 인해 한국에서의 외식에 어려움을 겪고 있는 한국 체류 외국인들을 위해, 생성형 AI 챗봇과 Image Recognition을 사용하여 1)메뉴에 대한 재료 정보 및 2)주문시 사용 가능한 표현, 3)개인 맞춤형 메뉴 탐색 기능을 제공하는 앱서비스를 만들고자 한다.|
-|타겟고객|통계청의 2022 인구주택총조사 데이터에 따르면, 외국인 주민은 총 2,258,248으로 총인구 대비 비율은 4.4%이다. (남성 51.3%, 여성 48.7%) 이에 더하여 한국관광 데이터랩에 따르면, 외국인 관광객은 2024년 1월 한달간 880,881명이으로 관광객 또한 상당 수를 차지하고 있다. 이를 바탕으로 페르소나는 독일 국적의 20대 여성인 소피아로 설정하였다. 소피아는 채식주의자이고 현재 교환학생으로 한국에 체류 중이다. 음식을 밖에서 사 먹어야 하는 상황이 생길 때, 재료 정보의 부족과 소통의 어려움으로 인해 음식점 선택과 메뉴 선택에 불편함을 겪고 있다.|
-|Pain Point|한국에서의 외식에 전반적인 어려움을 겪고 있다. 구체적으로는, 식재료에 조금만 변화를 주면 채식주의자임에도 다양한 음식을 시도할 수 있음에도 불구하고, 식당에서의 정보 획득 및 소통의 어려움으로 인해 본인이 알고 있는 (Dietary restriction에 따른) 제한적인 식단만 섭취하는 비효율적인 상황에 있다.|
-|기술적<br>해결방안|1) 메뉴판 정보 인식 및 음식 재료 인식을 위한 Image Recognition, 2) 사용자 정보에 기반하여 메뉴 재료 정보, 주문 시 사용 가능한 표현, 추천 메뉴 정보를 제공하는 생성형 AI 챗봇, 3) 맞춤형 가게 리스트 정보 제공을 위한 지도 API활용 추천 알고리즘|
+|프로젝트명|<H3>Dietary Restrictions을 가진 한국 정착 초기의 외국인들에게 생성형 AI을 사용하여 메뉴 선택부터 식사 종료까지의 과정 중 정보 부족에서 기인하는 어려움의 해결을 돕는 채팅기반 앱서비스</H3>|
+|서비스명|FoodieBuddy|
+|키워드|Dietary restrictions, 텍스트/이미지 생성형 AI, OCR|
+|만들고자 하는 것|Dietary restriction으로 인해 한국에서의 외식에 어려움을 겪고 있는 한국 체류 외국인들을 위해, OCR과 텍스트/이미지 생성형 AI를 사용하여 1) 메뉴판 텍스트 인식, 2) 메뉴 재료 설명 텍스트 및 이미지 생성, 3) 메뉴 선택을 위한 맞춤형 정보를 제공하는 채팅 기반 앱서비스를 만들고자 한다.|
+|타겟고객|타켓층은 Diertary Restrictions을 가진 한국 초기 정착 외국인들이다. 이들은 한식이 낯설고 한국어로 된 정보로의 접근이 어려운 상황에서 본인이 먹을 수 있는 음식을 가려내야 하는 상황이다. 이를 바탕으로 페르소나는 독일 국적의 20대 여성인 소피아로 설정하였다. 소피아는 채식주의자이고 현재 교환학생으로 한국에 체류 중이다. 음식을 밖에서 사 먹어야 하는 상황이 생길 때, 재료 정보의 부족과 소통의 어려움으로 인해 음식점 선택과 메뉴 선택에 불편함을 겪고 있다.|
+|Pain Point|한국어를 하지 못하는 경우, 정보에 대한 접근성이 현저히 떨어질 뿐만 아니라 주변에 도움을 요청하기도 어려워진다. 게다가 사전이나 번역을 이용하더라도 이해가 어려운 음식과 재료를 접하기도 한다. 또한 메뉴의 커스텀 주문 등, Dietary Restriction을 고려한 선택지를 제공하는 음식점 또한 흔치 않다. 이러한 제약들은 dietary restriction을 가졌으며 정보가 많이 없는 외국인들을 제한적인 선택지 안에서만 머물게 만든다.|
+|기술적<br>해결방안|1) 메뉴판 텍스트 추출을 위한 OCR 2) 메뉴 소개, 재료 설명을 위한 텍스트 및 이미지를 생성하는 멀티모달 AI 3) Dietary Restriction 기반 맞춤형 메뉴 추천을 위한 텍스트 생성형 AI|
 |Big Data<br>AI 전략|글루텐 프리, 비건, 견과류 알러지와 같은 본인의 식이 제한 정보를 입력하게 된다. 사용자들의 데이터가 쌓이면, 외국인을 대상으로 하는 식품 사업에 유의미한 도움이 될 수 있다.|
-|기대성과|일차적으로, 한국에서 관광 또는 체류 중인 외국인들에게, 각자의 dietary restriction에 따라 음식을 선택하는 것을 돕는 정보를 제공할 수 있다. 구체적으로는, 메뉴에 포함되는 재료에 대한 정보를 사용자에게 제공하고, 특정 재료가 포함되는지 묻는 표현이나 특정 재료를 제외하고 주문할 수 있는지 묻는 표현 등을 알려주는 기능을 제공하여, 사용자가 자신의 dietary restriction에 맞는 음식을 선택하거나 맞지 않는 음식을 피하는 과정에서 겪는 어려움을 덜어줄 수 있다. 또한 자신이 선호했던 메뉴나 음식점을 기록해두는 기능을 제공하여, 추후의 선택에도 도움을 줄 수 있다. 추가적으로, 사용자의 dietary restriction과 선호를 바탕으로 음식 종류를 추천하는 기능을 통해서도 사용자의 음식 선택을 돕고자 한다. 더 나아가, dietary restriction과 관련된 정보에의 접근성을 높임으로써, 한국에서 dietary restriction에 대해 알리고 관심을 이끌어 낼 수 있다. 이러한 변화를 통해, dietary restriction을 가진 사람들이 더 많은 선택지를 갖고 생활할 수 있는 더 나은 환경을 만들어낼 수 있다.|
-|오픈소스<br>리스트<br>명칭과 URL|음식(한식) 사진 데이터셋 (https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79)<br>레시피 데이터 (https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data)<br>지도 API (https://navermaps.github.io/maps.js.ncp/)<br>|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|Image recognition - ViT (https://github.com/google-research/vision_transformer)<br>Chatbot - Llama (https://github.com/ggerganov/llama.cpp)|
+|기대성과|일차적으로, 앱에서 제공하는 서비스를 통해 한국에 초기 정착 중인 외국인들에게 자신의 dietary restriction에 맞는 음식을 선택하거나 맞지 않는 음식을 피하는 과정에서 겪는 어려움을 덜어줄 수 있다. 추가적으로, 사용자의 dietary restriction과 선호를 바탕으로 음식 종류를 추천하는 기능을 통해 사용자의 음식 선택을 돕고자 한다. 더 나아가, dietary restriction과 관련된 정보에의 접근성을 높임으로써, 한국에서 dietary restriction에 대해 알리고 관심을 이끌어 낼 수 있다. 이러한 변화를 통해, dietary restriction을 가진 모든 사람들에게 서비스를 확장하여 그들이 필요한 식단 정보에 보다 쉽게 접근하는 환경을 만들어낼 수 있다.|
+|오픈소스<br>리스트<br>명칭과 URL|음식(한식) 사진 데이터셋 (https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79)<br>레시피 데이터 (https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data)<br>|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|Mini-Gemini (http://103.170.5.190:7860/)<br>Cohere (https://docs.cohere.com/reference/chat)<br>OCR (https://ocr.space/ocrapi)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Powerful-Unicorn/.github/blob/main/ground_rule.md)|
-|최종수정일|2024-4-5|
+|최종수정일|2024-4-12|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 12
