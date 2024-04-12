@@ -389,10 +389,10 @@
 |:---|:---|
 |팀명|반려코더스|
 |프로젝트명|<H3>비슷한 체형과 스타일을 가진 세터와 시커를 매치한 후, 세터가 AI모델을 기반으로 시커에게 적합한 코디를 셀렉하여 코디 어드바이스 해주는 소통형 AI 플랫폼  </H3>|
-|서비스명||비대면으로 만나는 나만의 스타일리스트
-|키워드|비대면 퍼스널 쇼퍼 체형맞춤 코디|
+|서비스명|비대면으로 만나는 나만의 스타일리스트
+|키워드|비대면, 퍼스널 쇼퍼, 체형맞춤, 코디|
 |만들고자 하는 것|오늘의 무드 선택 후 사용자가 선택한 무드를 기반으로 AI를 활용하여 음악을 추천하고, 동시에 옷장 속 옷을 활용한 코디를 추천 및 오늘 입은 옷을 사진을 통해 공유하는 IOS 어플|
-|타겟고객|고객은 10대 및 20대의 옷에 관심이 많은 사람들로 구성되어 있으며, 옷장의 옷을 다양한 방식으로 활용하고 싶어하고 옷차림을 공유하여 패션에 대해 더 알고 싶어한다는 특징이 있다.|
+|타겟고객|옷장의 옷들을 잘 활용하지 못하고 있고, 패션에 감각이 없지만 옷을 잘 입고 싶은 2030 |
 |Pain Point|옷장에 어떤 옷이 있는지 한 눈에 확인할 수 없어, 비슷한 옷을 구매하는 비효율성을 가지고 있습니다. 또, 새로 산 옷을 어떻게 코디해야하는지에 대한 어려움이 있습니다.오늘의 무드에 맞는 음악을 추천받고 싶지만 기존 AI 서비스로는 추천이 부족했던 불편함이 있었을 것으로 예상합니다.|
 |기술적<br>해결방안|사용자가 가지고 있는 옷에 대한 DB<br>API연동 (OpenWeather Map, Weater Stack, Spotify, Pinterest)<br>chatGPT를 기반으로 하는 AI|
 |Big Data<br>AI 전략|무신사와 같은 API 연동을 통해서 사용자들이 어떤 옷을 주로 입는지, 그런 옷에는 어떤 특징이 있는지 패션 업계 종사자 판단할 수 있는 DB까지 만드는 것을 목표로 한다.|
@@ -400,7 +400,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|Weather API<br>https://openweathermap.org/api<br>DeepFashion2<br>https://github.com/switchablenorms/DeepFashion2<br>Fashion-MNIST<br>https://github.com/zalandoresearch/fashion-mnist<br>DarkSky API<br>https://darksky.net/dev<br>Scikit-image<br>https://scikit-image.org/<br>OpenCV<br>https://opencv.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|PyTorch<br>https://pytorch.org/<br>Dlib<br>http://dlib.net/<br>FashionNet<br>https://www.fashionnet.or.kr/<br>StyleAnalyzer<br>https://github.com/src-d/style-analyzer|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/chaechaeis/capstoneProject/blob/main/groundRule.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-4-12|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 23
