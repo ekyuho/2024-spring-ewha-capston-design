@@ -359,8 +359,8 @@
 |기술적<br>해결방안|YOLO - 바운딩 박스를 이용해 객체의 사진 속 비율을 계산하여 사용자가 원하는 비율에 맞는 촬영 가이드를 제공한다.<br>Pose Estimation - 관절점 좌표를 활용해 신체 부위의 비율을 파악함. 이를 바탕으로 구도, 각도에 대한 피드백을 제공하는 데 사용함|
 |Big Data<br>AI 전략|사용자 행동 분석을 통한 개인화 모델 조정을 목표로 하고자 함. 각 사용자의 사진 촬영 스타일과 선호도를 분석하여 개인별로 최적화된 촬영 가이드를 제시하려 함. 이 모델은 사용자가 반복적으로 겪는 문제점들을 학습하고, 이를 바탕으로 구도, 각도, 비율에 관한 개선 제안을 동적으로 조정하여 제공함. AI는 사용자에게 맞춤화된 개선 제안을 할 수 있는데, 이 과정은 사용자가 더 만족스러운 사진 결과를 얻을 수 있도록 도와주며, 그들의 촬영 기술을 점진적으로 향상시키는 데 기여할 수 있음|
 |기대성과|객체 탐지 기술을 활용하여 개인이 원하는 구도 및 비율로 사진을 촬영할 수 있도록 가이드를 제공함으로써 개인이 촬영시 편리함을 제공함. 바운딩 박스와 관절점 좌표 등의 객관적인 기준을 바탕으로 비율을 분석하고, 이에 관련하여 좀 더 정확하고 객관적인 비율 등의 세밀한 피드백을 제공함. 이를 통해 사용자들은 원하는 서비스를 제공받고, 더 나아가 사진 어플 기능으로의 탑재까지도 추후 기대해볼 수 있음|
-|오픈소스<br>리스트<br>명칭과 URL|YOLOv5 GitHub: https://github.com/ultralytics/yolov5<br>openpose GitHub https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>stable diffusion : https://github.com/CompVis/stable-diffusion|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5<br>Open Pose : BODY_25 (COCO Model)<br>Stable Diffusion v1.4 Text-to-Image Model|
+|오픈소스<br>리스트<br>명칭과 URL|YOLOv5 GitHub: https://github.com/ultralytics/yolov5<br>openpose GitHub https://github.com/CMU-Perceptual-Computing-Lab/openpose|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5<br>Open Pose : BODY_25 (COCO Model)|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
 |최종수정일|2024-04-12|
   
