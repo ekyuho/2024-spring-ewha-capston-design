@@ -7,7 +7,7 @@
 |[4](#team-4)|티라노| knowledge distillation을 통한 CLIP(멀티모달 모델) 가속화                                                      |
 |[5](#team-5)|그린나래| mediapipe기반 동화 속 등장인물과의 의사소통을 통한 아이들의 사회성 발달 웹/앱                                                  |
 |[6](#team-6)|머스캣| 자신에게 맞는 장학 정보가 필요한 학생을 위한 머신러닝과 NLP 기반 장학금 추천 및 지원서 자동 작성 서비스                                                         |
-|[7](#team-7)|계단| 자서전을 만들고 싶은 사람들을 위해 ai 기술로 자서전을 만들어주는 웹서비스                                                        |
+|[7](#team-7)|계단| 간편하게 자서전을 만들고 싶은 일반인들을 위해 사용자가 직접 입력한 내용을 기반으로 생성형 ai 기술을 활용해 자서전을 만들어주는 웹서비스                        |
 |[8](#team-8)|익명의 뒤쥐| 밴드 악기 연주 입문자를 위한 개인 맞춤 단계별 학습에 도움을 주고 온/오프라인 합주 기능을 제공하는 서비스                                      |
 |[9](#team-9)|보성말차| 잃어버린 물건을 찾아드립니다                                                                                   |
 |[10](#team-10)|하면함| 피어니스                                                                                              |
@@ -141,19 +141,19 @@
 |항목|내용|
 |:---|:---|
 |팀명|계단|
-|프로젝트명|<H3>자서전을 만들고 싶은 사람들을 위해 ai 기술로 자서전을 만들어주는 웹서비스</H3>|
-|서비스명||
+|프로젝트명|<H3>간편하게 자서전을 만들고 싶은 일반인들을 위해 사용자가 직접 입력한 내용을 기반으로 생성형 ai 기술을 활용해 자서전을 만들어주는 웹서비스   </H3>|
+|서비스명|유북|
 |키워드|생성형 ai, 문장 생성, 그림 생성|
-|만들고자 하는 것|생성형 ai를 이용하여 누구나 쉽게 간단한 문장/사진으로 만들 수 있는 나만의 자서전|
+|만들고자 하는 것|생성형 ai를 이용하여 누구나 쉽게 간단한 문장 및 이를 기반으로 생성한 삽화로 만들 수 있는 나만의 자서전|
 |타겟고객|연령 : 50대 <br>직업 : 직장인 <br>매일 챗바퀴처럼 반복되는 직장생활에 지친 상태. 자존감 및 삶에 대한 만족도 하락. 많은 돈과 시간이 드는 자서전은 대단한 사람들이나 만드는 것이라고 생각하여 자서전을 만든 사람들을 보며 부러워함. 출판을 하지 않더라도 자기 만족을 위한 자서전을 만들고 싶어함. 자신의 삶을 한번쯤 돌아볼 시간을 가지고 싶어함.|
 |Pain Point|자서전을 만들기 위해 비싼 돈을 주고 대필 작가를 구해야 하는 불편함. <br>제한적인 인터뷰 및 수정 횟수로 인한 불편함. <br>자서전을 만들때 삽입할만한 적절한 사진을 찾아야 하는 불편함|
 |기술적<br>해결방안|생성형 ai<br>웹생성|
 |Big Data<br>AI 전략|생성된 이야기 및 문장에 대한 사람들의 선호도에 대한 데이터<br>이용자들이 선호할만한 문장을 생성하여 만족도를 높여줄 수 있음.|
 |기대성과|접근성이 떨어지는 자서전의 장벽을 낮춤으로서 자서전에 대한 관심도를 높여줌.<br>자서전을 만듦으로서 본인의 삶에 긍정적인 관심을 가지게 해줌.<br>자서전을 만들고 싶었으나 다양한 이유로 여건이 안되던 사람들의 욕구를 충족시켜줌.|
-|오픈소스<br>리스트<br>명칭과 URL|허니비 - https://github.com/kakaobrain/honeybee<br>DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|허니비 - 입력한 이미지에 대한 설명글 작성용<br>DALL·E (openAI) - 원하는 삽화를 생성하는 용<br>GPT4 (openAI) - 입력된 정보를 바탕으로 문장을 만드는 용<br>Whisper(openAI) - 음성을 텍스트화하여 문장을 위한 정보로 만드는 용|
+|오픈소스<br>리스트<br>명칭과 URL|DALL·E (openAI) - https://platform.openai.com/docs/guides/images?context=node<br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>Whisper(openAI) - https://platform.openai.com/docs/guides/speech-to-text|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|DALL·E (openAI) - 원하는 삽화를 생성하는 용<br>GPT4 (openAI) - 입력된 정보를 바탕으로 문장을 만드는 용<br>Whisper(openAI) - 음성을 텍스트화하여 문장생성을 위한 정보로 만드는 용|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/jangyouhyun/Stairs/blob/main/ground_rule.md)|
-|최종수정일|2024-4-5|
+|최종수정일|2024-4-12|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 8
