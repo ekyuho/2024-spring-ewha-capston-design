@@ -352,7 +352,7 @@
 |팀명|우엉|
 |프로젝트명|<H3>포즈AI디어 ( 포즈 아이디어 )</H3>|
 |서비스명|포토AI디어 (포토 아이디어)|
-|키워드|Pose Estimation , AI , 딥러닝, Stable Diffusion|
+|키워드|Object Detection, AI, Pose Estimation|
 |만들고자 하는 것|인물 (전신) 사진 분석을 통해 개인의 포즈와 비율을 최적화하고, 생성형 AI를 이용하여 개선된 이미지를 제공하는 웹 서비스|
 |타겟고객|고객의 연령대는 20~30대이며 성별은 남녀 모두, 구체적으로는 인플루언서, 소셜 미디어 사용자로 생각할 수 있습니다. 개인 퍼소나는 ‘사진 속 자신의 신체 비율을 일일이 조정해야 했던 20대 인플루언서 00씨’, ‘포토샵 내 기능으로 비율 자동 조정을 원했던 30대 00씨’가 있습니다. 기업 고객 퍼소나는 인생네컷과 같은 자동 촬영 부스 운영 업체와 Soda와 같은 사진 보정 어플리케이션이 있습니다.|
 |Pain Point|인플루언서와 같은 사람들은 소셜 미디어에서 자신의 이미지를 중요하게 여기며, 협찬 사진을 정기적으로 업로드해야 합니다. 이들은 각 사진의 포즈와 비율을 하나하나 수동으로 세심하게 조정해야 하는 번거로움을 겪고 있습니다. 또한, 수정된 사진이 현실적인지 여부, 잘 나온것 같은지 등에 대한 피드백을 주변 사람들에게 받는 과정에서 상당한 시간과 노력이 든다는 문제가 있습니다.<br><br>포토샵과 같은 사진 편집 도구를 사용하여 다리 길이, 얼굴 크기, 허리 비율 등을 스스로 조정하면 종종 비현실적인 사진이 나오게 됩니다. 현재 시중에 나와 있는 포토샵은 AI 기능을 제공하기는 하지만, 이 기능은 아직 사용자의 기대에 부응하지 못할뿐더러 주로 수동 조정 방식에 의존하고 있습니다.|
@@ -362,7 +362,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|YOLOv5 GitHub: https://github.com/ultralytics/yolov5<br>openpose GitHub https://github.com/CMU-Perceptual-Computing-Lab/openpose<br>stable diffusion : https://github.com/CompVis/stable-diffusion|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5<br>Open Pose : BODY_25 (COCO Model)<br>Stable Diffusion v1.4 Text-to-Image Model|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
-|최종수정일|2024-3-26|
+|최종수정일|2024-04-12|
   
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
