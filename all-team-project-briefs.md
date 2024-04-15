@@ -113,9 +113,9 @@
 |Big Data<br>AI 전략|- 사용자 미디어 선호도 데이터 축적→ 미디어 기획/제작사는 컨텐츠 기획/제작에 대한 인사이트를 얻음.<br>- 공감 수를 바탕으로 사회 전반의 성향 및 경향성에 대한 데이터 축적 → 이를 바탕으로 현대인들의 미디어를 바탕으로 드러나는 사회 인식 및 성향 분석|
 |기대성과| - 개인화된 추천 시스템을 통해 사용자의 개별 취향과 감정을 반영하여 각 사용자에게 맞춤형 콘텐츠를 제공<br> - 공통의 관심사를 가진 사용자들끼리 명대사, 작품, 취향을 공유하며 커뮤니티 구축<br> - 좋은 메세지를 통해 영향력을 주는 미디어 작품의 필요성 제고. 이를 바탕으로 미디어 산업의 선순환.|
 |오픈소스<br>리스트<br>명칭과 URL|[Frontend]<br>-언어: Dart<br>-프레임워크: Flutter(https://flutter-ko.dev/)<br><br>[Backend]<br>- 언어: JavaScript, sql<br>- 프레임워크: node.js( https://nodejs.org/en , https://expressjs.com/ko/)<br>- DB: MySQL(https://www.mysql.com/)<br><br>[ML]<br>- 언어:Python<br>- 프레임워크: Pytorch(https://pytorch.org/)|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- tesseract-ocr(텍스트 추출용):  GitHub - tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository)<br><br>- gpt-3.5-turbo or gpt-4 turbo(작품 줄거리 및 주제 키워드 추출 및 문장 분석 목적): https://cookbook.openai.com/examples/chat_finetuning_data_prep <br><br>-  Hybrid recommender system|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|- tesseract-ocr(텍스트 추출용):  [GitHub - tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository)](https://github.com/tesseract-ocr/tesseract)<br><br>- gpt-3.5-turbo or gpt-4 turbo(작품 줄거리 및 주제 키워드 추출 및 문장 분석 목적): https://cookbook.openai.com/examples/chat_finetuning_data_prep <br><br>-  Hybrid recommender system|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/EWHA-DraWings/Submit/blob/main/GroundRule.md)|
-|최종수정일|2024-04-13|
+|최종수정일|2024-04-15|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 6
