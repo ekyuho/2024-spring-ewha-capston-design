@@ -246,7 +246,7 @@
 | Big Data<br>AI 전략 | 사용자가 많아짐으로써, 커뮤니티에 공유된 게시물이 많아져서, 사용자들이 참조할 수 있는 레퍼런스가 늘어남 |
 | 기대성과 | 인테리어 전문성을 가지고 있지 않은 사람들이 더 쉽게 셀프 인테리어에 도전할 수 있음 |
 | 오픈소스<br>리스트<br>명칭과 URL | Node.js: https://nodejs.org/en<br>MySQL: https://www.mysql.com/<br>Python: https://www.python.org/<br>TypeScript: https://www.typescriptlang.org/<br>React: <https://ko.legacy.reactjs.org/ |
-| AI<br>알고리듬,<br>모듈 등<br>리스트 | - 머신러닝 모델 평가 및 튜닝: Scikit-learn  (https://scikit-learn.org/stable/) <br>- 생성형 AI 모델: DALL-E  (https://openai.com/dall-e-3) |
+| AI<br>알고리듬,<br>모듈 등<br>리스트 | - 생성형 AI 모델: DALL-E  (https://openai.com/dall-e-3) |
 | Team<br>Ground<br>Rule | https://github.com/Coollaafi/Coollaafi_Frontend/blob/main/ground.md |
 |최종수정일|2024-4-05|
 
