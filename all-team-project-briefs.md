@@ -340,10 +340,10 @@
 |기술적<br>해결방안|- 파인 튜닝한 언어 모델(ChatGPT)을 활용하여 사용자가 입력하는 채팅을 이해하고 상담 지식에 기반한 적절한 응답을 제공하도록 함.<br>- 친근하고 편리한 상담 환경을 조성하기 위해 STT, TTS API(Whisper, 클로바 등)를 활용하여 음성 인식을 통한 텍스트 대화 지원 기능을 제공하도록 함.<br>- 게임 엔진은 Unity를 활용하도록 함.|
 |Big Data<br>AI 전략|- 사용자들의 대화 데이터를 수집하고 분석하여 사용자의 요구와 감정에 대한 인사이트를 얻을 수 있을 것이다.<br>- 사용자들이 자주 호소하는 문제에 대한 data를 얻으면 그 문제에 대한 data set을 중심으로 더 학습시킬 수 있고, 사용자에게 제일 효과적이었던 조언과 해결책에 대한 data를 기반으로 다시 학습시킨 AI가 더 나은 서비스를 제공할 수 있을 것이다.<br>- 사용자가 선호하는 말투와 스타일에 따라 더 다양한 버전의 AI를 제공하여 사용자가 원하는 상담 AI 선택의 폭이 넓어질 것이다.|
 |기대성과|- 이 서비스를 통해 사용자들에게 안정적이고 효과적인 상담 서비스를 제공하여 스트레스 감소와 삶의 질 향상에 기여할 것으로 기대한다.<br>- 사람들은 실제 사람이 아닌 상대에겐 더 쉽게 털어놓는 경향이 있기 때문에 사용자들이 자신의 감정을 더 자유롭게 표현하고 해결책을 찾을 수 있는 공간을 제공하여 사회적 연결성을 증진하고, 개인적인 성장과 변화를 이끌어낼 것으로 기대한다.|
-|오픈소스<br>리스트<br>명칭과 URL| - 답변 생성<br>OpenAI ChatGPT API: https://platform.openai.com/ (또는 Azure OpenAI Studio: https://ai.azure.com/)<br><br>- Speech To Text / Text To Speech<br>Azure Speech SDK :https://learn.microsoft.com/ko-kr/azure/ai-services/speech-service/quickstarts/setup-platform?tabs=windows%2Cubuntu%2Cdotnetcli%2Cdotnet%2Cjre%2Cmaven%2Cnodejs%2Cmac%2Cpypi&pivots=programming-language-csharp<br>OpenAI Whisper: https://github.com/openai/whisper<br>클로바 API : https://www.ncloud.com/product/aiService/csr<br>SQLite : https://www.sqlite.org/ |
+|오픈소스<br>리스트<br>명칭과 URL| - 답변 생성<br>OpenAI ChatGPT API: https://platform.openai.com/ (또는 Azure OpenAI Studio: https://ai.azure.com/)<br><br>- Speech To Text / Text To Speech<br>CLOVA Speech API :  https://www.ncloud.com/product/aiService/clovaSpeech<br>CLOVA Voice API : https://www.ncloud.com/product/aiService/clovaVoice<br><br>- SQLite : https://www.sqlite.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|GPT-35-turbo-0125<br>Unity Asset Store<br>Azure AI Studio<br>SQLite|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
-|최종수정일|2024-4-15|
+|최종수정일|2024-4-16|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 19
