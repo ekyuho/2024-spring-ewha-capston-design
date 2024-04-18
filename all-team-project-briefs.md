@@ -134,7 +134,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|- TensorFlow 2.16.1: https://www.tensorflow.org/<br>- PyTorch 2.2: https://pytorch.org/<br>- Scrapy: https://github.com/scrapy/scrapy <br>- beautifulsoap4: https://pypi.org/project/beautifulsoup4/ |
 |AI<br>알고리듬,<br>모듈 등<br>리스트|- GPT-3.5 turbo (https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) 를 통한 합격 포인트 추출 및 자동 작성 시스템 <br>- BERT 모델 (https://github.com/google-research/bert) 을 통한 텍스트 임베딩 <br>- 코사인 유사도를 통한 추천 시스템 |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Musccat/GROUND-RULE/blob/main/README.md)|
-|최종수정일|2024-4-13|
+|최종수정일|2024-4-18|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 7
