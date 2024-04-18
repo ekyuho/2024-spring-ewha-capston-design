@@ -132,9 +132,9 @@
 |Big Data<br>AI 전략|- 학생의 학력, 소득 분위, 거주 지역 등의 데이터 수집 → 국가 장학금, 지역인재 장학금 추천<br><br>- 학생의 경험, 역량 등의 데이터 수집 → 성과형 장학금, 취업 연계 장학금 추천|
 |기대성과|1. 장학금 정보 제공 : 학생들이 다양한 장학금에 대한 정보를 쉽게 얻을 수 있도록 도움을 준다. 이를 통해 학생들은 시간을 절약하고 여러 장학금에 지원할 수 있다. <br><br>2. 개인 맞춤형 추천 서비스 : 학생의 학력, 소득분위, 거주 지역, 학습경험 등의 정보를 기반으로 적합한 장학금을 추천해준다. 이를 통해 학생들은 자신의 상황에 알맞은 장학금을 놓치지 않고 지원할 수 있다.<br><br>3. 지원서 작성 지원 : 장학금 신청에 필요한 지원서 자동 작성 기능을 통해 학생들이 자신의 경험과 역량을 효과적으로 표현할 수 있도록 도움을 준다. <br><br> 이 서비스는 AI 기술을 활용하여 학생들이 자신에게 가장 적합한 장학금을 찾고, 지원 과정을 효율적으로 진행할 수 있도록 돕는다. 장학금 추천에서 지원서 작성에 이르기까지 전 과정을 지원함으로써, 학생들의 시간과 노력을 절약할 수 있으며, 장학금 지원의 성공 가능성을 높일 수 있다. 이는 학생들의 경제적, 정서적 부담을 줄여줄 뿐만 아니라 교육 기회를 확대할 수 있을 것으로 기대된다. |
 |오픈소스<br>리스트<br>명칭과 URL|- TensorFlow 2.16.1: https://www.tensorflow.org/<br>- PyTorch 2.2: https://pytorch.org/<br>- Scrapy: https://github.com/scrapy/scrapy <br>- beautifulsoap4: https://pypi.org/project/beautifulsoup4/ |
-|AI<br>알고리듬,<br>모듈 등<br>리스트|- GPT-4 turbo (https://openai.com/gpt-4) 를 통한 합격 포인트 추출 및 자동 작성 시스템 <br>- BERT 모델 (https://github.com/google-research/bert) 을 통한 텍스트 임베딩 <br>- 코사인 유사도를 통한 추천 시스템 |
+|AI<br>알고리듬,<br>모듈 등<br>리스트|- GPT-3.5 turbo (https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) 를 통한 합격 포인트 추출 및 자동 작성 시스템 <br>- BERT 모델 (https://github.com/google-research/bert) 을 통한 텍스트 임베딩 <br>- 코사인 유사도를 통한 추천 시스템 |
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Musccat/GROUND-RULE/blob/main/README.md)|
-|최종수정일|2024-4-13|
+|최종수정일|2024-4-18|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 7
