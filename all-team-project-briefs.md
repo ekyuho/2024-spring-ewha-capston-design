@@ -407,18 +407,18 @@
 |항목|내용|
 |:---|:---|
 |팀명|이화도인지|
-|프로젝트명|<H3>고화질 실사 이미지 생성을 위해 멀티모달 데이터 처리 기술을 활용한 Stable Diffusion 모델 최적화</H3>|
+|프로젝트명|<H3>Stable Diffusion 및 생성형 AI 최적화 모델</H3>|
 |서비스명|DoInJi-Diffusion|
-|키워드|생성형 AI 최적화, LLM, Stable Diffusion|
-|만들고자 하는 것|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>멀티모달 데이터를 LLM으로 처리하고, GAN으로 초기 이미지를 생성한 뒤, Stable Diffusion 모델을 통해 고화질의 실사 이미지로 변환하는, 생성형 AI 모델의 최적화를 목표로 합니다.|
+|키워드|생성형 AI 최적화, Stable Diffusion, DDPM, DDIM|
+|만들고자 하는 것|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>Stable Diffusion 모델을 통해 고화질의 실사 이미지로 변환하는, 생성형 AI 모델의 최적화를 목표로 합니다.|
 |타겟고객|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>고객: 중소 규모의 광고 및 마케팅 에이전시, 디지털 콘텐츠 제작 회사, 교재 출판사 등<br>특징: <br>- 고객사의 요구사항을 만족하는 독특하고 맞춤화된 이미지를 필요로 한다.<br>- 신속하게 고품질의 이미지를 생성해야 한다.<br>- 제한된 예산 내에 최대한의 효과를 내야 한다. |
-|Pain Point|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>고객들은 현재 고화질의 맞춤형 이미지를 생성하기 위해 높은 비용을 지불하거나, 전문적인 디자인 능력이 필요하며, 생성 프로세스에 상당한 시간을 소비해야 하는 문제를 겪고 있습니다. 또한, 기존의 이미지 생성 도구들이 제공하는 품질과 창의성에 한계를 느끼고 있으며, 이들의 구체적인 요구사항을 충족시키지 못하는 경우가 많습니다.|
-|기술적<br>해결방안|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>- 멀티모달 데이터 처리를 위한 대규모 언어 모델(LLM)<br>- 초기 이미지 생성을 위한 생성적 적대 신경망(GAN) 기술<br>- 최종 이미지의 품질 향상을 위한 Stable Diffusion 모델 기술|
-|Big Data<br>AI 전략|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>3년 후에는 다양한 상황과 프롬프트에 대한 방대한 양의 이미지 생성 요청과 결과 데이터가 축적될 것입니다. 이 데이터를 활용하여, AI 모델의 성능을 지속적으로 개선하고, 사용자가 선호하는 이미지 스타일과 트렌드를 식별할 수 있으며, 이를 통해 보다 개인화되고 창의적인 이미지 생성 서비스를 제공할 수 있게 됩니다.|
-|기대성과|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>고객들은 비용과 시간을 크게 절약하는 동시에 창의적인 아이디어를 실제 이미지로 구현할 수 있는 능력을 갖게 됩니다. 이는 콘텐츠의 품질과 다양성을 크게 향상시킬 뿐만 아니라, 새로운 형태의 예술적 및 상업적 표현을 가능하게 함으로써 전반적인 광고 및 마케팅, 디지털 콘텐츠, 출판 산업의 발전에 기여할 것입니다.|
+|Pain Point|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>현재의 stable diffusion 모델은 각 time step에서 이미지를 생성하기 때문에 생성 시간이 상당히 길다는 고질적인 단점이 있습니다. 이러한 한계로 인해 생성형 AI를 이용하는 사용자들은 고품질의 맞춤형 이미지를 얻기 위해 높은 비용과 시간을 투자해야 합니다. 또한, 모델은 많은 계산 리소스를 필요로 하기 때문에 GPU 사용이 필수적입니다. 그러나 이는 에너지 소모와 환경 부담을 증가시킬 수 있습니다. 따라서 저희 연구의 주된 목표는 stable diffusion 모델을 최적화하여 생성 속도와 효율성을 향상시키는 것입니다. 이를 통해 GPU 의존성을 줄이고, 더 적은 리소스를 사용하여 모델을 더 빠르고 효율적으로 실행할 수 있는 방법을 모색하는 것이 저희 연구의 목표입니다.|
+|기술적<br>해결방안|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>- 기존 초고화질 이미지 생성 모델 Stable Diffusion을 최적화한 모델 구현<br>- DDPM<br>- DDIM<br>- Quantization<br>- Prunning<br>- Knowledge distillation|
+|Big Data<br>AI 전략|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>다양한 학문에 대한 방대한 양의 이미지 데이터를 축적하여 앞으로 학습할 데이터 양은 지속적으로 상승할 전망입니다. 이러한 빅데이터를 빠른 속도로 학습하여 이미지를 생성하려면 더 많은 GPU가 필요로 할 것입니다. 따라서 해당 데이터들을 활용하여 AI 모델의 성능을 지속적으로 개선하고, 사용자가 선호하는 이미지 스타일과 트렌드를 식별할 수 있고, 보다 개인화되고 창의적인 이미지 생성 서비스를 제공할 수 있도록 모델을 구축할 예정입니다.|
+|기대성과|(연구 트랙임을 고려하여 읽어주시면 감사하겠습니다.)<br>현재 다양한 분야의 창의적인 아이디어를 실제 이미지로 생성하기 위해서는 많은 비용과 시간을 소모해야합니다. 앞으로 생성형 AI 모델을 최적화한다면 고객들은 비용과 시간을 크게 절약하면서 품질과 다양성을 크게 향상된 이미지를 얻을 수 있습니다. 이를 통해 광고 및 마케팅, 디지털 콘텐츠, 출판 산업 등 예술 분야 뿐만 아니라 다양한 산업 분야의 발전에 크게 기여할 것입니다.|
 |오픈소스<br>리스트<br>명칭과 URL|GAN (https://github.com/eriklindernoren/Keras-GAN/tree/master/gan)<br>DCGAN (https://github.com/carpedm20/DCGAN-tensorflow)<br>LLM (https://github.com/rustformers/llm)<br>Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)<br>CLIP (https://openai.com/research/clip)<br>Denoising (https://github.com/lucidrains/denoising-diffusion-pytorch)|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)<br>Quantization(양자화)<br>Pruning(모델 가지치기)<br>Knowledge Distillation(지식증류)|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|Transformer 기반의 LLM<br>Stable Diffusion Model<br>CLIP(Contrastive Language-Image Pre-training)<br>Quantization(양자화)<br>Pruning(모델 가지치기)<br>Knowledge Distillation(지식증류)<br>DDPM<br>DDIM|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Ewha-DoInJi/Generative_AI_research/blob/main/Team_ground_rule.md)|
-|최종수정일|2024-4-12|
+|최종수정일|2024-4-19|
 
   [Return Top](#전체-프로젝트-리스트)
