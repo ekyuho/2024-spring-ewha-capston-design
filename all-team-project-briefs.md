@@ -343,7 +343,7 @@
 |오픈소스<br>리스트<br>명칭과 URL| - 답변 생성<br>OpenAI ChatGPT API: https://platform.openai.com/ (또는 Azure OpenAI Studio: https://ai.azure.com/)<br><br>- Speech To Text / Text To Speech<br>CLOVA Speech API :  https://www.ncloud.com/product/aiService/clovaSpeech<br>CLOVA Voice API : https://www.ncloud.com/product/aiService/clovaVoice<br><br>- SQLite : https://www.sqlite.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|GPT-35-turbo-0125<br>Unity Asset Store<br>Azure AI Studio<br>SQLite|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
-|최종수정일|2024-4-16|
+|최종수정일|2024-4-22|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 19
