@@ -18,7 +18,7 @@
 |[16](#team-16)|불사신|학습을 목적으로 On-line으로 노트를 작성하는 대학생을 위한, 작성된 노트로 AI 기반 퀴즈를 자동 생성하고 결과를 분석하여 복습을 통해 학습 효과를 높이는 웹 서비스|
 |[17](#team-17)|포카리| 스마트푸푸: 합성 신경망 기반 이미지 분류를 활용하여 아기 변 분석 서비스를 제공하는 육아 다이어리                                           |
 |[18](#team-18)|우주타이거| 고민을 이야기할 곳이 없는 사람들을 위한 게임형 힐링 AI 챗봇 상담 앱 서비스                                                                                             |
-|[19](#team-19)|우엉| YOLOv5s와 ResNet50 모델을 활용한 사용자 맞춤형 실시간 촬영 구도, 각도 가이드 제공 서비스                                                                                |
+|[19](#team-19)|우엉| 인물 사진 촬영에 어려움을 겪는 사람들을 위해, YOLOv5s와 ResNet50 모델을 활용한 사용자 맞춤형 실시간 촬영 구도, 각도 가이드 제공 서비스                                                                                |
 |[20](#team-20)|무너지지않는문어| 게임 속에서 실제 사람과 대화하는 것 같은 경험을 원하는 유저를 위한 OpenAI API의 STS(Speech to speech)와 LLM 기술을 활용한 AI NPC에게 물건을 판매해야하는 토킹 게임                          |
 |[21](#team-21)|반려코더스| 체형 및 스타일 기반 매칭을 통한 코디 추천: 체형 및 스타일에 맞는 코디 추천을 원하는 시커에게 맞춤형 세터가 AI 분석을 활용하여 최적의 아이템을 선별해 코디 조언을 해주는 iOS 어플                                                                                        |
 |[23](#team-23)|이화도인지| 고화질 실사 이미지 생성을 위해 멀티모달 데이터 처리 기술을 활용한 Stable Diffusion 모델 최적화                                     |
@@ -362,7 +362,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|YOLOv5s : https://github.com/ultralytics/yolov5<br>Convolutional neural network (CNN) -ResNet50: https://pytorch.org/vision/main/models/resnet.html<br>Mask R-CNN : https://github.com/matterport/Mask_RCNN<br>PyTorch : https://pytorch.org<br>TorchServe : https://pytorch.org/serve/<br>Torchvision : https://pytorch.org/vision/stable/index.html<br>opencv : https://opencv.org/<br>TensorBoard : https://www.tensorflow.org/tensorboard?hl=ko|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5s<br>CNN(ResNet50)<br>Mask R-CNN<br>PyTorch, TorchServe, Torchvision<br>TensorBoard|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
-|최종수정일|2024-04-19|
+|최종수정일|2024-06-03|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
