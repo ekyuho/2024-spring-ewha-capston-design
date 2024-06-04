@@ -189,9 +189,9 @@
 |Big Data<br>AI 전략|서비스 사용자인 교내 학생들의 분실물 패턴, 장소, 시간대, 분실한 물건 특징 등의 데이터가 축적될 것으로 예상됩니다. 축적된 데이터를 이용해 분실물이 자주 발생하는 시간대, 장소를 예측할 수 있을 것이고, 발생한 분실물의 복구 확률을 높일 것으로 기대합니다.<br><br> 이화여대에서 성공적으로 서비스를 배포하여 분실물과 관련한 데이터가 쌓인다면, 분실물 반환율을 높이기 위해 효과적인 요소들이 무엇인지 파악하기 용이할 것으로 예상합니다. 뿐만 아니라, 교내에서의 성공 경험을 바탕으로 다른 대학교에 서비스를 제공하는 수익화 전략을 세울 수 있을 것으로 기대합니다.|
 |기대성과|유저들은 분실물을 빠르고 효율적으로 찾을 수 있게 되어 일상 생활의 불편함이 감소하고, 분실물을 습득한 사람들도 추가 과정 없이 이미지를 올리는 것으로도 물건의 주인을 찾아줄 수 있습니다.<br><br>등록자들은 사진을 찍기만 하면 생성 AI가 분실물의 특징을 자동으로 입력해주어 매번 분실물 정보를 수동으로 입력할 필요가 없으며 수동으로 입력하는 것보다 훨씬 상세히 분류해주어 부담을 줄일 수 있습니다.<br><br>교내에서 주인을 찾아줄 수 있어 유용합니다. 매년 발생하는 수 십만 건의 분실물을 저장하는 공간과 재정적 낭비를 줄일 수 있습니다.|
 |오픈소스<br>리스트<br>명칭과 URL|1. Pytorch : https://pytorch.org/<br>2. openCV : https://opencv.org/<br>3. github : https://github.com/<br>4. React : https://ko.legacy.reactjs.org/<br>5. MySQL : https://www.mysql.com/<br>6. JetBrains-Intellij : https://www.jetbrains.com/ko-kr/opensource/idea/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|1. openCV : 이미지 데이터셋 전처리<br>2. image segmentation 모델 : YOLO, DeepLab 등 분할 모델 시도<br>3.  NLTK  : 자연어 전처리<br>4. Cloud Translation API : 한영/영한 번역 API<br>4. Google Cloud Vision API : 물체 이미지에 대한 속성, 라벨링, 텍스트 추출 모델<br>5. ChatGpt : 물체 이미지에 대한 속성, 라벨링, 텍스트 추출 모델|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|1. re/OpenCV : 이미지 데이터셋 전처리<br>2. Selenium : 데이터 크롤링<br>3.  ChatGpt 4o  : 멀티모달 LLM<br>4. Word2Vec& cosine similarity : 텍스트 유사도|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024EwhaGraduationProject/Start/blob/main/ground_rule.md)|
-|최종수정일|2024-5-24|
+|최종수정일|2024-6-04|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 10
