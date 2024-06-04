@@ -217,19 +217,19 @@
 |항목|내용|
 |:---|:---|
 |팀명|힘찬유니콘|
-|프로젝트명|<H3>Dietary Restrictions을 가진 한국 정착 초기의 외국인들에게 생성형 AI을 사용하여 식사 경험 중 정보 부족으로 인한 어려움을 해결해주는 채팅 앱 서비스</H3>|
+|프로젝트명|<H3>Dietary Restrictions을 가진 한국 정착 초기의 외국인들에게 생성형 AI을 사용하여 맞춤형 메뉴를 추천해주고 메뉴에 포함된 식재료 인지의 어려움을 해결해주는 채팅 앱 서비스</H3>|
 |서비스명|FoodieBuddy|
 |키워드|Dietary restrictions, 텍스트/이미지 생성형 AI, 멀티모달, OCR|
-|만들고자 하는 것|Dietary restriction으로 인해 한국에서의 외식에 어려움을 겪고 있는 한국 체류 외국인들을 위해, OCR과 텍스트/이미지 생성형 AI를 사용하여 1) 메뉴판 텍스트 인식, 2) 음식 재료 설명 텍스트 생성 및 음식 이미지 인식/생성, 3) 메뉴 선택을 위한 맞춤형 정보를 제공하는 채팅 기반 앱서비스를 만들고자 한다.|
+|만들고자 하는 것|Dietary restriction으로 인해 한국에서의 외식에 어려움을 겪고 있는 한국 체류 외국인들을 위해, OCR과 텍스트/이미지 생성형 AI를 사용하여 <br><br>1) 메뉴판 텍스트 인식, <br>2) 음식 재료 설명 텍스트 생성 및 음식 이미지 인식/생성, <br>3) 메뉴 선택을 위한 맞춤형 정보<br><br>를 제공하는 채팅 기반 앱서비스를 만들고자 한다.|
 |타겟고객|타켓층은 Diertary Restrictions을 가진 한국 초기 정착 외국인들이다. 이들은 한식이 낯설고 한국어로 된 정보로의 접근이 어려운 상황에서 본인이 먹을 수 있는 음식을 가려내야 하는 상황이다. 이를 바탕으로 페르소나는 프랑스 국적의 20대 여성인 소피아로 설정하였다. 소피아는 채식주의자이고 현재 교환학생으로 한국에 체류 중이다. 음식을 밖에서 사 먹어야 하는 상황이 생길 때, 재료 정보의 부족과 소통의 어려움으로 인해 음식점 선택과 메뉴 선택에 불편함을 겪고 있다.|
 |Pain Point|한국어를 하지 못하는 경우, 정보에 대한 접근성이 현저히 떨어질 뿐만 아니라 주변에 도움을 요청하기도 어려워진다. 게다가 사전이나 번역을 이용하더라도 이해가 어려운 음식과 재료를 접하기도 한다. 또한 메뉴의 커스텀 주문 등, Dietary Restriction을 고려한 선택지를 제공하는 음식점 또한 흔치 않다. 이러한 제약들은 dietary restriction을 가졌으며 정보가 많이 없는 외국인들을 제한적인 선택지 안에서만 머물게 만든다.|
-|기술적<br>해결방안|1) 메뉴판 텍스트 추출을 위한 OCR 2) 메뉴 소개, 재료 설명을 위한 텍스트와 이미지를 입력받고 생성하는 멀티모달 AI 3) Dietary Restriction 기반 맞춤형 메뉴 추천을 위한 텍스트 생성형 AI|
+|기술적<br>해결방안|1) 메뉴판 텍스트 추출을 위한 OCR<br> 2) 메뉴 소개, 재료 설명을 위한 텍스트와 이미지를 입력받고 생성하는 멀티모달 AI<br> 3) Dietary Restriction 기반 맞춤형 메뉴 추천을 위한 텍스트 생성형 AI|
 |Big Data<br>AI 전략|글루텐 프리, 비건, 견과류 알러지와 같은 본인의 식이 제한 정보를 입력하게 된다. 사용자들의 데이터가 쌓이면, 앱 서비스의 추천 시스템을 강화할 수 있으며, 더 나아가 외국인을 대상으로 하는 식품 사업에 유의미한 도움이 될 수 있다.|
 |기대성과|일차적으로, 앱에서 제공하는 서비스를 통해 한국에 초기 정착 중인 외국인들에게 자신의 dietary restriction에 맞는 음식을 선택하거나 맞지 않는 음식을 피하는 과정에서 겪는 어려움을 덜어줄 수 있다. 추가적으로, 사용자의 dietary restriction과 선호를 바탕으로 음식 종류를 추천하는 기능을 통해 사용자의 음식 선택을 돕고자 한다. 더 나아가, dietary restriction과 관련된 정보에의 접근성을 높임으로써, 한국에서 dietary restriction에 대해 알리고 관심을 이끌어 낼 수 있다. 이러한 변화를 통해, dietary restriction을 가진 모든 사람들에게 서비스를 확장하여 그들이 필요한 식단 정보에 보다 쉽게 접근하는 환경을 만들어낼 수 있다.|
-|오픈소스<br>리스트<br>명칭과 URL|음식(한식) 사진 데이터셋 (https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79)<br>음식(한식) 및 재료 정보 API (https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data)<br>|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|Mini-Gemini (http://103.170.5.190:7860/)<br>Cohere (https://docs.cohere.com/reference/chat)<br>OCR (https://ocr.space/ocrapi)|
+|오픈소스<br>리스트<br>명칭과 URL|[FE]<br>• Language : Typescript https://www.typescriptlang.org/<br>• Library : React native https://reactnative.dev/<br>• Framework : Next.js https://nextjs.org/<br><br>[BE]<br>• Language : JAVA https://www.java.com/<br>• Framework : Spring https://spring.io<br>• DB : MySQL https://www.mysql.com/<br><br>[API]<br>• OCR API https://ocr.space/ocrapi : 메뉴판 이미지에서 메뉴명 텍스트 추출을 위한 Ocr.space의 ocr api<br><br>[Data]<br>• 음식(한식) 사진 데이터셋 https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=79<br>• 음식(한식) 재료 정보 API https://www.data.go.kr/data/15081026/openapi.do?recommendDataYn=Y#/tab_layer_recommend_data<br>|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|[AI]<br>• Language : Python<br>• Mini-Gemini http://103.170.5.190:7860/ : 음식 이미지 인식 후 설명과 음식 메뉴 이미지 생성을 위한 Vision Language Model API<br>• Cohere https://docs.cohere.com/reference/chat : 전반적인 대화 진행과 Dietary restrictions 기반 메뉴 추천 및 설명을 위한 Large Language Model API<br>|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/Powerful-Unicorn/.github/blob/main/ground_rule.md)|
-|최종수정일|2024-4-19|
+|최종수정일|2024-6-4|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 12
