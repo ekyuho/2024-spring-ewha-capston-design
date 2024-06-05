@@ -56,9 +56,9 @@
 |Big Data<br>AI 전략|[AI 전략]<br>- 감정 분석 AI: 사용자의 일기에서 자연어 처리(NLP) 기술을 이용해 텍스트 기반 감정 분석을 수행합니다. 이를 통해 사용자가 어떤 감정을 느끼고 있는지 분석하고, 감정 패턴을 추적합니다.<br>- 표정인식 AI :  사용자의 부정적 감정을 해소하기 위한 “웃으며 셀카 찍기” 솔루션을 제공할 수 있습니다.<br>- 음성인식 AI : 사용자의 부정적 감정을 해소하기 위한  “긍정 확언 말하기” 솔루션을 제공할 수 있습니다.<br><br>[Big Data 전략]<br>데이터 수집 및 저장:<br>• 일기 데이터: 일기 내용, 작성 시간, 감정 태그 등의 데이터를 수집합니다.<br>• 챌린지 수행 데이터: 각 챌린지 선택 및 완료 정보, 챌린지 수행 전후의 감정 상태 데이터를 수집합니다.<br>• 피드백 데이터: 사용자로부터 받는 피드백 데이터를 수집하여 서비스 개선에 활용합니다.<br><br>데이터 분석 및 활용:<br>• 개인화 알고리즘 개발: 수집된 데이터를 분석하여 각 사용자의 감정 패턴과 챌린지 선호도를 파악합니다. 이를 기반으로 사용자에게 가장 적합한 챌린지를 제안하는 개인화 알고리즘을 개발합니다.<br>• 감정 변화 추적 및 예측: 감정 데이터와 챌린지 데이터를 결합하여, 특정 챌린지가 사용자의 감정에 어떤 영향을 미치는지 분석하고, 이를 바탕으로 사용자의 감정 변화를 예측합니다.<br>• 서비스 개선: 사용자의 행동과 반응을 분석하여 서비스의 효과를 평가하고, 이를 통해 서비스 내용을 지속적으로 업데이트하고 개선합니다. |
 |기대성과|- 사용자는 자신이 작성한 일기를 통한 감정 분석 기능을 통해 자신의 감정을 더 잘 이해하고, 자기 인식을 향상시킬 수 있습니다.<br>- 자신의 현 상태가 반영된 나무를 통해 현재 본인의 감정 상태를 객관적으로 인식할 수 있게 되며 긍정적 변화에 대한 의지를 끌어올립니다.<br>- 제공되는 솔루션과 보상 시스템을 통해 사용자는 부정적인 감정을 적극적으로 관리하고 긍정적인 생활 습관을 형성할 수 있습니다.<br>- 장기적으로는 사용자의 정신 건강을 개선하고, 삶의 질을 향상시키는 데 기여할 것입니다.|
 |오픈소스<br>리스트<br>명칭과 URL|[FE]<br>- Language : Typescript<br>- https://www.typescriptlang.org/<br>- Library : React.js 18, three.js <br>- https://react.dev/blog/2023/03/16/introducing-react-dev, https://threejs.org/<br>- Framework : Next.js 14<br>- https://nextjs.org/<br><br>[BE]<br>- Language : Javascript<br>- Framework : Node.js, Express<br>- https://nodejs.org/en<br>- https://expressjs.com/ko/<br>- DB : MySQL<br>- https://www.mysql.com/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|[CLOVA Sentiment]<br>- https://www.ncloud.com/product/aiService/clovaSentiment|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|[AI]<br>- 텍스트 감정분석 : naver clova sentiment AI<br>https://www.ncloud.com/product/aiService/clovaSentiment<br>- 표정인식 : megvii face++ emotion recognition AI<br>https://www.faceplusplus.com/emotion-recognition/<br>- 음성인식 : google cloud speech to text AI<br>https://cloud.google.com/speech-to-text|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/2024EwhaCap02/Backend/blob/main/GroundRule.md)|
-|최종수정일|2024-04-15|
+|최종수정일|2024-06-05|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 3
