@@ -13,7 +13,7 @@
 |[10](#team-10)|하면함| 건강한 조직문화를 위한 AI 동료평가 분석 서비스                                                                                              |
 |[11](#team-11)|힘찬유니콘| Dietary Restrictions을 가진 한국 정착 초기의 외국인들에게 생성형 AI을 사용하여 식사 경험 중 정보 부족으로 인한 어려움을 해결해주는 채팅 앱 서비스 |
 |[12](#team-12)|쿨라피| 바쁜 아침을 맞이하는 현대인들을 위해 사용자의 데이터베이스를 이미지 인식 AI를 통해 분석하고 그 날의 날씨에 맞는 개인화된 맞춤형 옷을 추천하여 옷 선택의 어려움을 해결해주는 서비스                               |
-|[13](#team-13)|AI:D| 딥러닝 기반 블랙박스 영상 속 불법주정차 실시간 탐지 및 자동 신고 클라우드 서비스                                                |
+|[13](#team-13)|AI:D| 딥러닝 기반 블랙박스 영상 속 불법주정차 실시간 탐지 및 크라우드(crowd) 신고 서비스                                                |
 |[15](#team-15)|와일드 가오리| 큐엔아트(QnArt) : LLM과 이미지 생성 AI를 이용한 대화와 그림 창작 기반 초등학생 대상 미술관 작품 감상 서비스                                                |
 |[16](#team-16)|불사신|학습을 목적으로 On-line으로 노트를 작성하는 대학생을 위한, 작성된 노트로 AI 기반 퀴즈를 자동 생성하고 결과를 분석하여 복습을 통해 학습 효과를 높이는 웹 서비스|
 |[17](#team-17)|포카리| 스마트푸푸: CNN 기반 이미지 분류 기술을 바탕으로 아기 변을 탐지 및 분석하여 건강상태 예측에 도움을 주는 시각장애인 대상 육아 다이어리 서비스 |
@@ -264,17 +264,8 @@
 |기술적<br>해결방안|클라우드<br>딥러닝|
 |Big Data<br>AI 전략|축적된 데이터: 불법주정차가 다량 신고되는 지역 및 구역, 시간대 등의 통계적 패턴<br>1. 불법주정차 위험 예측 및 사고 예방:<br>- 축적된 데이터를 활용하여 특정 지역이나 조건에서 불법주정차가 발생할 경우 사고가 발생할 확률 예측<br>- 이를 통해 사전에 경고를 제공하거나 교통 인프라를 개선함으로써 사고 예방<br>2. 시민 안전 강화:<br>- 축적된 데이터를 기반으로 도로의 안전성 평가<br>- 이를 통해 시민들의 안전을 강화하기 위한 정책과 조치 수립|
 |기대성과|고객: 운전자<br>1. 신고 자동화로 인해 운전자들은 불법 주정차를 신고하기 위해 시간을 소비할 필요가 없어짐. 이는 운전자들의 편의성을 향상시키고, 주행 중에 발생하는 스트레스를 감소시킴.<br>2. 불법 주정차로 인한 도로의 혼잡을 줄이고 합법적인 주차 공간을 활용함으로써 전반적인 교통 환경이 개선됨.<br>3. (긴급 차량) 응급차나 소방차 등 긴급 차량의 통행을 원활하게 하여 응급 상황에서의 대처가 빨라지도록 도움.<br>그 외: 정부<br>1. 자동화된 불법 주정차 신고 서비스는 불법 주정차에 대한 엄격한 단속을 가능케 하여 교통법규를 준수하는 문화를 확립하는데 기여함.<br>2.불법 주정차로 인한 벌금 수입이 증가함으로써 국가의 세입이 증가할 수 있으며, 이는 공공 서비스 및 시설 개선 등 다양한 사회적 이익으로 이어질 수 있음.|
-|오픈소스<br>리스트<br>명칭과 URL|YOLO5: https://github.com/ultralytics/yolov5 <br>
-OpenCV: https://opencv.org/<br>
-TensorFlow: https://www.tensorflow.org/?hl=ko<br>
-PyTorch: https://pytorch.org/<br>
-EasyOCR: https://github.com/JaidedAI/EasyOCR<br>
-AWS: https://aws.amazon.com/ko/?nc2=h_lg|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|1. 배경 인식 - 추후 수정 예정<br>
-2. 주정차 구분 - 추후 수정 예정<br>
-3. 번호판 인식 및 메타데이터 추출<br>
-  3-1) 번호판 인식: YOLO, OpenCV, TensorFlow, PyTorch, EasyOCR<br>
-  3-2) 메타데이터 추출 및 필터링: AWS Lambda, S3|
+|오픈소스<br>리스트<br>명칭과 URL|YOLO5: https://github.com/ultralytics/yolov5 <br>OpenCV: https://opencv.org/<br>TensorFlow: https://www.tensorflow.org/?hl=ko<br>PyTorch: https://pytorch.org/<br>EasyOCR: https://github.com/JaidedAI/EasyOCR<br>AWS: https://aws.amazon.com/ko/?nc2=h_lg|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|1. 배경 인식 - 추후 수정 예정<br>2. 주정차 구분 - 추후 수정 예정<br>3. 번호판 인식 및 메타데이터 추출<br>3-1) 번호판 인식: YOLO, OpenCV, TensorFlow, PyTorch, EasyOCR<br>3-2) 메타데이터 추출 및 필터링: AWS Lambda, S3|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sohvun/2024AID/blob/main/team-ground-rule.md)|
 |최종수정일|2024-4-12|
 
