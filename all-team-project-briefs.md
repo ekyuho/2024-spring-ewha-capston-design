@@ -267,7 +267,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|YOLO5: https://github.com/ultralytics/yolov5 <br>OpenCV: https://opencv.org/<br>TensorFlow: https://www.tensorflow.org/?hl=ko<br>PyTorch: https://pytorch.org/<br>EasyOCR: https://github.com/JaidedAI/EasyOCR<br>AWS: https://aws.amazon.com/ko/?nc2=h_lg|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|1. 배경 인식 - 추후 수정 예정<br>2. 주정차 구분 - 추후 수정 예정<br>3. 번호판 인식 및 메타데이터 추출<br>3-1) 번호판 인식: YOLO, OpenCV, TensorFlow, PyTorch, EasyOCR<br>3-2) 메타데이터 추출 및 필터링: AWS Lambda, S3|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/sohvun/2024AID/blob/main/team-ground-rule.md)|
-|최종수정일|2024-4-12|
+|최종수정일|2024-6-14|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 15
