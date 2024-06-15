@@ -357,12 +357,12 @@
 |타겟고객|- 친구 사진을 잘 찍어주지 못해 고민인 A양<br>- 100장 넘게 사진을 찍어도 마음에 드는 사진 한 장 건지기 힘든 B군<br>- 친구가 찍어주는 사진 구도가 마음에 들지 않는 C양|
 |Pain Point|- 남이 찍어준 사진이 마음에 들지 않거나 남의 사진을 찍어줄 때 아쉬움을 느낌.<br>- 사진이 원하는 각도나 구도로 찍히지 않고 발끝이 잘리거나 배경이 과하게 나오는 경우가 있음.<br>- 사진 피드백을 줄 전문가가 없어서 꿀팁과 가이드를 일일이 검색해야 함.<br>- 기본 카메라 앱은 맞춤형 가이드를 제공하지 않음.<br>- 마음에 안 드는 사진은 보정이 필요해 별도의 시간과 노력이 듦|
 |기술적<br>해결방안|1. YOLOv5s - 객체 탐지 기술을 통한 이미지 내 구도 파악 (사진 속 인물과 배경의 비중, 카메라의 구도를 파악하기 위해 Bounding box의 좌표값을 활용), 구도를 6가지 클래스로 분류함<br><br>2. ResNet50 (CNN) - 이미지 처리 모델 학습시켜 이미지 분류 검증(class별 정확도를 분석하여 결과를 바탕으로 적절한 사진 촬영 가이드 제공)|
-|Big Data<br>AI 전략|1. 모델 성능 향상: YOLOv5의 빠른 처리 속도와 학습된 이미지 처리 모델 CNN을 활용하여 사용자에게 필요한 이미지 분석 및 촬영 가이드 제공함<br><br>2. 사용자 경험 최적화: "포토아이디어"는 사용자가 5가지 유형의 사진 구도 중 원하는 옵션을 선택할 수 있는 기능을 제공하여, 개인의 취향에 맞는 촬영 가이드를 제공함.<br><br>3. 사용자의 pain point 해결: 사용자가 더 만족스러운 사진을 얻을 수 있도록 도와주며, 그들의 촬영 실력을 향상시키는 데 기여할 수 있음|
+|Big Data<br>AI 전략|1. 모델 성능 향상: YOLOv5s의 빠른 처리 속도와 학습된 이미지 처리 모델 CNN을 활용하여 사용자에게 필요한 이미지 분석 및 촬영 가이드 제공함<br><br>2. 사용자 경험 최적화: "포토아이디어"는 사용자가 5가지 유형의 사진 구도 중 원하는 옵션을 선택할 수 있는 기능을 제공하여, 개인의 취향에 맞는 촬영 가이드를 제공함.<br><br>3. 사용자의 pain point 해결: 사용자가 더 만족스러운 사진을 얻을 수 있도록 도와주며, 그들의 촬영 실력을 향상시키는 데 기여할 수 있음|
 |기대성과|사용자가 선호하는 구도와 각도로 사진을 찍을 수 있게 되어 만족도가 향상될 수 있음. 수집된 데이터를 바탕으로 서비스의 기능을 지속적으로 업데이트하고 최적화하여 사용자에게 더 나은 경험을 제공함|
 |오픈소스<br>리스트<br>명칭과 URL|YOLOv5s : https://github.com/ultralytics/yolov5<br>Convolutional neural network (CNN) -ResNet50: https://pytorch.org/vision/main/models/resnet.html<br>Mask R-CNN : https://github.com/matterport/Mask_RCNN<br>PyTorch : https://pytorch.org<br>TorchServe : https://pytorch.org/serve/<br>Torchvision : https://pytorch.org/vision/stable/index.html<br>opencv : https://opencv.org/<br>TensorBoard : https://www.tensorflow.org/tensorboard?hl=ko|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5s<br>CNN(ResNet50)<br>Mask R-CNN<br>PyTorch, TorchServe, Torchvision<br>TensorBoard|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
-|최종수정일|2024-06-04|
+|최종수정일|2024-06-15|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
