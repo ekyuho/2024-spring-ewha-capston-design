@@ -18,7 +18,7 @@
 |[16](#team-16)|불사신|학습을 목적으로 On-line으로 노트를 작성하는 대학생을 위한, 작성된 노트로 AI 기반 퀴즈를 자동 생성하고 결과를 분석하여 복습을 통해 학습 효과를 높이는 웹 서비스|
 |[17](#team-17)|포카리| 스마트푸푸: CNN 기반 이미지 분류 기술을 바탕으로 아기 변을 탐지 및 분석하여 건강상태 예측에 도움을 주는 시각장애인 대상 육아 다이어리 서비스 |
 |[18](#team-18)|우주타이거| 고민을 이야기할 곳이 없는 사람들을 위한 게임형 힐링 AI 챗봇 상담 앱 서비스                                                                                             |
-|[19](#team-19)|우엉| 만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet50 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스                                                                                |
+|[19](#team-19)|우엉| 만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet18 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스                                                                                |
 |[20](#team-20)|무너지지않는문어| 게임 속에서 실제 사람과 대화하는 것 같은 경험을 원하는 유저를 위한 OpenAI API의 STS(Speech to speech)와 LLM 기술을 활용한 AI NPC에게 물건을 판매해야하는 토킹 게임                          |
 |[21](#team-21)|반려코더스| 체형 및 스타일 기반 매칭을 통한 코디 추천: 체형 및 스타일에 맞는 코디 추천을 원하는 시커에게 맞춤형 세터가 AI 분석을 활용하여 최적의 아이템을 선별해 코디 조언을 해주는 iOS 어플                                                                                        |
 |[23](#team-23)|이화도인지| 고화질 실사 이미지 생성을 위해 멀티모달 데이터 처리 기술을 활용한 Stable Diffusion 모델 최적화                                     |
@@ -350,19 +350,19 @@
 |항목|내용|
 |:---|:---|
 |팀명|우엉|
-|프로젝트명|<H3>만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet50 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스</H3>|
+|프로젝트명|<H3>만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet18 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스</H3>|
 |서비스명|포토AI디어 (포토 아이디어)|
 |키워드|Object Detection, CNN, Computer Vision|
 |만들고자 하는 것|실시간으로 사용자에게 맞춤형 사진 촬영 구도, 사진 촬영 각도 등의 가이드를 제공하는 서비스|
 |타겟고객|- 친구 사진을 잘 찍어주지 못해 고민인 A양<br>- 100장 넘게 사진을 찍어도 마음에 드는 사진 한 장 건지기 힘든 B군<br>- 친구가 찍어주는 사진 구도가 마음에 들지 않는 C양|
 |Pain Point|- 남이 찍어준 사진이 마음에 들지 않거나 남의 사진을 찍어줄 때 아쉬움을 느낌.<br>- 사진이 원하는 각도나 구도로 찍히지 않고 발끝이 잘리거나 배경이 과하게 나오는 경우가 있음.<br>- 사진 피드백을 줄 전문가가 없어서 꿀팁과 가이드를 일일이 검색해야 함.<br>- 기본 카메라 앱은 맞춤형 가이드를 제공하지 않음.<br>- 마음에 안 드는 사진은 보정이 필요해 별도의 시간과 노력이 듦|
-|기술적<br>해결방안|1. YOLOv5s - 객체 탐지 기술을 통한 이미지 내 구도 파악 (사진 속 인물과 배경의 비중, 카메라의 구도를 파악하기 위해 Bounding box의 좌표값을 활용), 구도를 6가지 클래스로 분류함<br><br>2. ResNet50 (CNN) - 이미지 처리 모델 학습시켜 이미지 분류 검증(class별 정확도를 분석하여 결과를 바탕으로 적절한 사진 촬영 가이드 제공)|
+|기술적<br>해결방안|1. YOLOv5s - 객체 탐지 기술을 통한 이미지 내 구도 파악 (사진 속 인물과 배경의 비중, 카메라의 구도를 파악하기 위해 Bounding box의 좌표값을 활용), 구도를 6가지 클래스로 분류함<br><br>2. ResNet18 (CNN) - 이미지 처리 모델 학습시켜 이미지 분류 검증(class별 정확도를 분석하여 결과를 바탕으로 적절한 사진 촬영 가이드 제공)|
 |Big Data<br>AI 전략|1. 모델 성능 향상: YOLOv5s의 빠른 처리 속도와 학습된 이미지 처리 모델 CNN을 활용하여 사용자에게 필요한 이미지 분석 및 촬영 가이드 제공함<br><br>2. 사용자 경험 최적화: "포토아이디어"는 사용자가 5가지 유형의 사진 구도 중 원하는 옵션을 선택할 수 있는 기능을 제공하여, 개인의 취향에 맞는 촬영 가이드를 제공함.<br><br>3. 사용자의 pain point 해결: 사용자가 더 만족스러운 사진을 얻을 수 있도록 도와주며, 그들의 촬영 실력을 향상시키는 데 기여할 수 있음|
 |기대성과|사용자가 선호하는 구도와 각도로 사진을 찍을 수 있게 되어 만족도가 향상될 수 있음. 수집된 데이터를 바탕으로 서비스의 기능을 지속적으로 업데이트하고 최적화하여 사용자에게 더 나은 경험을 제공함|
-|오픈소스<br>리스트<br>명칭과 URL|[Front-end] - 웹앱으로 진행<br>React Native : https://reactnative.dev/<br><br>[Back-end]<br> MySQL : https://www.mysql.com/ <br> Spring Boot : https://spring.io/projects/spring-boot<br><br>[AI]<br>YOLOv5s : https://github.com/ultralytics/yolov5<br>ResNet50 (CNN) : https://pytorch.org/vision/main/models/resnet.html<br>Mask R-CNN : https://github.com/matterport/Mask_RCNN<br>PyTorch : https://pytorch.org<br>TensorBoard : https://www.tensorflow.org/tensorboard?hl=ko|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5s - 빠른 속도와 높은 정확성을 제공하여 실시간 시스템에서 널리 사용되는 YOLO의 v5s 모델 적용<br>ResNet50 (CNN) - Mask R-CNN의 백본 네트워크로 주로 ResNet 50을 사용 <br>Mask R-CNN - 객체 탐지 및 segmentation 동시 수행<br> TorchServe, Torchvision (PyTorch) <br>TensorBoard|
+|오픈소스<br>리스트<br>명칭과 URL|[Front-end] - 웹앱으로 진행<br>React Native : https://reactnative.dev/<br><br>[Back-end]<br> MySQL : https://www.mysql.com/ <br> Spring Boot : https://spring.io/projects/spring-boot<br><br>[AI]<br>YOLOv5s : https://github.com/ultralytics/yolov5<br>ResNet18 (CNN) : https://pytorch.org/vision/main/models/resnet.html<br>Mask R-CNN : https://github.com/matterport/Mask_RCNN<br>PyTorch : https://pytorch.org<br>TensorBoard : https://www.tensorflow.org/tensorboard?hl=ko|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5s - 빠른 속도와 높은 정확성을 제공하여 실시간 시스템에서 널리 사용되는 YOLO의 v5s 모델 적용<br>ResNet18 (CNN) - simple한 layer 구조 사용 <br>Mask R-CNN - 객체 탐지 및 segmentation 동시 수행<br> TorchServe, Torchvision (PyTorch) <br>TensorBoard|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
-|최종수정일|2024-06-15|
+|최종수정일|2024-06-17|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
