@@ -370,18 +370,18 @@
 |:---|:---|
 |팀명|무너지지않는문어|
 |프로젝트명|<H3>게임속에서 적은 대사량때문에 몰입도가 떨어지는 유저를 위한 OpenAI API의 STS(Speech to speech)와 LLM 기술을 활용한 AI NPC에게 물건을 판매해야하는 토킹 게임</H3>|
-|서비스명|엘리베이터 판매왕|
+|서비스명|길거리 판매왕 Sales King|
 |키워드|음성 인식, 게임, AI, 챗봇, S2ST  |
 |만들고자 하는 것|실시간 상호작용이 가능한 AI NPC를 플레이어가 본인의 음성으로 직접 설득하여 정해진 상품을 판매하는 것이 목표인 롤플레잉 시뮬레이션 게임입니다. |
 |타겟고객| 페르소나<br>1. 20대 초반 여성 게이머 000는 평소 친구와 대화하는 걸 좋아하고, 특히 자신의 의견을 표출하는 것을 좋아한다. 시뮬레이션 게임을 좋아하고 재밌어 보이는 게임이 생기면 돈을 아끼지 않고 구매한다. 게임을 플레이할 때도 NPC와의 대화 스크립트에 집중하는 편이다. 대화 선택지 중 원하는 선택지가 없고, 몇 번 대화하면 반복되는 대사에 항상 아쉬움을 느끼고 있다. <br>2. 30대 초반 남성 게임 스트리머 000은 게임 방송을 진행하며 시청자들과 소통하는 시간을 가진다. 하지만 최근 들어 좀 더 다양하고 신박한 콘텐츠를 제공하고자 하는 욕구가 생겼고, 자신만의 재미있는 플레이를 보여줄 수 있는 자유도 높은 게임이 없을지 궁금해졌다.<br><br>타깃고객 유형<br>많은 유저들은 자신의 선택에 맞추어 기민하고 적절하게 변화하는 게임 환경을 원하고 있고, 게임 기술의 발전에 따라 그런 욕망은 이전보다 훨씬 실현가능해질 것으로 보인다.<br>대시뮬레이션과 롤 플레잉 게임을 즐겨하는 플레이어<br>개별화된 경험을 중시하는 플레이어자신만의 개성있는 컨텐츠가 필요한 스트리머들, 그리고 스트리머의 플레이 영상을 소비하는 팬층 |
 |Pain Point|AI가 탑재되지 않은 게임 속 NPC와 대화할 때 플레이어가 선택할 수 있는 답변은 한정되어 있으며, 게임 내에서 제공하는 선택지 대사 이외에는 NPC에게 말을 건넬 수 없다. 또한 플레이어가 해당 NPC의 라이브러리에 있는 대사를 모두 확인한 경우, 그 이후의 게임 플레이에서는 플레이어 입장에서 이 NPC가 이전에 했던 말을 반복한다고 느껴질 수밖에 없다. 이는 게임 플레이에서 몰입도를 해치는 강력한 요소 중 하나이다. |
-|기술적<br>해결방안|Whisper(OpenAI api)의 STT와 LLM 기술을 활용하여 유저의 음성을 인식하고 텍스트로 변환해AI와 대화를 한다.<br>음성인식 기술 : 플레이어가 발화하면, 해당 음성을 인식한 후 Text로 변환한다.<br>LLM 대규모언어처리 모델 : 인식된 Text를 이해하고 이에 NPC가 응답을 작성한다.<br>FineTuning : 인식된 플레이어의 Text를 평가하고, 자신의 상황(부의 상태, 물건에 대한 필요도, 성격)를 고려해 적절한 행동 결론을 낸다. 이때 자신의 상황 역시 AI가 개발자가 만들어낸 템플릿 형식에 맞춰서 창조해낸다.|
+|기술적<br>해결방안|Naver Clova의 STT와 OpenAI api의 LLM 기술을 활용하여 유저의 음성을 인식하고 텍스트로 변환해AI와 대화를 한다.<br>음성인식 기술 : 플레이어가 발화하면, 해당 음성을 인식한 후 Text로 변환한다.<br>LLM 대규모언어처리 모델 : 인식된 Text를 이해하고 이에 NPC가 응답을 작성한다.<br>FineTuning : 인식된 플레이어의 Text를 평가하고, 자신의 상황(부의 상태, 물건에 대한 필요도, 성격)를 고려해 적절한 행동 결론을 낸다. 이때 자신의 상황 역시 AI가 개발자가 만들어낸 템플릿 형식에 맞춰서 창조해낸다.|
 |Big Data<br>AI 전략|행동 분석: 사용자가 NPC를 설득하는 방법을 분석함으로써, 특정 상황에서의 인간의 의사소통 방식과 설득 기법에 대한 깊은 이해를 얻을 수 있습니다. 이는 마케팅, 교육, 심리학 등 다양한 분야에서 응용될 수 있는 귀중한 정보입니다.<br>언어 모델 개선: 다양한 배경을 가진 사용자들이 제공하는 다양한 목소리 데이터와 전문 지식은 AI의 언어 이해 능력을 향상시킬 수 있습니다. 특히, 다양한 어투, 말 습관, 전공 용어 등을 포함한 데이터는 AI가 더 넓은 범위의 상황과 전문 분야에서 높은 정확도로 작동할 수 있도록 도와줍니다. |
 |기대성과|플레이어의 창의적이고 다양한 답변을 통해 수만 수천 가지의 재미있는 플레이가 가능하고, 이를 관전하는 과정마저 하나의 콘텐츠가 될 수도 있다. 플레이어는 창의적이고 전략적인 플레이로 획일적인 플레이가 아닌, 자신만의 방법으로 상대를 설득했다는 성취감을 얻을 수 있을 것이다. 또한 게임 업계에 생성형 AI를 활용하는 새로운 방향성 제시할 수 있을 것이다. |
-|오픈소스<br>리스트<br>명칭과 URL|답변생성용: gpt 3.5-turbo https://platform.openai.com/docs/models/gpt-3-5-turbo<br>STT: Whisper whisper https://openai.com/research/whisper<br>TTS: Unreal 기능 내장: https://docs.unrealengine.com/5.0/en-US/PythonAPI/class/TextToSpeechEngineSubsystem.html<br>언리얼 엔진에 openai plugin: OpenAI-Api-Unreal : https://github.com/KellanM/OpenAI-Api-Unreal<br>언리얼엔진 5: https://www.unrealengine.com/en-US/unreal-engine-5<br><br>게임 클라이언트: c++<br>AI 모델, 백엔드용: python, flask |
+|오픈소스<br>리스트<br>명칭과 URL|답변생성용: gpt 3.5-turbo https://platform.openai.com/docs/models/gpt-3-5-turbo<br>STT Naver Clova: https://console.ncloud.com/naver-service/application<br>Unity OpenAI: https://github.com/OkGoDoIt/OpenAI-API-dotnet<br><br>게임 클라이언트: c++<br>AI 모델, 백엔드용: python, flask |
 |AI<br>알고리듬,<br>모듈 등<br>리스트|OpenAI API- STT(Whisper) - LLM(GPT 3.5 turbo) - TTS(unreal 5.1 tts function)
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/OctoNeverDie/2024-Spring-Capstone-team20/blob/main/GroundRule.md)|
-|최종수정일|2024-04-15|
+|최종수정일|2024-06-18|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 21
