@@ -334,14 +334,14 @@
 |프로젝트명|<H3>고민을 이야기할 곳이 없는 사람들을 위한 게임형 힐링 AI 챗봇 상담 앱 서비스</H3>|
 |서비스명|미정|
 |키워드|NLP, LM, AI|
-|만들고자 하는 것| 파인 튜닝한 chatGPT를 통해 다양한 대화 스타일의 인공지능 상담 NPC(동물 캐릭터)가 사용자의 고민에 답변을 해주고, 지속적인 상담을 유도하기 위한 게이미피케이션 요소를 추가한 상담 앱 서비스|
+|만들고자 하는 것| chatGPT를 통해 다양한 대화 스타일의 인공지능 상담 NPC(동물 캐릭터)가 사용자의 고민에 답변을 해주고, 지속적인 상담을 유도하기 위한 게이미피케이션 요소를 추가한 상담 앱 서비스|
 |타겟고객|스트레스, 불안, 우울 등의 감정을 겪고 있지만 마음을 털어놓을 수 있는 안전한 장소가 부족한 사람들, 고민이 있어도 이를 표현하고 해결책을 찾을 수 있는 곳이 없어 고립된 느낌을 받는 사람들.<br><br>페르소나 : <br>- 대학교 4학년에 재학 중인 김화연 씨는 학업과 취업 준비를 병행하느라 상당한 스트레스를 받고 있다. 우울과 불안이 점점 깊어지지만 이런 깊은 이야기까지 다 들어줄 수 있는, 털어놓을 만한 사람이 없다. 상담을 받아볼까 했지만 학교에서 제공하는 무료 상담은 예약이 이미 다 차 있고, 사설 상담은 시간당 5만 원이 넘는 금액이라 엄두가 나지 않는다. 자신이 부담할 수 있는 저렴한 가격에 자기의 고민을 털어놓고 도움받고 싶다.<br>- 직장에 다니는 27세 이화연은 최근 우울감을 느끼고 있고, 업무와 일상생활에 지장이 갈 정도로 지속되고 있다. 주변 사람에게 고민을 털어놓을 곳이 없어 답답함을 느낀다. 전문적인 상담 치료를 받아볼 생각이 있지만, 여러모로 부담되어 망설인다. 주로 젊은 청년층에서 인기 있는 캐주얼한 힐링 게임을 즐긴다.|
 |Pain Point|일상적인 고민을 편안하게 털어놓을 수 있는 안전하고 이해심 깊은 환경의 부재. 전문적인 상담 치료를 받아보고 싶어도 높은 가격과 시간 부담, 심리적인 장벽으로 받지 못하는 사람이 많음. 꾸준히 정기적으로 방문하는 것에 어려움을 겪음. 만족하는 상담사를 찾는 것에 시행착오를 겪음.|
-|기술적<br>해결방안|- 파인 튜닝한 언어 모델(ChatGPT)을 활용하여 사용자가 입력하는 채팅을 이해하고 상담 지식에 기반한 적절한 응답을 제공하도록 함.<br>- 친근하고 편리한 상담 환경을 조성하기 위해 STT, TTS API(Whisper, 클로바 등)를 활용하여 음성 인식을 통한 텍스트 대화 지원 기능을 제공하도록 함.<br>- 게임 엔진은 Unity를 활용하도록 함.(게임 컨텐츠는 일일퀘스트, 미니게임, 포츈쿠키 등으로 구상 중)|
+|기술적<br>해결방안|- 언어 모델(ChatGPT)을 활용하여 사용자가 입력하는 채팅을 이해하고 상담 지식에 기반한 적절한 응답을 제공하도록 함.<br>- 친근하고 편리한 상담 환경을 조성하기 위해 STT, TTS API를 활용하여 음성 인식을 통한 텍스트 대화 지원 기능을 제공하도록 함.<br>- 게임 엔진은 Unity를 활용하도록 함.(게임 컨텐츠는 일일퀘스트, 미니게임, 포츈쿠키 등으로 구상 중)|
 |Big Data<br>AI 전략|- 사용자들의 대화 데이터를 수집하고 분석하여 사용자의 요구와 감정에 대한 인사이트를 얻을 수 있을 것이다.<br>- 사용자들이 자주 호소하는 문제에 대한 data를 얻으면 그 문제에 대한 data set을 중심으로 더 학습시킬 수 있고, 사용자에게 제일 효과적이었던 조언과 해결책에 대한 data를 기반으로 다시 학습시킨 AI가 더 나은 서비스를 제공할 수 있을 것이다.<br>- 사용자가 선호하는 말투와 스타일에 따라 더 다양한 버전의 AI를 제공하여 사용자가 원하는 상담 AI 선택의 폭이 넓어질 것이다.|
 |기대성과|- 이 서비스를 통해 사용자들에게 안정적이고 효과적인 상담 서비스를 제공하여 스트레스 감소와 삶의 질 향상에 기여할 것으로 기대한다.<br>- 사람들은 실제 사람이 아닌 상대에겐 더 쉽게 털어놓는 경향이 있기 때문에 사용자들이 자신의 감정을 더 자유롭게 표현하고 해결책을 찾을 수 있는 공간을 제공하여 사회적 연결성을 증진하고, 개인적인 성장과 변화를 이끌어낼 것으로 기대한다.|
-|오픈소스<br>리스트<br>명칭과 URL| - 답변 생성<br>OpenAI ChatGPT API: https://platform.openai.com/ (또는 Azure OpenAI Studio: https://ai.azure.com/)<br><br>- Speech To Text / Text To Speech<br>CLOVA Speech API :  https://www.ncloud.com/product/aiService/clovaSpeech<br>CLOVA Voice API : https://www.ncloud.com/product/aiService/clovaVoice<br><br>- SQLite : https://www.sqlite.org/|
-|AI<br>알고리듬,<br>모듈 등<br>리스트|GPT-35-turbo-0125<br>Unity Asset Store<br>Azure AI Studio<br>SQLite|
+|오픈소스<br>리스트<br>명칭과 URL| - 답변 생성<br>OpenAI ChatGPT API: https://platform.openai.com/<br><br>- Speech To Text / Text To Speech<br>CLOVA Speech API :  https://www.ncloud.com/product/aiService/clovaSpeech<br>CLOVA Voice API : https://www.ncloud.com/product/aiService/clovaVoice<br><br>- SQLite : https://www.sqlite.org/|
+|AI<br>알고리듬,<br>모듈 등<br>리스트|GPT-4o<br>Unity Asset Store<br>SQLite|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
 |최종수정일|2024-4-22|
 
