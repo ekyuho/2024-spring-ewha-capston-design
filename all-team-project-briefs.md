@@ -17,7 +17,7 @@
 |[15](#team-15)|와일드 가오리| 큐엔아트(QnArt) : LLM과 이미지 생성 AI를 이용한 대화와 그림 창작 기반 초등학생 대상 미술관 작품 감상 서비스                                                |
 |[16](#team-16)|불사신|학습을 목적으로 On-line으로 노트를 작성하는 대학생을 위한, 작성된 노트로 AI 기반 퀴즈를 자동 생성하고 결과를 분석하여 복습을 통해 학습 효과를 높이는 웹 서비스|
 |[17](#team-17)|포카리| 스마트푸푸: CNN 기반 이미지 분류 기술을 바탕으로 아기 변을 탐지 및 분석하여 건강상태 예측에 도움을 주는 시각장애인 대상 육아 다이어리 서비스 |
-|[18](#team-18)|우주타이거| 고민을 이야기할 곳이 없는 사람들을 위한 게임형 힐링 AI 챗봇 상담 앱 서비스                                                                                             |
+|[18](#team-18)|우주타이거| 주관적인 심리적 불편감을 겪는 2-30대를 위한 게임형 힐링 AI 챗봇 상담 앱 서비스                                                                                             |
 |[19](#team-19)|우엉| 만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet18 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스                                                                                |
 |[20](#team-20)|무너지지않는문어| 게임 속에서 실제 사람과 대화하는 것 같은 경험을 원하는 유저를 위한 OpenAI API의 STS(Speech to speech)와 LLM 기술을 활용한 AI NPC에게 물건을 판매해야하는 토킹 게임                          |
 |[21](#team-21)|반려코더스| 체형 및 스타일 기반 매칭을 통한 코디 추천: 체형 및 스타일에 맞는 코디 추천을 원하는 시커에게 맞춤형 세터가 AI 분석을 활용하여 최적의 아이템을 선별해 코디 조언을 해주는 iOS 어플                                                                                        |
@@ -331,7 +331,7 @@
 |항목|내용|
 |:---|:---|
 |팀명|우주타이거|
-|프로젝트명|<H3>고민을 이야기할 곳이 없는 사람들을 위한 게임형 힐링 AI 챗봇 상담 앱 서비스</H3>|
+|프로젝트명|<H3>주관적인 심리적 불편감을 겪는 2-30대를 위한 게임형 힐링 AI 챗봇 상담 앱 서비스</H3>|
 |서비스명|미정|
 |키워드|NLP, LM, AI|
 |만들고자 하는 것| chatGPT를 통해 다양한 대화 스타일의 인공지능 상담 NPC(동물 캐릭터)가 사용자의 고민에 답변을 해주고, 지속적인 상담을 유도하기 위한 게이미피케이션 요소를 추가한 상담 앱 서비스|
@@ -343,7 +343,7 @@
 |오픈소스<br>리스트<br>명칭과 URL| - 답변 생성<br>OpenAI ChatGPT API: https://platform.openai.com/<br><br>- Speech To Text / Text To Speech<br>CLOVA Speech API :  https://www.ncloud.com/product/aiService/clovaSpeech<br>CLOVA Voice API : https://www.ncloud.com/product/aiService/clovaVoice<br><br>- SQLite : https://www.sqlite.org/|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|GPT-4o<br>Unity Asset Store<br>SQLite|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/TIME0227/Team18/blob/main/GroundRule.md)|
-|최종수정일|2024-6-18|
+|최종수정일|2024-6-21|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 19
