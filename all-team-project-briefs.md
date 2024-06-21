@@ -362,7 +362,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|[Front-end] - 웹앱으로 진행<br>React Native : https://reactnative.dev/<br><br>[Back-end]<br> MySQL : https://www.mysql.com/ <br> Spring Boot : https://spring.io/projects/spring-boot<br><br>[AI]<br>YOLOv5s : https://github.com/ultralytics/yolov5<br>ResNet18 (CNN) : https://pytorch.org/vision/main/models/resnet.html<br>Mask R-CNN : https://github.com/matterport/Mask_RCNN<br>PyTorch : https://pytorch.org<br>TensorBoard : https://www.tensorflow.org/tensorboard?hl=ko|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5s - 빠른 속도와 높은 정확성을 제공하여 실시간 시스템에서 널리 사용되는 YOLO의 v5s 모델 적용<br>ResNet18 (CNN) - simple한 layer 구조 사용 <br>Mask R-CNN - 객체 탐지 및 segmentation 동시 수행<br> TorchServe, Torchvision (PyTorch) <br>TensorBoard|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
-|최종수정일|2024-06-18|
+|최종수정일|2024-06-21|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
