@@ -18,7 +18,7 @@
 |[16](#team-16)|불사신|학습을 목적으로 On-line으로 노트를 작성하는 대학생을 위한, 작성된 노트로 AI 기반 퀴즈를 자동 생성하고 결과를 분석하여 복습을 통해 학습 효과를 높이는 웹 서비스|
 |[17](#team-17)|포카리| 스마트푸푸: CNN 기반 이미지 분류 기술을 바탕으로 아기 변을 탐지 및 분석하여 건강상태 예측에 도움을 주는 시각장애인 대상 육아 다이어리 서비스 |
 |[18](#team-18)|우주타이거| 고민을 이야기할 곳이 없는 사람들을 위한 게임형 힐링 AI 챗봇 상담 앱 서비스                                                                                             |
-|[19](#team-19)|우엉| 만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet18 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스                                                                                |
+|[19](#team-19)|우엉| YOLOv5s와 Resnet18을 활용하여 5가지 사용자 맞춤형 인물 사진 구도 옵션을 제공하는 스마트 카메라                                                                                |
 |[20](#team-20)|무너지지않는문어| 게임 속에서 실제 사람과 대화하는 것 같은 경험을 원하는 유저를 위한 OpenAI API의 STS(Speech to speech)와 LLM 기술을 활용한 AI NPC에게 물건을 판매해야하는 토킹 게임                          |
 |[21](#team-21)|반려코더스| 체형 및 스타일 기반 매칭을 통한 코디 추천: 체형 및 스타일에 맞는 코디 추천을 원하는 시커에게 맞춤형 세터가 AI 분석을 활용하여 최적의 아이템을 선별해 코디 조언을 해주는 iOS 어플                                                                                        |
 |[23](#team-23)|이화도인지| 고화질 실사 이미지 생성을 위해 멀티모달 데이터 처리 기술을 활용한 Stable Diffusion 모델 최적화                                     |
@@ -350,7 +350,7 @@
 |항목|내용|
 |:---|:---|
 |팀명|우엉|
-|프로젝트명|<H3>만족스러운 인물 사진 촬영을 위한 YOLOv5s와 ResNet18 모델을 활용한 사용자 맞춤형 실시간 촬영 서비스</H3>|
+|프로젝트명|<H3>YOLOv5s와 Resnet18을 활용하여 5가지 사용자 맞춤형 인물 사진 구도 옵션을 제공하는 스마트 카메라</H3>|
 |서비스명|포토AI디어 (포토 아이디어)|
 |키워드|Object Detection, CNN, Computer Vision|
 |만들고자 하는 것|실시간으로 사용자에게 맞춤형 사진 촬영 구도, 사진 촬영 각도 등의 가이드를 제공하는 서비스|
@@ -362,7 +362,7 @@
 |오픈소스<br>리스트<br>명칭과 URL|[Front-end] - 웹앱으로 진행<br>React Native : https://reactnative.dev/<br><br>[Back-end]<br> MySQL : https://www.mysql.com/ <br> Spring Boot : https://spring.io/projects/spring-boot<br><br>[AI]<br>YOLOv5s : https://github.com/ultralytics/yolov5<br>ResNet18 (CNN) : https://pytorch.org/vision/main/models/resnet.html<br>Mask R-CNN : https://github.com/matterport/Mask_RCNN<br>PyTorch : https://pytorch.org<br>TensorBoard : https://www.tensorflow.org/tensorboard?hl=ko|
 |AI<br>알고리듬,<br>모듈 등<br>리스트|YOLOv5s - 빠른 속도와 높은 정확성을 제공하여 실시간 시스템에서 널리 사용되는 YOLO의 v5s 모델 적용<br>ResNet18 (CNN) - simple한 layer 구조 사용 <br>Mask R-CNN - 객체 탐지 및 segmentation 동시 수행<br> TorchServe, Torchvision (PyTorch) <br>TensorBoard|
 |Team<br>Ground<br>Rule|[Click to visit](https://github.com/egene-chung/pose-aidea/blob/dev/ground_rule.md)|
-|최종수정일|2024-06-17|
+|최종수정일|2024-06-21|
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 20
